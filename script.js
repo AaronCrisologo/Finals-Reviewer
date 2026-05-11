@@ -1,240 +1,15 @@
-// IoT Reviewer Quiz - 60 Questions (20 per PDF material)
-// Material 1: Design & Implementation of Next-Gen Remote Lab for IoT & Industry 4.0
-// Material 2: The Internet of Things: Education and Technology
-// Material 3: Smart Traffic Management Using IoT
+// IoT Quiz - 60 Questions (General Knowledge)
+// Covers: IoT fundamentals, architecture, protocols, security, applications, AI/ML, and education
+// Source materials: pdf1 (Remote Lab), pdf2 (IoT Education & Technology), pdf3 (Smart Traffic)
 
 const quizData = [
     // ============================================
-    // MATERIAL 1: Remote Lab for IoT & Industry 4.0 (Questions 1-20)
+    // SECTION 1: IoT FUNDAMENTALS (Questions 1-10)
     // ============================================
     {
         topic: 1,
-        question: "What is the primary purpose of the VREL NextGen remote laboratory infrastructure?",
-        correct: "To provide hands-on IoT learning without requiring physical access to hardware",
-        wrong: [
-            "To replace traditional classroom lectures entirely",
-            "To provide free internet access to students",
-            "To serve as a social media platform for engineers",
-            "To store large datasets for machine learning"
-        ]
-    },
-    {
-        topic: 1,
-        question: "Which European Commission-funded projects supported the development of VREL NextGen?",
-        correct: "IOT-OPEN.EU (2016-2019) and IOT-OPEN.EU Reloaded (2022-2025)",
-        wrong: [
-            "Horizon 2020 and Digital Europe Programme",
-            "ERASMUS+ and Marie Curie Actions",
-            "IOT-OPEN.EU (2016-2019) only",
-            "SmartCAMPUS and IoT4Industry"
-        ]
-    },
-    {
-        topic: 1,
-        question: "What are the three main components of the VREL NextGen software architecture?",
-        correct: "Frontend, Backend, and Compiler Services",
-        wrong: [
-            "Database, Web Server, and API Gateway",
-            "Client, Server, and Cloud Storage",
-            "IoT Hub, Message Broker, and Dashboard",
-            "Sensor Layer, Network Layer, and Application Layer"
-        ]
-    },
-    {
-        topic: 1,
-        question: "How does the VREL NextGen system deliver video streams to users?",
-        correct: "As embedded IFRAME in the browser via MJPEG over HTTPS from webcam servers",
-        wrong: [
-            "Through WebRTC peer-to-peer connections",
-            "Via downloadable video files",
-            "Using UDP multicast streams",
-            "Through email attachments"
-        ]
-    },
-    {
-        topic: 1,
-        question: "What role does the Raspberry Pi play in the VREL NextGen laboratory node architecture?",
-        correct: "It acts as a fog-class proxy device that communicates with the end-node IoT device via SSH",
-        wrong: [
-            "It serves as the main web server for the frontend",
-            "It stores all user data in a PostgreSQL database",
-            "It runs the Compiler Service directly",
-            "It functions as the primary MQTT broker"
-        ]
-    },
-    {
-        topic: 1,
-        question: "What communication protocol and port does the global MQTT broker in VREL NextGen use?",
-        correct: "MQTT over SSL/TLS on port 8883",
-        wrong: [
-            "HTTP on port 80",
-            "CoAP on port 5683",
-            "WebSocket on port 443",
-            "AMQP on port 5672"
-        ]
-    },
-    {
-        topic: 1,
-        question: "What is the primary function of NodeRED in the VREL NextGen integration services?",
-        correct: "To bind local IoT networks with local Internet, including CoAP to MQTT protocol translation",
-        wrong: [
-            "To compile user source code",
-            "To manage user authentication",
-            "To store video recordings",
-            "To generate certificates for SSL"
-        ]
-    },
-    {
-        topic: 1,
-        question: "How are laboratory nodes organized in VREL NextGen for user access management?",
-        correct: "Devices are organized into 'laboratories' (groups), and user groups are assigned to laboratories",
-        wrong: [
-            "Each user gets exclusive access to one device permanently",
-            "Devices are assigned randomly on a first-come basis",
-            "All devices are shared publicly without restrictions",
-            "Laboratories are organized by geographic location only"
-        ]
-    },
-    {
-        topic: 1,
-        question: "What is the typical booking time limit for a publicly available device in VREL NextGen?",
-        correct: "Two hours",
-        wrong: [
-            "30 minutes",
-            "45 minutes",
-            "One hour",
-            "Unlimited"
-        ]
-    },
-    {
-        topic: 1,
-        question: "What platform does the default configuration of VREL NextGen utilise for programming?",
-        correct: "PlatformIO and the Arduino framework",
-        wrong: [
-            "Eclipse IDE with GCC",
-            "Visual Studio with .NET",
-            "Jupyter Notebooks with Python",
-            "Keil µVision with ARM compiler"
-        ]
-    },
-    {
-        topic: 1,
-        question: "What database system is used for persistent storage in the VREL NextGen Backend?",
-        correct: "PostgreSQL",
-        wrong: [
-            "MySQL",
-            "MongoDB",
-            "SQLite",
-            "Redis"
-        ]
-    },
-    {
-        topic: 1,
-        question: "What security measure hides the VREL NextGen software components from public access?",
-        correct: "An NGINX reverse proxy combined with a firewall and hidden internal network",
-        wrong: [
-            "VPN-only access for all users",
-            "SSL certificates on every device",
-            "Physical security locks on hardware",
-            "Biometric authentication"
-        ]
-    },
-    {
-        topic: 1,
-        question: "In the VREL NextGen use-case scenario, what is the correct order of steps after registration?",
-        correct: "Book a device → Author code → Compile → Upload → Observe results",
-        wrong: [
-            "Author code → Book a device → Compile → Upload → Observe results",
-            "Login → Compile → Book a device → Upload → Observe results",
-            "Book a device → Upload → Author code → Compile → Observe results",
-            "Register → Compile → Author code → Upload → Observe results"
-        ]
-    },
-    {
-        topic: 1,
-        question: "Why does the VREL NextGen compiler service use Docker-based containerisation?",
-        correct: "To enable scalability by offloading components to different hardware and enable parallel compilation",
-        wrong: [
-            "To reduce the size of compiled programs",
-            "To make the system work offline",
-            "To improve the security of student data",
-            "To provide a graphical user interface"
-        ]
-    },
-    {
-        topic: 1,
-        question: "What type of network is used internally between VREL NextGen software components?",
-        correct: "A separate internal (non-routed) IOT network",
-        wrong: [
-            "The public Internet directly",
-            "A Bluetooth mesh network",
-            "A dedicated satellite link",
-            "A 5G cellular network"
-        ]
-    },
-    {
-        topic: 1,
-        question: "How does the system ensure scalability for handling varying numbers of concurrent users?",
-        correct: "Docker-based containerisation for horizontal scaling and parallelised stateless compiler services",
-        wrong: [
-            "By limiting users to 20 at a time",
-            "By using a single powerful server",
-            "By queuing all compilation requests sequentially",
-            "By requiring students to schedule time slots"
-        ]
-    },
-    {
-        topic: 1,
-        question: "What is the purpose of the MQTT bridge in the VREL global network infrastructure?",
-        correct: "To interconnect local MQTT brokers across different countries and enable cross-border laboratory integration",
-        wrong: [
-            "To provide a backup power supply",
-            "To translate programming languages",
-            "To store video stream recordings",
-            "To register new student accounts"
-        ]
-    },
-    {
-        topic: 1,
-        question: "How does the compiler service communicate with the fog-class laboratory node?",
-        correct: "Remotely via SSH exposed by the Raspberry Pi proxy",
-        wrong: [
-            "Through Bluetooth pairing",
-            "Via USB cable directly",
-            "Using infrared signals",
-            "Through a serial COM port"
-        ]
-    },
-    {
-        topic: 1,
-        question: "What happens to the compilation results after the code is successfully compiled?",
-        correct: "The compiled code can be uploaded to the device to flash memory, reconfigure it, or perform other necessary actions",
-        wrong: [
-            "Results are emailed to the student",
-            "The code is deleted automatically",
-            "Results are printed by a connected printer",
-            "The device restarts without any code upload"
-        ]
-    },
-    {
-        topic: 1,
-        question: "What does each laboratory node contain in terms of IoT device architecture?",
-        correct: "An edge (end-node) IoT device connected via USB to a Raspberry Pi proxy",
-        wrong: [
-            "Multiple Raspberry Pi units with no edge device",
-            "Only a standalone Arduino without any proxy",
-            "A smartphone connected via Bluetooth",
-            "A laptop running local simulation software"
-        ]
-    },
-
-    // ============================================
-    // MATERIAL 2: IoT in Education & Technology (Questions 21-40)
-    // ============================================
-    {
-        topic: 2,
         question: "Who is widely credited with coining the term 'Internet of Things'?",
-        correct: "Kevin Ashton at the end of the twentieth century",
+        correct: "Kevin Ashton in 1999",
         wrong: [
             "Bill Gates in 1995",
             "Steve Jobs in 2000",
@@ -243,9 +18,9 @@ const quizData = [
         ]
     },
     {
-        topic: 2,
+        topic: 1,
         question: "According to the three-layer IoT model, which layer consists of RFID tags, sensors, and actuators?",
-        correct: "The physical layer",
+        correct: "The physical (perception) layer",
         wrong: [
             "The network layer",
             "The application layer",
@@ -254,128 +29,18 @@ const quizData = [
         ]
     },
     {
-        topic: 2,
-        question: "What is the key function of middleware in IoT systems?",
-        correct: "To enable communication and management of data between different devices and protocols",
+        topic: 1,
+        question: "Which of the following is NOT one of the four essential characteristics of an IoT 'thing'?",
+        correct: "Must have artificial intelligence capabilities",
         wrong: [
-            "To physically connect devices with cables",
-            "To power IoT devices wirelessly",
-            "To store all IoT data permanently",
-            "To replace the need for sensors"
+            "Ability to collect and transmit data",
+            "Ability to operate with action-based responses",
+            "Ability to receive information from the network",
+            "Ability to support communication with other devices"
         ]
     },
     {
-        topic: 2,
-        question: "According to the Curtin University study, what percentage of students identified as having a disability in 2014?",
-        correct: "5.8%",
-        wrong: [
-            "10.2%",
-            "15%",
-            "22.8%",
-            "43.0%"
-        ]
-    },
-    {
-        topic: 2,
-        question: "What was the most commonly reported disability type among Curtin University survey respondents?",
-        correct: "Mental illness (43.0%)",
-        wrong: [
-            "Vision impairment (13.2%)",
-            "Hearing impairment (6.1%)",
-            "Mobility impairment (22.8%)",
-            "Learning disability (26.3%)"
-        ]
-    },
-    {
-        topic: 2,
-        question: "According to the IoT literature review, what are the four essential characteristics of an IoT 'thing'?",
-        correct: "Data collection/transmission, action-based responses, ability to receive information, and communication support",
-        wrong: [
-            "Being wireless, having AI, being mobile, and having a screen",
-            "Having Bluetooth, WiFi, NFC, and RFID",
-            "Being portable, rechargeable, waterproof, and smart",
-            "Having a battery, a sensor, a camera, and GPS"
-        ]
-    },
-    {
-        topic: 2,
-        question: "What was one of the key recommendations from the Curtin University study regarding IoT in education?",
-        correct: "Any IoT equipment associated with learning should provide output via a learning management system or app",
-        wrong: [
-            "IoT should be banned from university campuses",
-            "All students must purchase IoT devices",
-            "IoT should only be used in engineering courses",
-            "Lecturers should control all IoT devices remotely"
-        ]
-    },
-    {
-        topic: 2,
-        question: "According to the study, what was students with disabilities' preferred smartphone platform?",
-        correct: "Android devices",
-        wrong: [
-            "iPhones",
-            "Windows phones",
-            "Basic feature phones",
-            "Tablets only"
-        ]
-    },
-    {
-        topic: 2,
-        question: "The IoT report identifies RFID tags as a concern for privacy because they can do what?",
-        correct: "Broadcast data without the knowledge of the individual possessing the tagged object",
-        wrong: [
-            "Only work within line-of-sight",
-            "Require frequent battery replacement",
-            "Are too expensive for widespread use",
-            "Only function in cold temperatures"
-        ]
-    },
-    {
-        topic: 2,
-        question: "According to Atzori et al., why is the IoT vulnerable to attacks?",
-        correct: "Because components are often unattended, communications are wireless (eavesdropping is easy), and components have low energy/computing resources",
-        wrong: [
-            "Because all IoT devices run on outdated operating systems",
-            "Because IoT devices are physically indestructible",
-            "Because IoT uses only wired connections",
-            "Because IoT has too many security layers"
-        ]
-    },
-    {
-        topic: 2,
-        question: "What was LG's Digital DIOS Refrigerator (2000) an early example of?",
-        correct: "An early IoT device that connected an ordinary household item to the internet",
-        wrong: [
-            "A successful commercial IoT product",
-            "A smart campus management tool",
-            "The first smartphone with IoT capabilities",
-            "A cloud computing platform for IoT"
-        ]
-    },
-    {
-        topic: 2,
-        question: "According to Mitew (2014), what does IoT stand for in terms of connecting objects?",
-        correct: "The connection of usually trivial material objects to the internet — ranging from toothbrushes to shoes or umbrellas",
-        wrong: [
-            "The interconnection of only industrial machines",
-            "A network exclusively for mobile phones",
-            "A protocol for satellite communication",
-            "A framework for quantum computing"
-        ]
-    },
-    {
-        topic: 2,
-        question: "What is the difference between active and passive RFID tags?",
-        correct: "Passive tags have no internal power supply and are powered by the reader's radio waves; active tags have an onboard battery",
-        wrong: [
-            "Active tags are smaller and cheaper than passive tags",
-            "Passive tags use WiFi while active tags use Bluetooth",
-            "There is no difference — both terms mean the same thing",
-            "Passive tags have batteries; active tags do not"
-        ]
-    },
-    {
-        topic: 2,
+        topic: 1,
         question: "What does the IoT application layer primarily deal with?",
         correct: "Apps and digital communication technology that users interact with (e.g., Alexa, Google Home, Fitbit)",
         wrong: [
@@ -386,19 +51,111 @@ const quizData = [
         ]
     },
     {
-        topic: 2,
-        question: "The report recommends that Curtin University should do what regarding IoT deployment?",
-        correct: "Not immediately deploy IoT technologies, but undertake careful consideration, planning, and further research first",
+        topic: 1,
+        question: "What was LG's Digital DIOS Refrigerator (2000) an early example of?",
+        correct: "An early IoT device that connected an ordinary household item to the internet",
         wrong: [
-            "Immediately deploy IoT in all classrooms",
-            "Only use IoT in the engineering faculty",
-            "Ban all IoT devices from campus",
-            "Replace all lecturers with IoT automation"
+            "A successful commercial IoT product",
+            "A smart campus management tool",
+            "The first smartphone with IoT capabilities",
+            "A cloud computing platform for IoT"
+        ]
+    },
+    {
+        topic: 1,
+        question: "According to Mitew (2014), what does IoT refer to in terms of connecting objects?",
+        correct: "The connection of usually trivial material objects to the internet — ranging from toothbrushes to shoes or umbrellas",
+        wrong: [
+            "The interconnection of only industrial machines",
+            "A network exclusively for mobile phones",
+            "A protocol for satellite communication",
+            "A framework for quantum computing"
+        ]
+    },
+    {
+        topic: 1,
+        question: "What is the key function of middleware in IoT systems?",
+        correct: "To enable communication and management of data between different devices and protocols",
+        wrong: [
+            "To physically connect devices with cables",
+            "To power IoT devices wirelessly",
+            "To store all IoT data permanently",
+            "To replace the need for sensors"
+        ]
+    },
+    {
+        topic: 1,
+        question: "The IoT is sometimes described as involving a paradigm shift from the 'internet of computers' to what?",
+        correct: "A broadly defined ambient connectivity permeating everyday material objects",
+        wrong: [
+            "An internet limited to smartphones only",
+            "A closed network for industrial machines",
+            "A satellite-based global network",
+            "A wired-only infrastructure for businesses"
+        ]
+    },
+    {
+        topic: 1,
+        question: "Which technology was a defining perception node element in early IoT systems due to its low cost, ubiquity, simplicity, and long life?",
+        correct: "RFID (Radio Frequency Identification)",
+        wrong: [
+            "Bluetooth",
+            "WiFi",
+            "NFC",
+            "Zigbee"
+        ]
+    },
+    {
+        topic: 1,
+        question: "What does the network layer of the IoT primarily consist of?",
+        correct: "Small cellular networks, local area networks (LAN), and cloud computing storage networks",
+        wrong: [
+            "Physical sensors and actuators only",
+            "User-facing applications and dashboards",
+            "RFID tags and NFC chips",
+            "Power supply units and batteries"
+        ]
+    },
+
+    // ============================================
+    // SECTION 2: COMMUNICATION PROTOCOLS (Questions 11-20)
+    // ============================================
+    {
+        topic: 2,
+        question: "MQTT is a lightweight messaging protocol commonly used in IoT. What communication model does it use?",
+        correct: "Publish/subscribe model",
+        wrong: [
+            "Request/response model",
+            "Peer-to-peer model",
+            "Broadcast-only model",
+            "Circuit-switched model"
         ]
     },
     {
         topic: 2,
-        question: "Why are RFID tags considered more concerning for privacy than barcodes?",
+        question: "Which of the following is a short-range, low-power wireless technology commonly used for IoT device pairing and data exchange?",
+        correct: "Bluetooth Low Energy (BLE)",
+        wrong: [
+            "Wi-Fi Direct",
+            "5G cellular",
+            "Ethernet",
+            "Satellite communication"
+        ]
+    },
+    {
+        topic: 2,
+        question: "What is the primary difference between passive and active RFID tags?",
+        correct: "Passive tags have no internal power supply and are powered by the reader's radio waves; active tags have an onboard battery",
+        wrong: [
+            "Active tags are smaller and cheaper than passive tags",
+            "Passive tags use WiFi while active tags use Bluetooth",
+            "There is no difference — both terms mean the same thing",
+            "Passive tags have batteries; active tags do not"
+        ]
+    },
+    {
+        topic: 2,
+        question: "Why are RFID tags considered more concerning for privacy than traditional barcodes?",
         correct: "Because RFID can be scanned without line-of-sight, even through walls and doors, without the owner's knowledge",
         wrong: [
             "Because RFID tags are more expensive than barcodes",
@@ -409,302 +166,524 @@ const quizData = [
     },
     {
         topic: 2,
-        question: "What did students with disabilities in the study identify as a widespread concern about lecturers?",
-        correct: "Lecturers are often unaware of access needs and believe that 'if it is digital it is accessible'",
+        question: "CoAP (Constrained Application Protocol) is designed for which type of devices?",
+        correct: "Resource-constrained IoT devices with limited processing power and memory",
         wrong: [
-            "Lecturers overuse IoT devices in class",
-            "Lecturers refuse to use any technology",
-            "Lecturers charge extra for accessible materials",
-            "Lecturers always prefer Apple products"
+            "High-performance servers",
+            "Desktop computers",
+            "Mobile phones with full operating systems",
+            "Cloud-based virtual machines"
         ]
     },
     {
         topic: 2,
-        question: "According to the students interviewed in the study, how did they feel about the IoT's stage of development?",
-        correct: "They felt the IoT is in a very early stage and its possible uses and practicalities are unclear",
+        question: "Zigbee is a wireless protocol commonly used in IoT. What is one of its key characteristics?",
+        correct: "Low power consumption and mesh networking capability",
         wrong: [
-            "They believed IoT was fully mature and widely deployed",
-            "They thought IoT was only useful for entertainment",
-            "They considered IoT irrelevant to education",
-            "They preferred traditional pen-and-paper methods"
+            "High bandwidth video streaming",
+            "Long-range satellite connectivity",
+            "Requires a constant wired internet connection",
+            "Only works with Apple devices"
         ]
     },
     {
         topic: 2,
-        question: "What is the concept of a 'smart campus' as described in the IoTEducation paper?",
-        correct: "An IoT-enabled campus that gathers data on student movement and attendance to provide analytics and a responsive digital learning environment",
+        question: "In MQTT-based IoT systems, what role does a broker play?",
+        correct: "It acts as an intermediary that receives messages from publishers and forwards them to subscribers",
         wrong: [
-            "A campus with only online courses",
-            "A campus powered entirely by solar energy",
-            "A campus where students live in smart homes",
-            "A campus with no physical buildings"
+            "It stores all sensor data permanently",
+            "It compiles source code for microcontrollers",
+            "It provides a graphical user interface",
+            "It physically connects sensors to actuators"
         ]
     },
     {
         topic: 2,
-        question: "What did the study recommend regarding future IoT implementations and personal smartphones?",
-        correct: "Any future implementation should focus around personal smartphones as the primary IoT interface device for students with disabilities",
+        question: "What is NFC (Near Field Communication) primarily used for in IoT applications?",
+        correct: "Short-range communication, typically within a few centimeters, for tasks like contactless payments and access control",
         wrong: [
-            "Universities should provide all IoT hardware to students",
-            "Smartphones should be banned in classrooms",
-            "IoT should only work with desktop computers",
-            "Students should use tablets instead of smartphones"
+            "Long-range satellite communication",
+            "High-speed internet browsing",
+            "Powering large industrial machines",
+            "Storing large databases"
+        ]
+    },
+    {
+        topic: 2,
+        question: "Wi-Fi, Bluetooth, Zigbee, and LoRaWAN are all examples of what?",
+        correct: "Wireless communication protocols used in IoT",
+        wrong: [
+            "Programming languages for IoT",
+            "Types of sensors",
+            "Database management systems",
+            "Operating systems for embedded devices"
+        ]
+    },
+    {
+        topic: 2,
+        question: "What is a key advantage of using MQTT over HTTP in IoT applications?",
+        correct: "MQTT has a much smaller message overhead and is designed for low-bandwidth, unreliable networks",
+        wrong: [
+            "MQTT provides better encryption than HTTP",
+            "MQTT is easier to debug than HTTP",
+            "MQTT can only be used with cloud servers",
+            "MQTT requires more bandwidth than HTTP"
         ]
     },
 
     // ============================================
-    // MATERIAL 3: Smart Traffic Management Using IoT (Questions 41-60)
+    // SECTION 3: IoT ARCHITECTURE & HARDWARE (Questions 21-30)
     // ============================================
     {
         topic: 3,
-        question: "What is the primary objective of smart traffic management systems using IoT?",
-        correct: "To dynamically optimize traffic flow and reduce congestion using real-time vehicle density data",
+        question: "What is the role of edge computing in IoT systems?",
+        correct: "Processing data closer to where it is generated (on or near the device) to reduce latency and bandwidth usage",
         wrong: [
-            "To increase the number of traffic lights in a city",
-            "To monitor pedestrian movements only",
-            "To reduce fuel prices",
-            "To enforce speed limits automatically"
+            "Storing all data in a centralized cloud database",
+            "Replacing all sensors with software simulations",
+            "Transmitting all raw data directly to end users",
+            "Eliminating the need for any network connectivity"
         ]
     },
     {
         topic: 3,
-        question: "Which deep learning model is used in the YOLOv3 vehicle detection system for traffic monitoring?",
-        correct: "YOLOv3 (You Only Look Once version 3)",
+        question: "What is fog computing in the context of IoT?",
+        correct: "A computing paradigm that extends cloud computing to the edge of the network, closer to data sources like IoT devices",
         wrong: [
-            "ResNet-50",
-            "VGG-16",
-            "LSTM",
-            "Random Forest"
+            "A method for completely disconnecting IoT devices from the internet",
+            "A type of hardware that replaces all sensors",
+            "A protocol for encrypting WiFi connections",
+            "A technique for reducing the number of actuators in a system"
         ]
     },
     {
         topic: 3,
-        question: "What hardware components are used in the smart traffic management system's implementation?",
-        correct: "Arduino, NodeMCU, Raspberry Pi, IR sensors, RFID reader, camera module, and LCD display",
+        question: "What is the primary purpose of a microcontroller in an IoT device?",
+        correct: "To process sensor data and control the device's operations based on programmed logic",
         wrong: [
-            "Only Raspberry Pi and cameras",
-            "Only smartphones and Bluetooth modules",
-            "Only laptops and WiFi routers",
-            "Only Arduino and LED lights"
+            "To provide a user-facing web interface",
+            "To act as a long-range satellite transmitter",
+            "To store large multimedia files",
+            "To replace all network protocols"
         ]
     },
     {
         topic: 3,
-        question: "How does the IR sensor-based system measure traffic density?",
-        correct: "By monitoring interruptions in the infrared beam — higher frequency of interruptions indicates higher traffic density",
+        question: "Which of the following is commonly used as a single-board computer in IoT prototyping and education?",
+        correct: "Raspberry Pi",
         wrong: [
-            "By measuring the speed of vehicles",
-            "By counting license plates",
-            "By using GPS tracking",
-            "By measuring exhaust emissions"
+            "Arduino Mega (it is a microcontroller board, not a single-board computer)",
+            "Intel Xeon processor",
+            "NVIDIA GeForce GPU",
+            "Samsung Galaxy smartphone"
         ]
     },
     {
         topic: 3,
-        question: "What technology is used for emergency vehicle priority in the smart traffic system?",
-        correct: "NFC (Near Field Communication) — emergency vehicles carry NFC tags detected by readers at traffic signals",
+        question: "What is the primary function of a sensor in an IoT system?",
+        correct: "To detect and measure physical properties (such as temperature, light, motion) and convert them into electrical signals",
         wrong: [
-            "Bluetooth Low Energy (BLE)",
-            "WiFi Direct",
-            "Infrared remote control",
-            "Satellite GPS"
+            "To store large amounts of data",
+            "To provide internet connectivity",
+            "To display information to users",
+            "To power the entire device"
         ]
     },
     {
         topic: 3,
-        question: "Which of the following is NOT one of the four parts of the system methodology?",
-        correct: "Cloud-only data storage without local processing",
+        question: "An actuator in an IoT system is responsible for:",
+        correct: "Performing a physical action based on received commands or sensor data (e.g., turning on a motor, opening a valve)",
         wrong: [
-            "YOLOv3 Vehicle Detection System",
-            "IR Sensor-Based Traffic Density Measurement",
-            "NFC-Based Emergency Vehicle Priority"
+            "Collecting data from the environment",
+            "Encrypting network communications",
+            "Storing historical data in the cloud",
+            "Providing a user interface"
         ]
     },
     {
         topic: 3,
-        question: "What was the reported success rate of AI-based traffic congestion management in the referenced studies?",
-        correct: "97%",
+        question: "What is the role of a gateway in an IoT architecture?",
+        correct: "To bridge communication between IoT devices and the cloud or higher-level systems, often performing protocol translation",
         wrong: [
-            "85%",
-            "90%",
+            "To physically power all connected devices",
+            "To act as the only sensor in the system",
+            "To store all data locally without any cloud connection",
+            "To replace the need for microcontrollers"
+        ]
+    },
+    {
+        topic: 3,
+        question: "What is a typical advantage of using Docker containers in IoT software deployment?",
+        correct: "They enable scalability, portability, and isolation of software components across different hardware",
+        wrong: [
+            "They allow direct hardware access without any abstraction",
+            "They reduce the need for any network connectivity",
+            "They eliminate the need for programming",
+            "They only work on Windows operating systems"
+        ]
+    },
+    {
+        topic: 3,
+        question: "What is the purpose of a reverse proxy (such as NGINX) in an IoT web application?",
+        correct: "To hide internal server components from public access and improve security and load balancing",
+        wrong: [
+            "To directly control physical IoT devices",
+            "To replace all sensors in the system",
+            "To store sensor data locally",
+            "To provide real-time video streaming only"
+        ]
+    },
+    {
+        topic: 3,
+        question: "In remote IoT laboratory systems, what role does SSH (Secure Shell) typically play?",
+        correct: "It provides a secure remote command-line connection to control and program devices",
+        wrong: [
+            "It is used to stream high-definition video only",
+            "It replaces the need for any web interface",
+            "It is a type of sensor protocol",
+            "It provides a graphical desktop environment"
+        ]
+    },
+
+    // ============================================
+    // SECTION 4: SECURITY & PRIVACY (Questions 31-40)
+    // ============================================
+    {
+        topic: 4,
+        question: "According to Atzori et al., why is the IoT particularly vulnerable to attacks?",
+        correct: "Because components are often unattended, communications are wireless (eavesdropping is easy), and components have limited energy and computing resources",
+        wrong: [
+            "Because all IoT devices run on outdated operating systems",
+            "Because IoT devices are physically indestructible",
+            "Because IoT uses only wired connections",
+            "Because IoT has too many security layers"
+        ]
+    },
+    {
+        topic: 4,
+        question: "What is a DDoS (Distributed Denial of Service) attack in the context of IoT?",
+        correct: "An attack where many compromised IoT devices are used to overwhelm a target system with traffic, making it unavailable",
+        wrong: [
+            "A method for encrypting IoT communications",
+            "A protocol for connecting sensors to the cloud",
+            "A type of sensor that detects intrusions",
+            "A power-saving mode for IoT devices"
+        ]
+    },
+    {
+        topic: 4,
+        question: "What is a major privacy concern associated with widespread IoT deployment?",
+        correct: "Continuous and often invisible collection of personal data, including location, behavior, and preferences",
+        wrong: [
+            "IoT devices consume too much electricity",
+            "IoT devices are too expensive for most consumers",
+            "IoT devices require frequent physical maintenance",
+            "IoT devices cannot connect to the internet"
+        ]
+    },
+    {
+        topic: 4,
+        question: "The Patriot Act in the US raised concerns related to:",
+        correct: "Government surveillance and the potential for intrusion into personal privacy without notice",
+        wrong: [
+            "Regulating IoT device manufacturing",
+            "Banning all wireless communications",
+            "Mandating open-source software for all devices",
+            "Taxing internet service providers"
+        ]
+    },
+    {
+        topic: 4,
+        question: "Why was Edward Snowden's 2013 leak significant for IoT privacy discussions?",
+        correct: "It revealed mass surveillance programs by the NSA, prompting public debate about privacy and data collection",
+        wrong: [
+            "It proved that IoT devices could not be hacked",
+            "It demonstrated that RFID tags were completely secure",
+            "It showed that all internet traffic was already encrypted",
+            "It led to the immediate ban of all IoT devices"
+        ]
+    },
+    {
+        topic: 4,
+        question: "In IoT security, what is the role of encryption?",
+        correct: "To protect data confidentiality and integrity during transmission between devices and systems",
+        wrong: [
+            "To increase the physical size of devices",
+            "To speed up data processing on sensors",
+            "To replace the need for authentication",
+            "To reduce the power consumption of devices"
+        ]
+    },
+    {
+        topic: 4,
+        question: "What concept describes the tension between IoT data collection and user privacy?",
+        correct: "The IoT inherently requires the circulation of personal information for the system to function, creating a core tension between utility and privacy",
+        wrong: [
+            "IoT devices do not collect any personal data",
+            "Privacy is not a concern for IoT because all data is anonymized",
+            "All IoT data is stored exclusively on the user's device",
+            "Governments have completely banned IoT data collection"
+        ]
+    },
+    {
+        topic: 4,
+        question: "Which security principle is essential for IoT middleware?",
+        correct: "It must provide authentication, confidentiality, and access control across all network layers",
+        wrong: [
+            "It should only protect the application layer",
+            "It must prioritize speed over security",
+            "It should avoid encryption to reduce latency",
+            "It only needs to protect data at rest, not in transit"
+        ]
+    },
+    {
+        topic: 4,
+        question: "What is meant by 'invisible surveillance' in the context of IoT?",
+        correct: "The ability of IoT devices to collect and transmit user data without the user's explicit knowledge or consent",
+        wrong: [
+            "Users can always see when their data is being collected",
+            "IoT devices cannot collect personal data",
+            "All IoT devices display a visible light when collecting data",
+            "Invisible surveillance refers to physical security guards monitoring IoT installations"
+        ]
+    },
+    {
+        topic: 4,
+        question: "What is a practical security measure to protect IoT systems from unauthorized access?",
+        correct: "A combination of firewalls, reverse proxies, hidden internal networks, and encrypted communications",
+        wrong: [
+            "Making all devices publicly accessible for convenience",
+            "Disabling all authentication mechanisms",
+            "Using only one security layer",
+            "Storing all credentials in plain text"
+        ]
+    },
+
+    // ============================================
+    // SECTION 5: AI, ML & DATA ANALYTICS (Questions 41-50)
+    // ============================================
+    {
+        topic: 5,
+        question: "YOLOv3 stands for 'You Only Look Once version 3'. What type of algorithm is it?",
+        correct: "A deep learning object detection model",
+        wrong: [
+            "A data compression algorithm",
+            "A network routing protocol",
+            "An encryption standard",
+            "A power management technique"
+        ]
+    },
+    {
+        topic: 5,
+        question: "What is SSD (Single Shot Multibox Detector) used for in IoT and AI systems?",
+        correct: "Real-time object detection in images and video feeds",
+        wrong: [
+            "Encrypting network communications",
+            "Compressing sensor data",
+            "Managing database queries",
+            "Generating WiFi signals"
+        ]
+    },
+    {
+        topic: 5,
+        question: "What is the NVIDIA Jetson Nano primarily used for in IoT applications?",
+        correct: "AI inference and machine learning tasks at the edge",
+        wrong: [
+            "Long-distance satellite communication",
+            "High-voltage power generation",
+            "Traditional web hosting",
+            "Analog signal processing"
+        ]
+    },
+    {
+        topic: 5,
+        question: "DBSCAN is a machine learning algorithm used for:",
+        correct: "Density-based spatial clustering and anomaly detection",
+        wrong: [
+            "Encrypting data transmissions",
+            "Compressing image files",
+            "Managing database connections",
+            "Generating random numbers"
+        ]
+    },
+    {
+        topic: 5,
+        question: "AI-based traffic congestion management systems have reported success rates of up to:",
+        correct: "97% in traffic congestion management",
+        wrong: [
+            "50%",
             "75%",
+            "85%",
             "100%"
         ]
     },
     {
-        topic: 3,
-        question: "The ARTEMIS system stands for what?",
+        topic: 5,
+        question: "In IoT applications, what is the purpose of a frame selection algorithm?",
+        correct: "To optimize data transmission by reducing bandwidth and power consumption while maintaining image quality",
+        wrong: [
+            "To detect license plates on vehicles",
+            "To control traffic lights directly",
+            "To charge drone batteries",
+            "To broadcast traffic updates to mobile phones"
+        ]
+    },
+    {
+        topic: 5,
+        question: "MATLAB Simulink is commonly used in IoT for:",
+        correct: "System simulation, modeling, and testing before physical deployment",
+        wrong: [
+            "Manufacturing physical hardware components",
+            "Providing cloud storage for sensor data",
+            "Managing social media accounts",
+            "Designing user interface layouts"
+        ]
+    },
+    {
+        topic: 5,
+        question: "What is the role of machine learning in smart traffic management?",
+        correct: "To analyze traffic patterns and predict congestion for dynamic signal optimization",
+        wrong: [
+            "To physically control traffic lights with a human operator",
+            "To replace all cameras with radar sensors",
+            "To store historical traffic data indefinitely",
+            "To broadcast radio signals to vehicles"
+        ]
+    },
+    {
+        topic: 5,
+        question: "A congestion-level-based dynamic traffic management study demonstrated a ___ reduction in traffic congestion.",
+        correct: "35%",
+        wrong: [
+            "90%",
+            "50%",
+            "20%",
+            "5%"
+        ]
+    },
+    {
+        topic: 5,
+        question: "What is a key benefit of integrating AI with drone-based traffic monitoring?",
+        correct: "Enabling real-time vehicle detection and traffic flow analysis from aerial perspectives",
+        wrong: [
+            "Eliminating the need for traffic lights entirely",
+            "Reducing the speed limit on all roads",
+            "Replacing all ground-based sensors",
+            "Broadcasting music to drivers"
+        ]
+    },
+
+    // ============================================
+    // SECTION 6: HARDWARE & IMPLEMENTATION (Questions 51-60)
+    // ============================================
+    {
+        topic: 6,
+        question: "What hardware components are commonly used in smart traffic management IoT systems?",
+        correct: "Arduino, NodeMCU, Raspberry Pi, IR sensors, RFID readers, cameras, and displays",
+        wrong: [
+            "Only smartphones and Bluetooth modules",
+            "Only laptops and WiFi routers",
+            "Only desktop computers and printers",
+            "Only gaming consoles and VR headsets"
+        ]
+    },
+    {
+        topic: 6,
+        question: "How do IR sensors measure traffic density?",
+        correct: "By detecting interruptions in an infrared beam — more frequent interruptions indicate higher traffic density",
+        wrong: [
+            "By measuring the speed of individual vehicles",
+            "By counting license plates optically",
+            "By using GPS tracking of each vehicle",
+            "By measuring exhaust emissions"
+        ]
+    },
+    {
+        topic: 6,
+        question: "NFC technology enables emergency vehicle priority by:",
+        correct: "Using NFC tags on emergency vehicles detected by readers at traffic signals to grant immediate green signal access",
+        wrong: [
+            "Sending email alerts to traffic controllers",
+            "Broadcasting loud sirens to all nearby vehicles",
+            "Physically changing traffic light hardware",
+            "Disabling all other traffic signals permanently"
+        ]
+    },
+    {
+        topic: 6,
+        question: "Which of the following is a real-time operating advantage of using Raspberry Pi in IoT systems?",
+        correct: "Its ability to run lightweight Linux-based operating systems with support for multiple programming languages",
+        wrong: [
+            "Its ability to function without any power supply",
+            "Its ability to directly connect to satellites",
+            "Its ability to replace all network infrastructure",
+            "Its ability to operate only with proprietary software"
+        ]
+    },
+    {
+        topic: 6,
+        question: "What is the ARTEMIS system in traffic management?",
         correct: "Autonomous and Real-Time signal control based on Estimation of traffic demand for Minimization of Signal waiting time",
         wrong: [
-            "Automated Road Traffic and Environmental Monitoring Intelligence System",
-            "AI-based Real-time Traffic Emergency Management and Information System",
-            "Automatic Route Evaluation and Monitoring for Intelligent Signals",
-            "Autonomous Road Traffic Electronic Monitoring and Information System"
+            "A weather forecasting system",
+            "An autonomous vehicle navigation system",
+            "An emergency response drone platform",
+            "A social media traffic alert application"
         ]
     },
     {
-        topic: 3,
-        question: "What was a key result of the congestion-level-based dynamic traffic management study?",
-        correct: "A 35% reduction in traffic congestion with a dynamic and responsive approach",
+        topic: 6,
+        question: "What was the main advantage of the PV (solar-powered) IoT traffic management system?",
+        correct: "Reductions in fuel consumption and enhanced traffic flow efficiency through sustainable solar-powered design",
         wrong: [
-            "A 90% reduction in traffic accidents",
-            "Complete elimination of traffic congestion",
-            "A 50% increase in traffic speed",
-            "A 20% increase in fuel consumption"
-        ]
-    },
-    {
-        topic: 3,
-        question: "In the drone and AI-based traffic management system, what is the purpose of the frame selection algorithm?",
-        correct: "To optimize data transmission efficiency by reducing bandwidth and power consumption",
-        wrong: [
-            "To detect license plates of vehicles",
-            "To control traffic lights directly",
-            "To charge the drone's battery",
-            "To broadcast traffic updates to phones"
-        ]
-    },
-    {
-        topic: 3,
-        question: "Which of the following technologies was used by Javaid et al. in their Smart Traffic Management System?",
-        correct: "A hybrid approach combining centralized and decentralized systems with traffic density data from cameras and sensors",
-        wrong: [
-            "Only ultrasonic sensors with no camera input",
-            "Satellite-based GPS tracking exclusively",
-            "Manual traffic police direction",
-            "Magnetic loop detectors embedded in roads"
-        ]
-    },
-    {
-        topic: 3,
-        question: "In the study by Md. Imran Uddin et al., what hardware was used for AI and machine learning tasks?",
-        correct: "NVIDIA Jetson Nano",
-        wrong: [
-            "Google Coral TPU",
-            "Intel Neural Compute Stick",
-            "Arduino Mega 2560",
-            "Raspberry Pi 3 Model B"
-        ]
-    },
-    {
-        topic: 3,
-        question: "What object detection method was used in the NVIDIA Jetson Nano traffic system?",
-        correct: "SSD (Single Shot Multibox Detector)",
-        wrong: [
-            "Haar Cascades",
-            "HOG + SVM",
-            "Template matching",
-            "Background subtraction"
-        ]
-    },
-    {
-        topic: 3,
-        question: "According to the study by Mansoor Akhtar et al., what software was used for data processing and communication?",
-        correct: "Node-Red software",
-        wrong: [
-            "Apache Kafka",
-            "TensorFlow Lite",
-            "Microsoft Azure IoT Hub",
-            "Node.js without Node-Red"
-        ]
-    },
-    {
-        topic: 3,
-        question: "What communication protocol did the NodeMCU Wi-Fi transmitter use to send data to the Raspberry Pi?",
-        correct: "Wi-Fi (wireless data transmission)",
-        wrong: [
-            "Bluetooth 5.0",
-            "Zigbee",
-            "LoRaWAN",
-            "Infrared"
-        ]
-    },
-    {
-        topic: 3,
-        question: "What was the main advantage of the PV (solar-powered) IoT traffic management system proposed by Amer and Maher?",
-        correct: "Reductions in fuel consumption and enhanced traffic flow efficiency through solar-powered sustainable design",
-        wrong: [
-            "Higher vehicle speed limits",
-            "Complete elimination of traffic signals",
-            "Reduced cost of vehicles",
+            "Higher vehicle speed limits on all roads",
+            "Complete elimination of all traffic signals",
+            "Reduced cost of purchasing vehicles",
             "Increased parking space availability"
         ]
     },
     {
-        topic: 3,
-        question: "According to Shamitha et al.'s study, what machine learning algorithm was used for anomaly detection in traffic?",
-        correct: "DBSCAN (Density-Based Spatial Clustering of Applications with Noise)",
-        wrong: [
-            "K-Means Clustering",
-            "Linear Regression",
-            "Decision Trees",
-            "Neural Networks"
-        ]
-    },
-    {
-        topic: 3,
-        question: "How does the drone-based traffic system deal with bandwidth and power limitations?",
+        topic: 6,
+        question: "How does the drone-based traffic system address bandwidth and power limitations?",
         correct: "By using a frame selection algorithm that reduces data transmission while maintaining image quality",
         wrong: [
-            "By storing all video locally on the drone",
-            "By increasing the drone's battery capacity",
-            "By using wired connections from the drone",
-            "By transmitting at lower resolution only"
+            "By storing all video locally on the drone indefinitely",
+            "By using high-capacity external batteries only",
+            "By relying solely on wired connections",
+            "By transmitting only at low resolution with no optimization"
         ]
     },
     {
-        topic: 3,
-        question: "What software was used for simulation and testing in the PV/IoT traffic management system?",
-        correct: "MATLAB Simulink and AnyLogic software",
+        topic: 6,
+        question: "The KLT (Kanade-Lucas-Tomasi) feature tracker is used for:",
+        correct: "Vehicle detection and tracking through image feature matching in video feeds",
         wrong: [
-            "AutoCAD and SolidWorks",
-            "Python and Jupyter Notebooks",
-            "Unity and Unreal Engine",
-            "SUMO only"
+            "Encrypting network traffic",
+            "Generating WiFi signals",
+            "Compressing sensor data",
+            "Managing cloud databases"
         ]
     },
     {
-        topic: 3,
-        question: "According to the Abdul Kadar Muhammad Masum et al. study, how is data transmitted to the cloud server?",
-        correct: "Via Wi-Fi transmission",
+        topic: 6,
+        question: "A hybrid approach combining centralized and decentralized systems with traffic density data from cameras and sensors was used by:",
+        correct: "Javaid et al. in their Smart Traffic Management System",
         wrong: [
-            "Via Bluetooth Low Energy",
-            "Via satellite communication",
-            "Via NFC tags",
-            "Via Ethernet cables"
+            "NASA for space traffic control",
+            "Amazon for warehouse management",
+            "Google for internet routing",
+            "Tesla for autonomous driving"
         ]
     },
     {
-        topic: 3,
-        question: "What additional feature does the intelligent traffic system include besides traffic signal optimization?",
-        correct: "Detection and response to traffic signal hacking for enhanced security",
-        wrong: [
-            "Automatic parking ticket generation",
-            "Weather prediction integration",
-            "Social media monitoring",
-            "Air quality measurement"
-        ]
-    },
-    {
-        topic: 3,
-        question: "According to the literature survey, what was a major limitation of existing traffic systems that smart IoT systems aim to address?",
+        topic: 6,
+        question: "What is a key limitation of existing traffic systems that smart IoT systems aim to address?",
         correct: "Their inability to effectively handle emergency vehicle prioritization and vulnerability to hacking",
         wrong: [
             "Their excessive use of solar power",
-            "Their reliance on satellite navigation",
+            "Their reliance on satellite navigation for all functions",
             "Their inability to detect bicycles",
-            "Their high cost of LED traffic lights"
-        ]
-    },
-    {
-        topic: 3,
-        question: "In the Point Tracker Algorithm-based system, what is used for vehicle detection?",
-        correct: "Gaussian smoothing for image pre-processing combined with the Kanade-Lucas-Tomasi (KLT) feature tracker",
-        wrong: [
-            "Sobel edge detection with Canny filters",
-            "Color histogram analysis",
-            "GPS triangulation",
-            "Radio frequency identification"
+            "Their high cost of standard LED traffic lights"
         ]
     }
 ];
@@ -751,9 +730,12 @@ function shuffleArray(array) {
 
 function getTopicName(topicNum) {
     switch(topicNum) {
-        case 1: return 'Remote Lab & Industry 4.0';
-        case 2: return 'IoT in Education';
-        case 3: return 'Smart Traffic Management';
+        case 1: return 'IoT Fundamentals';
+        case 2: return 'Communication Protocols';
+        case 3: return 'Architecture & Hardware';
+        case 4: return 'Security & Privacy';
+        case 5: return 'AI, ML & Analytics';
+        case 6: return 'Implementation & Applications';
         default: return 'General';
     }
 }
@@ -763,6 +745,9 @@ function getTopicClass(topicNum) {
         case 1: return 'topic-1';
         case 2: return 'topic-2';
         case 3: return 'topic-3';
+        case 4: return 'topic-4';
+        case 5: return 'topic-5';
+        case 6: return 'topic-6';
         default: return 'topic-1';
     }
 }
@@ -772,6 +757,7 @@ function initQuiz() {
     currentQuestionIndex = 0;
     score = 0;
     allResults = [];
+    currentAnswers = [];
     scoreDisplay.textContent = 'Score: 0';
 
     // Shuffle questions
@@ -912,7 +898,7 @@ function showResults() {
         scoreMessage.textContent = "Not bad, but there's room for improvement. Review the materials and try again!";
     } else {
         resultIcon.textContent = '💪';
-        scoreMessage.textContent = "Keep studying! Review all three materials carefully and try again.";
+        scoreMessage.textContent = "Keep studying! Review all the materials carefully and try again.";
     }
 
     // Build review section

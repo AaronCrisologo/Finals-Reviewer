@@ -60,6 +60,9 @@ header h1 {
 .tag-1 { background: #fdcb6e; color: #2d3436; }
 .tag-2 { background: #74b9ff; color: #2d3436; }
 .tag-3 { background: #55efc4; color: #2d3436; }
+.tag-4 { background: #fab1a0; color: #2d3436; }
+.tag-5 { background: #a29bfe; color: #2d3436; }
+.tag-6 { background: #81ecec; color: #2d3436; }
 
 .screen {
     display: none;
@@ -199,8 +202,11 @@ header h1 {
 }
 
 .topic-1 { background: #ffeaa7; color: #d68910; }
-.topic-2 { background: #dfe6e9; color: #636e72; }
+.topic-2 { background: #74b9ff; color: #2d3436; }
 .topic-3 { background: #55efc4; color: #00b894; }
+.topic-4 { background: #fab1a0; color: #d63031; }
+.topic-5 { background: #a29bfe; color: #6c5ce7; }
+.topic-6 { background: #81ecec; color: #00cec9; }
 
 .question-text {
     color: #2d3436;
