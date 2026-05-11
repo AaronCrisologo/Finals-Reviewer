@@ -3,21 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CS 422 Machine Learning Quiz</title>
+    <title>IoT Reviewer - Exam Prep</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>CS 422 Machine Learning Quiz</h1>
-            <p>Test your understanding of Machine Learning concepts from the midterm reviewer</p>
+            <div class="header-content">
+                <h1>📚 IoT & Industry 4.0 Reviewer</h1>
+                <p class="subtitle">Test your knowledge across three key topics</p>
+                <div class="topic-tags">
+                    <span class="tag tag-1">Remote Lab & VREL</span>
+                    <span class="tag tag-2">IoT in Education</span>
+                    <span class="tag tag-3">Smart Traffic Management</span>
+                </div>
+            </div>
         </header>
 
         <div id="start-screen" class="screen active">
             <div class="start-content">
-                <h2>Welcome!</h2>
-                <p>This quiz contains questions about Machine Learning based on CS 422 course material.</p>
-                <p>Questions will be randomized along with answer choices.</p>
+                <div class="exam-info">
+                    <h2>Welcome to Your Reviewer!</h2>
+                    <p>This quiz covers key concepts from your three exam materials:</p>
+                    <ul class="material-list">
+                        <li><strong>Material 1:</strong> Design & Implementation of Next-Gen Remote Lab for IoT & Industry 4.0</li>
+                        <li><strong>Material 2:</strong> The Internet of Things: Education and Technology</li>
+                        <li><strong>Material 3:</strong> Smart Traffic Management Using IoT</li>
+                    </ul>
+                    <div class="quiz-meta">
+                        <span>📝 <strong id="total-questions">60</strong> questions</span>
+                        <span>⏱️ No time limit</span>
+                        <span>🔄 Questions &amp; answers shuffle each time</span>
+                    </div>
+                </div>
                 <button id="start-btn" class="btn btn-primary">Start Quiz</button>
             </div>
         </div>
@@ -25,7 +43,7 @@
         <div id="quiz-screen" class="screen">
             <div class="quiz-header">
                 <div class="progress-info">
-                    <span id="question-counter">Question 1/10</span>
+                    <span id="question-counter">Question 1/30</span>
                     <span id="score-display">Score: 0</span>
                 </div>
                 <div class="progress-bar">
@@ -34,23 +52,32 @@
             </div>
 
             <div class="quiz-content">
+                <div class="topic-indicator" id="topic-indicator"></div>
                 <h2 id="question-text" class="question-text"></h2>
                 <div id="answers-container" class="answers-container"></div>
             </div>
 
             <div class="quiz-footer">
-                <button id="next-btn" class="btn btn-primary" disabled>Next Question</button>
+                <button id="next-btn" class="btn btn-primary" disabled>Next Question →</button>
             </div>
         </div>
 
         <div id="results-screen" class="screen">
             <div class="results-content">
+                <div class="result-icon" id="result-icon">🎉</div>
                 <h2>Quiz Complete!</h2>
                 <div class="score-summary">
                     <p id="final-score"></p>
                     <p id="score-message"></p>
                 </div>
-                <button id="restart-btn" class="btn btn-primary">Take Quiz Again</button>
+                <div class="review-section">
+                    <h3>📖 Review Your Answers</h3>
+                    <div id="review-container"></div>
+                </div>
+                <div class="button-group">
+                    <button id="restart-btn" class="btn btn-primary">🔄 Take Quiz Again</button>
+                    <button id="review-btn" class="btn btn-secondary">📋 Show All Answers</button>
+                </div>
             </div>
         </div>
     </div>

@@ -1,0 +1,2039 @@
+--- Page 1 ---
+The Internet of Things: Education and Technology 
+ 1 
+
+
+--- Page 2 ---
+The Internet of Things: Education and Technology  
+ 
+ 
+ 
+ 
+ 
+ 
+ 2 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Internet of Things (IoT):  
+Education and Technology 
+ 
+The relationship between education and  
+technology for students with disabilities 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Leanne McRae 
+Curtin University 
+leanne.mcrae@curtin.edu.au 
+Katie Ellis 
+Curtin University 
+katie.ellis@curtin.edu.au 
+Mike Kent 
+Curtin University 
+m.kent@curtin.edu.au 
+Published in 2018 
+Curtin University 
+Website: http://www.curtin.edu.au/ 
+Email: m.kent@curtin.edu.au 
+Telephone: +61 8 9266 2220 
+Funding for this research project was provided by a 2017 Curtin Learning and Teaching Innovation Grant. 
+
+
+--- Page 3 ---
+The Internet of Things: Education and Technology  
+ 
+ 
+ 
+ 
+ 
+ 
+ 3 
+Table of Contents 
+Figures and Tables ............................................................................................................. 3 
+Acknowledgements ............................................................................................................ 4 
+Executive Summary ............................................................................................................ 5 
+Introduction ......................................................................................................................... 7 
+The Internet of Things: Literature Review ......................................................................... 9 
+History ............................................................................................................................... 9 
+Definition ......................................................................................................................... 11 
+Benefits ........................................................................................................................... 13 
+Smart Systems ............................................................................................................ 14 
+Smart Campus ............................................................................................................. 15 
+Risks ............................................................................................................................... 17 
+Privacy and Security .................................................................................................... 17 
+The Internet of Things and Students  with Disability ..................................................... 22 
+Background ..................................................................................................................... 22 
+Student Interviews ........................................................................................................... 24 
+Technology Awareness ................................................................................................ 25 
+Using Devices .............................................................................................................. 26 
+Specific IoT Uses ......................................................................................................... 27 
+Internet of Things Limitations ....................................................................................... 28 
+Conclusions and Recommendations............................................................................... 30 
+References ........................................................................................................................ 31 
+Authors .............................................................................................................................. 35 
+Leanne McRae ................................................................................................................ 35 
+Katie Ellis ........................................................................................................................ 35 
+Mike Kent ........................................................................................................................ 35 
+Appendix: Interview questions ........................................................................................ 36 
+Category 1 – Technology Awareness .............................................................................. 36 
+Category 2 – Using Devices ............................................................................................ 36 
+Category 3 – Specific IoT Uses ....................................................................................... 37 
+Category 4 – IoT Limitations ............................................................................................ 37 
+ 
+ 
+Figures and Tables 
+Figure 1: Building 215 Curtin University (Curtin University, 2017a) .................................... 16 
+ 
+Table 1: Some benefits of the IoT ....................................................................................... 13 
+Table 2: Disability categories, Curtin University and Open University Australia  
+(Kent, Ellis & Giles 2018) .................................................................................................... 22 
+ 
+ 
+ 
+
+
+--- Page 4 ---
+The Internet of Things: Education and Technology  
+ 
+ 
+ 
+ 
+ 
+ 
+ 4 
+Acknowledgements 
+The authors of this report owe a debt of gratitude to a great number of people who assisted 
+in the planning, research and writing up of this project. Most importantly, we acknowledge 
+the Curtin University students who participated in interviews because without them this study 
+would not have been possible. We are also particularly grateful to our colleagues in Disability 
+Services for distributing the recruitment notice to their students. 
+We thank Curtin University’s Teaching Innovation Fund for seeing the value in the project 
+and providing funding to see it go forward. This project was a team effort and researchers 
+wish to acknowledge Scott Hollier’s research management and lead authorship of the 
+Internet of Things (IoT) Education: Implications for Students with Disabilities report and 
+Nathalie Latter’s vital research assistance and Ceridwen Clocherty for her fine attention to 
+detail while editing this final report. 
+While this report addresses the pedagogical implications of how students with disability use 
+the Internet of Things (IoT), a broader IoT policy review – Internet of Things (IoT) Education: 
+Implications for Students with Disabilities – was also prepared for the World Wide Web 
+Consortium as a contribution to the next-generation Silver accessibility guidelines as part  
+of this research project. 
+ 
+ 
+
+
+--- Page 5 ---
+The Internet of Things: Education and Technology  
+ 
+ 
+ 
+ 
+ 
+ 
+ 5 
+Executive Summary 
+In 2016 Curtin University launched its vision for 2030 which frames the development of  
+the campus as a ‘City of Innovation’ as part of its ‘Greater Curtin’ branding. The Internet of 
+Things (IoT) is a key feature of this vision. The IoT enables advanced services through the 
+interconnecting of information and communication technologies. While much of the popular 
+literature about IoT focuses on implications in the home, its benefits to education are just 
+starting to be explored. The creation of smaller, wireless devices that require little power to 
+meet the core functionality – that is, in most cases, to be controlled by a smartphone – 
+provides significant new opportunities for student engagement in the areas of automation 
+and remote controlling of devices. However, many of the IoT uses appearing in education 
+are still in their infancy. As such, there is little information about the benefits, risks and 
+access implications of current IoT solutions for students – this is particularly the case for 
+those students with disabilities. 
+This report details findings of the Curtin University Teaching Innovation funded project 
+Internet of Things (IoT) Education: Implications for Students with Disabilities. This project 
+aimed to provide insight into both the potential risks and benefits of the IoT for tertiary 
+students with disabilities, particularly in the current university climate where this cohort  
+utilise mobile devices as a key resource in their learning. Our key objectives included to: 
+• 
+Assess the educational benefits of current and emerging IoT products; 
+• 
+Assess the benefits and risks of IoT within a single-interface, app-based interface 
+and whole-of-ecosystem IoT classroom solution by competing providers; 
+• 
+Determine the relevance and implications of IoT as it relates to the educational needs 
+of people with disabilities; 
+• 
+Undertake interviews with currently enrolled students with disabilities to identify the 
+practical needs of this cohort in an educational context; and 
+• 
+Provide recommendations and strategic guidance on appropriate IoT solutions with 
+policy recommendations for Curtin University, the tertiary education sector and 
+industry. 
+The report begins with an overview of the history of the IoT and offers a series of definitions 
+of this term. A comprehensive literature review of the IoT follows, addressing both the risks 
+and benefits of the use of IoT in a general as well as in an educational context. This is 
+followed by an in-depth examination of the role of this emerging technology in the lives of 
+students with disability as they move into and through higher education contexts. The report 
+questions the tendency to see technology as an unequivocal benefit to disabled people’s 
+lives and examines the complexities of how technology is integrated into contexts and 
+embodied realities. For example, while the IoT is easily framed as a new and radically 
+nuanced technology that redefines accessibility, an equally decided consideration of the 
+wider significance of the relationships between technology and society, education and 
+disability, access and literacy, also needs circulation. While the IoT can be configured as  
+a champion of and for the social model of disability – where environments can be changed  
+and modified to suit different disabilities – the technology to establish an effective and 
+reflexive IoT infrastructure is not yet at a point where it could be effectively deployed in 
+learning and teaching at the university level. 
+The final section of the report details findings from interviews with currently enrolled Curtin 
+University students with disability. In addition to the risks and benefits outlined in the 
+literature review, these students raised a number of important insights. From the interviews, 
+it can be seen that students with disability at Curtin University state that:  
+• 
+The IoT is in a very early stage of development. As such, its possible uses and 
+practicalities are unclear at this stage. 
+• 
+They prefer Android devices. 
+
+
+--- Page 6 ---
+The Internet of Things: Education and Technology  
+ 
+ 
+ 
+ 
+ 
+ 
+ 6 
+• 
+Technology must be adaptable. The students we interviewed regularly modify 
+technology to suit their specific needs. 
+• 
+They share a widespread willingness to try new technology, and equally a willingness 
+to abandon that technology if it doesn’t provide the support they require. 
+• 
+They have different learning styles, for example some are visual, others are aural etc, 
+and therefore require different technologies. 
+• 
+Lecturers continue to be unaware of the access needs of students with disability – for 
+example, lecturers are often of the view that if it is digital it is accessible. This was a 
+widespread concern amongst the interviewees. 
+• 
+Although the IoT offers great opportunities, it is vital that lecturers retain control of the 
+classroom. 
+• 
+They already feel overloaded with information – there is a fear that the IoT could 
+exacerbate this. 
+• 
+They hope that the IoT will be able to offer flexible and timely ways to better manage 
+accessing educational materials. 
+These interviews provided insight into what students with disability understand about the IoT, 
+the smart devices they use, and how their learning is facilitated by those devices. However, 
+a more fully-fledged and formed answer to the educational benefits for this cohort can only 
+be speculated on in these early stages of the technology. The report concludes with 
+recommendations about how Curtin University might move forward in creating intelligent 
+design within a campus setting to ensure that students can access cutting-edge education 
+using the IoT. This can take many forms – from the ability to navigate spaces to get to 
+classrooms to being able to download and read online materials in a timely and effective 
+manner – and requires a wide and critical lens. 
+This report recommends, in relation to the deployment of the IoT in an educational setting, 
+that: 
+• 
+Curtin University should not immediately deploy IoT technologies, but that careful 
+consideration and planning be undertaken for how this might best be done in the 
+future and what implication this might have. 
+• 
+Priority should to be given to incorporating IoT within specific pedagogical issues 
+regarding learning and teaching, with particular consideration being given to the 
+integration of students with disabilities. This is in addition to Curtin’s current focus  
+on integrating IoT technologies primarily in association with facilities management. 
+• 
+Any IoT equipment associated with learning should have the ability to provide its 
+output to students via a learning management system or app. This would ensure  
+that students with disabilities can process the data with their preferred assistive 
+technology. 
+• 
+Any future implementation of IoT solutions should focus around the use of personal 
+smartphones as the primary IoT interface device for students with disabilities. 
+• 
+All IoT-related implementations must also consider privacy, security and 
+interoperability. 
+• 
+Any IoT solution must be accompanied by training to ensure that all staff and 
+students are able to use it effectively. 
+• 
+The applicability of using a digital assistant as a real-time captioning device warrants 
+further research. 
+• 
+A trial of the use of existing technologies and further consultation with industry and 
+students should be undertaken over 2018. 
+ 
+ 
+
+
+--- Page 7 ---
+The Internet of Things: Education and Technology  
+ 
+ 
+ 
+ 
+ 
+ 
+ 7 
+Introduction 
+The relationship between education and technology has been long and complex. Tools that 
+assist students in activating and deploying information, that mediate the methods and modes 
+of transforming that information into knowledge, have been at the heart of sound pedagogic 
+praxis. Having the right equipment – that helps open up pathways for student activity, assists 
+in the processing and mobilisation of ideas, and connects those ideas with the contexts that 
+surround them – forms the basis of the teaching and learning environment. As such, this 
+education—technology relationship has been spotlighted as part of education policy and 
+practice critique. Complaints about falling education standards, unemployable students, 
+redundant curricula and backward institutional organisation, have therefore been punctuated 
+by the debates about the role and place of technologies in the classrooms. By technology  
+we refer to more than computing – technologies extend the human body, from pens to eye 
+glasses to clothes. 
+However, it is the arrival of computers, the internet and the digital age which has really 
+accelerated these arguments, with politicians promising to “put a computer in every child’s 
+hands” (Roediger & Pyc, 2012, p. 242) and to network schools in order to produce ever 
+better learning outcomes. Indeed, the ubiquity of computers, the internet and digital forms  
+of communication have now made their integration into the classroom mandatory. From 
+smartboards to learning management systems such as Blackboard, to PowerPoint and 
+Facebook groups, technology has often been championed – with limited criticism – as the 
+saving grace of (perceived) old and redundant modes of didactic education that apparently 
+disempower students. These technologies are seen to be transformative for students, 
+inclusive, interactive and valuable, therefore making teaching easier and learning simpler. 
+They are coded to centralise the student in the learning process instead of the teacher, 
+therefore enabling greater flexibility in learning styles and engaging student attention  
+through multimedia delivery of materials. 
+These are all noble outcomes. However, the deployment and activation of ‘technology’  
+has, to date, been largely unchallenged despite the fact that it is often at the expense of the 
+considerations of literacy and effective pedagogy – it is as if the presence of a computer is 
+all that is necessary to produce digitally aware and active students. Tara Brabazon (2002) 
+famously recounts the narrative of New York University that was forced to close its online 
+learning arm after “pumping $25 million into the offerings – courses that only attracted 500 
+students at its height” (p. 32). Of course, many things have changed since the time of 
+Brabazon’s writing and online delivery has become a significant part of many universities’ 
+offerings. Yet, her caution remains an important one – the excitement over new technologies 
+must be tempered with the needs and concerns of teaching and learning, particularly with 
+regard to how literacy is woven through these concerns. Too often and too easily ‘new’ 
+technology is hailed as the saviour for modern education without due consideration or 
+critique – this caution must therefore also be applied to the IoT. 
+This report aims to focus on such matters, specifically the potential impact of the IoT for 
+students with disability at university. As such, this report aims to generate considered and 
+weighted examination of the role of this emerging technology in the lives of students with 
+disability as they move into and through higher education contexts. While medical models  
+of disability revel in the potential for technologies to supplant or mask disability entirely,  
+there is an equal celebration of the potential for these technologies to offer not just methods 
+for moving through everyday life but to also enhance these interactions. The figure of the 
+cyborg is prevalent in these imaginings, punctuated by the figure of the disabled athlete 
+whose implants and attachments render them ‘superhuman’. That is, we can use technology 
+to make the human fit the environment, and even transcend it. 
+However, this tendency to see technology as an unequivocal benefit to disabled people’s 
+lives does not situate the terrain of our examination. Instead, we offer a deeper consideration 
+
+
+--- Page 8 ---
+The Internet of Things: Education and Technology  
+ 
+ 
+ 
+ 
+ 
+ 
+ 8 
+of how the complexities of technology are integrated into contexts and embodied realities. 
+For example, while the IoT is easily framed as a new and radically nuanced technology that 
+redefines accessibility, an equally decided consideration of the wider significance of the 
+relationships between technology and society, education and disability, access and literacy, 
+also needs circulation. Indeed, the IoT can be configured as a champion of and for the social 
+model – where environments can be changed and modified to suit different disabilities – the 
+technology to establish an effective and reflexive IoT infrastructure is not yet at a point where 
+it could be effectively deployed in learning and teaching at the university level. Further, its 
+relationship to educational interests and outcomes is also currently largely a theoretical 
+consideration rather than a practical reality. 
+ 
+ 
+
+
+--- Page 9 ---
+The Internet of Things: Education and Technology  
+ 
+ 
+ 
+ 
+ 
+ 
+ 9 
+The Internet of Things: Literature Review 
+History 
+The Internet of Things (IoT) is a phrase widely considered to have been coined by Kevin 
+Ashton at the end of the twentieth century (Mitew, 2014, p. 5): 
+As a term, the Internet of Things originated in 1999, with the work of two 
+Massachusetts Institute of Technology [MIT] research labs: the Auto-ID Center 
+and the MIT Media Lab. Kevin Ashton and Neil Gershenfeld respectively argued 
+for the enfolding of things into the internet in an active role – either in terms of 
+making the world comprehensible for things, or adding things to the internet. In 
+this context, the IoT was seen as a paradigmatic shift from the internet of 
+discrete desktop/mobile computers, to a broadly defined ambient connectivity 
+permeating trivial material artefacts, therefore granting them agency visible to 
+humans. 
+Ashton, writing in 2009, framed its potential as a system that might assist humans in 
+processing massive amounts of data (Ashton, 2009, para. 2): 
+Today computers, and therefore the Internet, are nearly wholly dependent on 
+humans for information … The problem is, people have limited time and 
+accuracy, all of which means they are not very good at capturing data about 
+things in the real world. And that’s a big deal. 
+Such a claim is born out of the rapid expansion of the internet. In addition, the potential 
+embedded in the massive amounts of data found online and the development of more 
+nuanced processing of data for effective decision-making in our ever-complicated lives 
+promotes such ideas. According to Ashton (2009), making informed choices in all areas  
+of our lives – from how much exercise to do to who to vote for – must be born out of a  
+data-mined cache of information that can account for and rationalise specific outcomes  
+and consequences. For Ashton, this is a matter of developing a system that might help us 
+process this data – masking the possibilities of emotion and instinct and instead reifying 
+enlightenment and scientific rationalist approaches. Importantly, for Ashton, humans are 
+flawed – they thereby compromise their role in data entry for our massive networked 
+systems and this therefore means that our machines are also flawed. He argues that 
+machines are better at objectively capturing information about the real world and that 
+harnessing that potential can assist us in making better decisions. In the same article, 
+Ashton (2009, para. 5) affirms “we need to empower computers with their own means of 
+gathering information, so they can see, hear and smell the world for themselves, in all its 
+random glory”. 
+Yet, for some, this vision reveals all the potential possibilities and problems with how we 
+relate to machines in our everyday lives. In such terms, “the resulting dynamic can be 
+described as a de-centering of humans from the position of sole enunciators of agency,  
+with serious implications for conceptualisations of sociability, agency, and identity” (Mitew, 
+2014, p. 9). These imaginings are polarised – we have visions of the fictional artificial 
+intelligence (AI) of Skynet punctuating the prose. Instead, we argue that Ashton’s vision is 
+far too technologically determinist and rudimentary to account for the complex relationships 
+between humans and machines. Machines require discipline from humans, yet we must also 
+adopt and adapt to the needs of mechanisation. 
+For example, during industrialism, machines demanded repetitive embodied labour. The 
+luddites who emerged at this time to beat-up machines “were not against machines per se, 
+or technological progress” they were worried about the impact these machines – as well as 
+the processes that integrated them into contemporary workplaces – were going to have on 
+
+
+--- Page 10 ---
+The Internet of Things: Education and Technology  
+ 
+ 
+ 
+ 
+ 
+ 
+ 10 
+“their way of life and mechanisms of solidarity and workmanship nurtured over generations” 
+(Standing, 2016, p. 18). They were – rightly – worried about the ways in which the machines 
+changed embodied and emotional connections and actions. In more modern times, until 
+recently – and even still – we situated ourselves in front of the computer in a static location 
+and enact a series of learned actions involving the keyboard and mouse. For years we have 
+stopped conversations with real humans to answer the ring tone from our phones in our 
+homes – today we do so wherever we may be. Indeed, as the ability to miniaturise has 
+exploded in electronics, the arrival of mobile phones and its evolution into a ‘smart’ device 
+perpetuates the perception – correct or not – that machines are adapting to us. 
+Importantly, however, the IoT involves a fundamental reconfiguration of those relationships, 
+and offers potential for the streamlining of experiences in the everyday. It is an early glimpse 
+into the potential for machines to listen to, engage with and connect humans. However, in 
+order to interface with us, a whole range of controversies – involving privacy, security and 
+potential Skynet fears – need to be addressed. Understanding the IoT as it is emerging is 
+therefore vital as it assists in thinking through the potentials for integration so that, rather 
+than retrofitting fixes into flawed paradigms, skilled and reflexive IoT contexts can be 
+engineered upfront to offer accessible and inclusive infrastructures for all students,  
+including those with disabilities. 
+The etymology of the word ‘things’ is important in this context. In old English, ‘thing’ means 
+assembly, but is commonly deployed now to mean an object or “that which is considered  
+to exist” (see www.etymonline.com/word/thing). In this context, the Internet of ‘Things’ is 
+deployed in both these means. Firstly to enable the range of devices, objects and items  
+that can be networked in this specific way – allowing them to be as wide as possible to  
+leave space open for an evolving and changing terrain – and secondly to mobilise the ways 
+in which these items might ‘meet’, that is assemble or talk to each other. It also enables a 
+reimagining of the range and scope of the internet as that which moves out of an implicit 
+cyberspace and virtual imagining to be situated in real life and to involve concrete objects 
+beyond the computer. These include not just mobile phones, but also refrigerators, 
+thermostats, pace-makers, toasters and lighting systems. 
+An early and perhaps the most well-known deployment of an IoT device was LG’s Digital 
+DIOS Refrigerator released in 2000. It featured a built-in web browser and e-mail capability 
+that could detect when groceries needed replacing and could then order them for the 
+consumer online. Of course, this was a widely ineffective and impractical device and was  
+not successfully sold on any meaningful scale. Its US$20,000 price tag meant that in 
+Australia one company, Winning Appliances, only sold 10 or 15 (Baxter, 2010). There were 
+myriad problems – in most regions the fridge required dial-up internet connectivity and as 
+such would tie up the telephone line. This, in turn, meant that if people wanted to use the 
+web or check their e-mail they would be forced to use the built-in features on the refrigerator, 
+and the primitive interface made it uncomfortable for people to use such features while 
+standing in their kitchen. Furthermore, the refrigerator required the user to manually enter 
+the locations for each object so it knew which products were present or missing and, even if 
+the refrigerator was successful in detecting the absence of a product, at that time there were 
+few online grocery stores in existence that could automatically order a replacement. 
+This early-adopter fridge serves as an early example of the ways in which ordinary items 
+could be connected and networked, digitised and dialogued with the internet. Nevertheless, 
+it is important to remember that these early attempts were largely linear, meaning that they 
+involved a single device connecting to the internet infrastructure and operating much like a 
+computer. Today the IoT is a vision of networked objects that utilise digital infrastructures  
+to offer a range of complex interactions and possibilities. Accordingly, “an IoT object has a 
+unique identity and is capable of dynamically engaging with, and registering change to its 
+location and state” (Mitew, 2014, p. 5). 
+
+
+--- Page 11 ---
+The Internet of Things: Education and Technology  
+ 
+ 
+ 
+ 
+ 
+ 
+ 11 
+Definition 
+The IoT “is not a single technology; rather it is an agglomeration of various technologies that 
+work together in tandem” (Sethi & Sarangi, 2017, p. 1). A more formal definition positioned 
+by the International Telecommunications Union defines it as “enabling advanced services by 
+interconnecting (physical and virtual) things based on existing and evolving interoperable 
+information and communication technologies” (International Telecommunications Union, 
+2012, para. 3). Mitew (2014, p.5) clarifies the parameters in more detail: 
+… the IoT stands for the connection of usually trivial material objects to the 
+internet – ranging from tooth brushes to shoes or umbrellas. At the very least, 
+this connectivity allows things to broadcast sensory data remotely, in the process 
+augmenting material settings with ambient data capture and processing 
+capabilities. Once connected, each thing acquires a network address making it 
+uniquely identifiable. The object usually has some sort of layered sensing 
+capacity allowing it to dynamically register changes to its environment and 
+transmit that information over the internet. 
+Accordingly, there are four essential characteristics for a device to be considered a ‘thing’  
+in IoT terms (Palma, Agudo, Sánchez, & Macías, 2014, p. 7000): 
+1. The device must be capable of collecting and transmitting data: IoT devices 
+need to exist in environments in which information can be collected and 
+either sent to another device or directly to the Internet. 
+2. The device must have the ability to operate with action-based responses: IoT 
+devices can be programmed to act according to particular conditions. 
+3. The device must have the ability to receive information: IoT devices must be 
+able to receive information from the network. 
+4. The device must be able to support communication: IoT devices by nature 
+belong to a network of devices that can communicate with each other 
+through other nodes in the same network. 
+In essence, the IoT is made up of three ‘layers’. The first is the so-called physical layer in 
+which RFID (radio frequency identification) tags, sensors – both connected and wireless – 
+and actuators are used. The devices in this layer operate in physical space to gather data 
+and act on and through the environment. The second layer is the network layer – this is 
+made up of small cellular networks and local area networks (LAN) as well as the much larger 
+cloud computing storage network. In order for these benefits to manifest, IoT systems need 
+to enter into a common communications protocol via middleware –software that enables the 
+communication and management of data – so that interpretation of the data can occur and 
+be deployed within IoT applications. When this middleware is activated, the data becomes 
+useful to humans and consumer goods are imbued with new meaning. This then forms part 
+of the final layer, the application layer, which comprises the apps or digital communication 
+technology we ‘see’, examples include Alexa, Google Home and Fitbit. Put together with the 
+other layers, this enables machines to interact with their environment and ‘talk’ to other 
+machines as well as humans. In this process, they enact the data gathering and processing 
+that Ashton (2009) foregrounded and transmit that information to other machines and to 
+humans, usually via a smart device. Humans are then able to take that information and 
+make decisions in their everyday lives, or automate particular areas of their lives so that 
+decisions do not have to be made. 
+We will consider first the physical layer and its gathering data devices of RFID tags, sensors 
+and actuators. RFID tags were invented in the 1970s and were initially used to track cattle 
+and other large items. They are “a small microchip attached to an antenna” (Atzori, Iera, & 
+Morabito, 2010, p. 2790) that have a unique identifier and they are simply used to track a 
+
+
+--- Page 12 ---
+The Internet of Things: Education and Technology  
+ 
+ 
+ 
+ 
+ 
+ 
+ 12 
+thing to its location in space. As the name indicates, this device uses radio waves to 
+communicate and are low-tech. RFID tags are mostly passive in that they are only activated 
+within the presence of a scanner or reader to register the item – the power of the reader is 
+used to power the tag. Increasingly, however, the reader or scanner does not need to be in 
+proximity. Instead, the tag harvests energy from the radio frequency waves emitted from the 
+reader and antenna. As such, passive RFID tags do not have their own internal power 
+supply, meaning they are cheap and long-lasting.  
+However, more recently, active RFID tags – more commonly known as beacons and 
+transponders – have entered the market. These upgraded tags have an onboard battery and 
+are being used to facilitate the transmission of data, not just about the location of an object 
+but also other complex details such as temperature and movement. According to Atzori et al. 
+(2010, p. 2790): 
+… key components of the IoT will be RFID systems, which are composed of one 
+or more reader(s) and several RFID tags. Tags are characterized by a unique 
+identifier and are applied to objects (even persons or animals). Readers trigger 
+the tag transmission by generating an appropriate signal, which represents a 
+query for the possible presence of tags in the surrounding area and for the 
+reception of their IDs. Accordingly, RFID systems can be used to monitor objects 
+in real-time, without the need of being in line-of-sight; this allows for mapping the 
+real world into the virtual world. Therefore, they can be used in an incredibly wide 
+range of application scenarios, spanning from logistics to e-health and security. 
+Sensors are also old technologies that are used in most daily objects, from computers to 
+smartphones to toasters. Sensors detect changes in the environment and turns that into an 
+electrical impulse that can be interpreted. For example, the first pop-up toaster was invented 
+by Charles Strite in 1919 using a mechanical timer. However, since the 1930s these toasters 
+have operated using a thermal sensor that detects the heat of the bread and triggers the 
+release mechanism to pop the toast away from the heating elements. They have a variety  
+of different uses and can, for example, be acoustic, chemical or electrical. The modern day 
+smartphone has a number of sensors, including an accelerometer, ambient light sensor, 
+GPS sensor, compass, proximity sensor, pressure sensor, gyroscope and magnetometer.  
+All of these works to deliver the core experience that we have come to expect from our  
+smart devices – offering real-time information based on our immediate needs. 
+Applying the benefits of both sensors and RFIDs to the new IoT technology, sensor  
+networks will “cooperate with RFID systems to better track the status of things, i.e. their 
+location, temperature, movements, etc. As such they can augment the awareness of a 
+certain environment and, thus, act as a further bridge between physical and digital world” 
+(Atzori et al., 2010 p. 2790). So, while the sensor will gather data, the RFID system and 
+wireless sensor networks will enable the transmission of that information to other devices or 
+into the cloud through the deployment of middleware – this leads us to the second layer of 
+IoT, the network layer. 
+The network layer of the IoT is made up of two elements – perception nodes and perception 
+networks. Examples of perception nodes are RFID tags and near field communication (NFC) 
+which are short-range, low-power communication technologies; Bluetooth, Zigbee and WiFi 
+are medium-range. However, RFID is championed as the defining perception node element 
+in the IoT because of its low cost, ubiquity, simplicity and long life. The benefit of RFID is that 
+passive tags lay dormant until read. RFID is also easily integrated into wireless sensor 
+networks which gives it greater flexibility to communicate with a variety of devices and 
+potentially over a wider area. 
+In addition, RFID’s integration with wireless sensor networks enables its frequency to 
+expand and cover more territory. However, there exists one core problem in the IoT – 
+standardisation. That is, the variety of devices brought together in the IoT poses a problem 
+
+
+--- Page 13 ---
+The Internet of Things: Education and Technology  
+ 
+ 
+ 
+ 
+ 
+ 
+ 13 
+for interoperability – as an example, RFID frequencies in the US are not compatible with 
+those in Europe. Middleware software is therefore used to “hide the details of the smart 
+things … [and] act as a software bridge between the things and the applications”. In other 
+words, “the middleware abstracts the hardware and provides an Application Programming 
+Interface (API) for communication, data management, computation, security, and privacy” 
+(Sethi & Sarangi, 2017, p. 15). This enables different devices with different protocols to ‘talk’ 
+to each other. This is essential for the cloud computing networks that enable the IoT data to 
+be harvested, archived, processed and interpreted. Indeed, the massive amounts of data 
+potentially produced by wireless sensor networks and RFID tags will need to be stored for 
+processing and archiving. It is as a result of this processing and interpretation that 
+information is sent to applications, the third and final layer of the IoT. 
+This layer is where the full potential of the IoT is realised – when environmental changes  
+can happen as a result of contextually aware technology that automates delivery of real- 
+time data and actions into that environment. For example, “A sophisticated example of an 
+actuator used in IoT is a digital finger, which is used to turn on/off the switches (or anything 
+which requires small motion) and is controlled wirelessly” (Sethi & Sarangi, 2017, p. 9). 
+Indeed, this is where the true benefits of IoT really come to fruition. 
+Benefits 
+For people with disabilities who face daily barriers to accessibility in both physical and  
+virtual environments, the IoT offers a method for potentially removing these obstructions. 
+The ways in which this can occur are almost endless (see Borne, 2014 and Table 1 for  
+some examples) and is in the application layer that new imaginings around smart cities, 
+smart homes, smart transport, smart health come to fruition. However, the two methods  
+we highlight in this report relate to its use mainly in an educational setting, namely the use  
+of smart devices and systems such as digital assistants and the establishment of a more 
+inclusive, ‘smart’ campus. However, issues of security and privacy remain and this will also 
+be discussed. 
+ 
+Table 1: Some benefits of the IoT 
+BENEFIT 
+EXAMPLE 
+SOURCE 
+Tracking behaviour for 
+real-time marketing 
+If our IoT-enabled devices determined it was raining in our 
+current GPS location, advertisements relating to umbrellas 
+and information on the nearest store could be provided so 
+that we could respond to the situation in real-time. 
+ 
+Enhanced situational 
+awareness 
+Features such as updates on traffic based on movement and 
+GPS sensors in cars and smartphones could provide an 
+opportunity to understand our changing real-time 
+environment and make changes such as taking a different 
+route home from work where there is less traffic. 
+ 
+Sensor-driven 
+decision analytics 
+Big data could record lots of information at once which can 
+then be analysed, such as information collected from 
+telescopes analysing space phenomenon. 
+Lenz, Meisen, Pomp, 
+& Jeschke (2016) 
+Process optimisation 
+The use of sensors could monitor the speech rhythm, pitch 
+and tone of a lecturer to determine the optimal requirement 
+for student engagement. 
+Heng, Yi, & Zhong 
+(2011) 
+Optimised resource 
+consumption 
+An electrical appliance could complete a task, such as 
+washing clothes, based on its ability to determine the optimal 
+point at which the power and water costs are cheapest. 
+ 
+Instantaneous control 
+and response in 
+complex autonomous 
+systems 
+A series of sensors could monitor different aspects of a 
+patient in a hospital, adjusting medication and treatment in 
+real-time. 
+Loke (2017) 
+
+
+--- Page 14 ---
+The Internet of Things: Education and Technology  
+ 
+ 
+ 
+ 
+ 
+ 
+ 14 
+Smart Systems 
+The surge in the popularity and uptake of IoT applications that has occurred in 2016 and 
+2017 can be accounted for in a variety of ways. The first is the decreasing size of RFID tags 
+that enables miniaturisation of everyday products. In addition, by 2010 the cost of RFID tags 
+had declined – passive RFID tags cost between 5 cents and $5 while active ones range from 
+$50-100, with readers being much more expensive. Further, the reliability of the performance 
+of the tags has improved, possibly related to the widespread integration of RFID into US 
+military distribution and logistics infrastructure by 2004 (Mitew, 2014). Finally, the 
+development of a stable international standard around ultra-high frequency (UHF) passive 
+RFID tags has also increased its reliability and use. As of 2016, 81 countries had conformed 
+to the standards (see GS1, 2016 for more details on how these are applied). 
+At the 2016 Consumer Electronics Show (CES), the world’s largest consumer technology 
+event held annually in Las Vegas, major manufacturers – including Samsung, LG and 
+Amazon – were actively creating products for the IoT space including smart washing 
+machines, smart lighting and even the return of the smart refrigerator. By just the following 
+year, at CES 2017 the catchphrase of the conference was ‘Alexa everywhere’, a reference  
+to Amazon’s digital assistant being built into a range of connected devices including cars, 
+lamps, ceiling fans and security systems (Kastrenakes, 2017). In addition, the first popular 
+consumer standalone smart speaker, Amazon Echo, also features Alexa technology. 
+Alongside Google Home, which entered the marked in 2016, this has significantly 
+contributed to a rapid rise in IoT popularity – currently Amazon Echo retains 74% of the 
+market, with Google Home reaching 24% (Darrow, 2017). Apple Homepod will make its 
+debut in 2018. These applications are set to be very popular as they launch in Australia –  
+not only are they relatively affordable, they also feature a conversational user interface that 
+enables easy use and non-threatening integration into an already existing digital literacy. 
+Yet digital assistants are not new. Handheld computers – also known as personal digital 
+assistants or PDAs – have been around since the 1980s, although they have largely been 
+discontinued due to the ubiquity of the mobile phone that performs the same duties but with 
+added extras. The most well-known of these were the Palm Pilot and the Pocket PC – both 
+were used extensively in health and education settings. They featured either a conventional 
+keyboard input or touch screen to allow easy input and retrieval of information. In education, 
+PDAs were unevenly beneficial and were mainly “considered as a tool to support learning 
+and teaching practice rather than as an instructional material for pedagogical purpose” 
+(Park, Kim, Lee, Son, & Lee, 2005, p. 174). 
+Importantly, however, they were singled out as particularly useful to students with 
+disabilities. Early studies demonstrated that “students with identified special needs were  
+the strongest users of the handhelds, consistently indicating daily use and preference for 
+handhelds” (Bauer & Ulrich, 2002, p. 20). Particularly noted in one study was the function  
+of the PDA as an unobtrusive device so that the student did not feel that they ‘stood out’ 
+amongst their peers, an important benefit to students who do not wish to identify as disabled. 
+Certainly, the current ubiquity of the smartphone offers the same unobtrusive presence 
+within the classroom for some students with disabilities. However, the importance of the 
+widespread commercial arrival of digital assistants such as the Amazon Echo and Google 
+Home – as home devices – facilitates the wider normalisation of this type of assistance. Its 
+“ideal user interface design” is blurring the barriers so that there is “nothing appearing to 
+mediate between the will of the user and the result delivered by the operations of the 
+machine” (Burgess, Mitchell, & Highfield, 2017, p. 2). 
+The digital assistants outlined above show how complex IoT architecture nodes are 
+beginning to intersect and interact in intelligent and contextually aware ways. This potential 
+is also being expanded beyond the home and activated in policy and planning initiatives 
+around smart cities, smart transport and, in education, the smart campus. 
+
+
+--- Page 15 ---
+The Internet of Things: Education and Technology  
+ 
+ 
+ 
+ 
+ 
+ 
+ 15 
+Smart Campus 
+The potential to create environments of responsiveness and command via tracking, data 
+collection, communication and interaction can be seen in the rise in attention – from media, 
+legislators, managers, urban planners and CEOs – on the increasingly common usage of the 
+word ‘smart’ as a prefix. Used in its meaning of clever, smart is attached to a variety of 
+nouns to convey intelligent interactions between devices, the internet and applications and 
+environments. Beginning with smart bombs to make the waging of war more palatable, we 
+now have the more sedate and seductive smart transport, smart cities, smart devices, 
+smartphones, smart health. The convergence of the definitions of smart and intelligent is 
+also a blurring of automation and AI – the lines between these ideas are constantly being 
+stretched as well as pushed together. That is, in the IoT, automation is being championed in 
+the hopes of leading to a form of AI that is not just assistive but also transformative. Atzori et 
+al. (2010, p. 2789) hold this vision for smart items as creating intelligent environments: 
+Smart Items. These are a sort of sensors not only equipped with usual wireless 
+communication, memory and elaboration capabilities, but also with new 
+potentials. Autonomous and proactive behaviour, context awareness, 
+collaborative communications and elaboration are just some required 
+capabilities. 
+It is this imagining of a fully reflexive and responsive AI future of devices, that is, products 
+that accommodate our needs and wants, that percolates through the ubiquity of the word 
+smart in our lexicon. For example, for universities, the notion of a smart campus is 
+increasingly an important marketing point. 
+In 2016 Curtin University launched its vision for 2030 which frames the development of the 
+campus as a ‘City of Innovation’ as part of its ‘Greater Curtin’ branding. For students, the 
+strategic objectives include delivering “a seamless, responsive and innovative digital 
+environment” (Curtin University, 2017d, para. 2) to facilitate their study and generate energy 
+into their expectations of future employability. In the master plan, the development and 
+refurbishment of buildings is framed by language conveying “high-speed wifi and learning 
+spaces featuring rich AV [audio-visual] systems to provide an engaging and immersive 
+student experience” – Building 501 is highlighted as a future example of this (Curtin 
+University, 2017b). Building 215 (Figure 1) is also singled out as a ‘living laboratory’ which 
+“gives students an environment in which to explore real life engineering theory by examining 
+a static building” (Curtin University, 2017a, para. 1). This building features the ability for 
+students to “monitor live system data on the building’s interface, temperature, humidity, 
+thermal efficiency, air and cooling/heating water pressure dynamics” Curtin University, 
+2017a, 2017, para. 4). 
+This Teaching and Learning strategy is paired with the wider ‘Smart Campus Vision’ which 
+seeks to implement an IoT infrastructure to gather data on student movement and 
+attendance to “provide analytics that support a smart campus” (Curtin University, 2017c, 
+para. 6). For example, facial recognition has already been used in big data collection on 
+campus (Bindi, 2017). These approaches connect with the wider educational perspectives 
+that champion the role of technology in enhancing student experience and learning. 
+Along with the emphasis on the prefix smart, the shorter ‘i’ prefix also predominates these 
+debates – the iCities and the iCampus concept is equally powerful in conveying the digital 
+significance of networked environments for greater learning. Thomas et al. (2013, p. 6) 
+affirms the importance of the iCampus as a strategic network of relationships that is flexible 
+enough to deliver a variety of outcomes for students, administrators and instructors: 
+
+
+--- Page 16 ---
+The Internet of Things: Education and Technology  
+ 
+ 
+ 
+ 
+ 
+ 
+ 16 
+ 
+Figure 1: Building 215 Curtin University (Curtin University, 2017a) 
+ 
+The purpose of the iCampus is not just to enhance interactivity in education, but 
+to create a campus made up of appropriately intelligent computer-systems. 
+Those systems must therefore understand the individual contexts of individual 
+students, as well as having an intelligent understanding of the environments in 
+which they study. 
+The authors make a subtle distinction between ‘smart’ and ‘intelligent’ to justify the ‘i’ prefix, 
+affirming the need for (Thomas et al., 2013, p. 6): 
+… flexible, media-rich and remote learning… That requires significant investment 
+in sensor networks, mobile technologies and associated data processing, but 
+with equally significant pay back in terms of connectivity between learning, 
+research and the surrounding environments within which students live. 
+For students with disability, these technological interventions open the possibilities offered 
+by a nuanced, integrated and subtle ‘personalisation’ of education beyond clichés. This type 
+of personalisation is not about comfort and ease but rather about effective, timely and 
+appropriate access to learning infrastructures, materials and personnel – as well as 
+information, knowledge and its deployment as expertise within the parameters of need 
+defined by an individual in their relationship to their disability. The integration of an effective 
+and operational smart campus therefore offers an environment where these types of 
+interaction are normalised (Kiryakova, Yordanova, & Angelova 2017, p. 83): 
+The smart devices for remote control of home equipment, parking, which can be 
+activated and managed by touch, gestures or voice, sensor indicators for 
+orientation, text-to-speech modules, Radio-frequency Identification (RFI) and 
+others, can be used for creating a learning environment for learners with special 
+educational needs. 
+
+
+--- Page 17 ---
+The Internet of Things: Education and Technology  
+ 
+ 
+ 
+ 
+ 
+ 
+ 17 
+These environments hold the potential for the creation of “unique learning contexts” (Thomas 
+et al., 2013, p. 6) that can service the individualised needs of students with disability. 
+Perhaps most importantly, these are not prescribed or defined by those with little or limited 
+understanding of how the management of a student’s disability interfaces with their 
+educational needs and outcomes. Instead, the environment is sensitive and responsive to all 
+users – it can modify, alter, enhance or change depending on need. 
+Risks 
+Privacy and Security 
+However, while the initiatives outlined above are framed as a benefit to students – by 
+optimising the delivery of educational product, enhanced learning experiences and timely 
+management of campus infrastructure – it belies the deeply troubling concerns with privacy 
+and security that percolate through the IoT debate. That is, while there is much cheerleading 
+for the possibilities offered by “anywhere-anytime-study” (Thomas et al., p. 6), 
+interoperability and optimisation – situated by “connected devices transform[ing] learning 
+from passive to active” (Kiryakova et al., 2017, p. 82) and by the attendant emerging reality 
+that “individuals entering in an area where a sensor network is deployed cannot control what 
+information is being collected about themselves” (Atzori et al., 2010, p. 2802) – is often 
+masked in this debate. Indeed, while RFID tags have been widely championed as 
+revolutionising our technological world, in their book Spychips: How major corporations and 
+government plan to track your every move with RFID, Katherine Albrecht and Liz McIntyre 
+(2005) are more disparaging. They argue that because of their small size, ability to transmit 
+their data without a ‘line-of sight’ scan, and their increasing ubiquity, RFID tags – and the IoT 
+by implication – form the most serious threat to our privacy in the modern era. These tags 
+can be integrated into almost anything without any obvious indication that an object might 
+contain such as device. As a result, consumers – or students – may not know that 
+information about them is being tracked and registered. The tags also broadcast their data or 
+information whenever they come in contact with a signal, the radio waves from a reader – 
+this means that a tag can be accessed and read without the knowledge of the individual in 
+possession of the object that contains the tag. So, while some have explained their use as a 
+data collection tool similar to that of barcodes, in this aspect this is not the case – barcodes 
+require a line-of-sight scan by a device in order to be read, whereas RFID can also be 
+scanned or read through walls, doors and other obstructions. Atzori et al. characterise 
+RFID’s relationship to the IoT and the potential security problems in more detail: 
+The IoT is extremely vulnerable to attacks for several reasons. First, often its 
+components spend most of the time unattended; and thus, it is easy to physically 
+attack them. Second, most of the communications are wireless, which makes 
+eavesdropping extremely simple. Finally, most of the IoT components are 
+characterized by low capabilities in terms of both energy and computing 
+resources (this is especially the case for passive components) and thus, they 
+cannot implement complex schemes supporting security. (Atzori et al., 2010 p. 
+2801) 
+Atzori et al. (2010) also demonstrate that security and privacy issues are irrevocably 
+intertwined. Not only is the ability to secure the IoT – despite authentication and passwords, 
+encryption and data management – extremely difficult, it is actually counter-intuitive to the 
+intentions and expectations of the system that promotes the free movement and accessibility 
+of data in real-time. Indeed, free and accelerated sharing, communication, transmission and 
+interaction are core tropes of the IoT. However, these needs of mobility and timeliness, 
+along with the advocacy of context-aware technology that is embedded in the IoT construct, 
+means that privacy – the ability to control who knows what about us when – is extremely 
+compromised. Indeed, these low-tech, highly mobile constructs of the IoT can lead to 
+extraordinarily invasive conditions of surveillance where “unseen by users, embedded RFID 
+
+
+--- Page 18 ---
+The Internet of Things: Education and Technology  
+ 
+ 
+ 
+ 
+ 
+ 
+ 18 
+tags in our personal devices, clothes, and groceries can unknowingly be triggered to reply 
+with their ID and other information” (Atzori et al., 2010, p. 2793). These circumstances create 
+situations where individuals are being monitored and transmitted in time and space – 
+information such as where they are, where they have been, how much time they spent in a 
+location are just a few examples. Our prior research shows that people with disability are 
+particularly resistant to intensive monitoring of this kind (see Ellis, Kent, Locke, Hollier, & 
+Denney, 2017). 
+All of this over-vigilance can lead to consumer outrage and protest. Such was the case in 
+2003 when Italian clothing company Benetton revealed they intended to tag an entire line of 
+their clothes at more than 5000 stores globally, involving 15 million chips (Violino, 2003). 
+While Benetton eventually reneged on the idea after the ‘I’d rather go naked’ campaign 
+launched by CASPIAN (Consumers Against Supermarket Privacy Invasion and Numbering) 
+drew public spotlight to the plan, the company still received widespread criticism. However, 
+other companies have not been deterred and, with less fanfare, have slipped RFID tags into 
+their inventory. Gillette had already purchased 500 million tags in 2003. In 2004 Wal-Mart 
+and Abercrombie and Fitch utilised RFID in their logistics, the latter following Benetton’s idea 
+but instead placing the tags in all their items instead of just one collection. 
+Yet this does not mean that no attempts have been made to counter these issues. As early 
+as 2001 a US patent application was lodged for a device which addressed the privacy and 
+security issues involved in RFID tracking. It claimed that “the widespread use of RFID tags 
+on merchandise such as clothing would make it possible for the locations of people, animals, 
+and objects to be tracked on a global scale – a privacy invasion of Orwellian proportions” 
+(Hind, Matthewson, & Peters, 2002, para. 0011). Tellingly, however, commercial interests 
+always seem to win – just 3 months later the same team lodged another patent to identify 
+and track persons using RFID-tagged items in store environments. Indeed, over the years, it 
+appears as though the widespread – and socially and commercially accepted – potential of 
+RFID has masked or silenced much of the anxiety about its possible privacy problems. 
+This lack of concern is in part due to the perceived benefit of – and trust in – the middleware 
+used in the IoT. This software is tasked with solving security problems and therefore “must 
+include functions related to the management of the trust, privacy and security of all the 
+exchanged data” (Atzori et al., 2010 p. 2793). Yet exactly how middleware will achieve this 
+has been the subject of much speculation. The general consensus appears to be that 
+middleware must solve a problem specific to the IoT as “traditional security countermeasures 
+and privacy enforcement cannot be directly applied to IoT technologies due to their limited 
+computing power” (Sicari, Rizzardi, Grieco, & Coen-Porisini, 2015 p. 146). Importantly, 
+middleware must also be able to provide security at all three major layers of the IoT network 
+– the perception layer (RFID tags), the network layer (wireless networks) and application 
+layer (devices). 
+However, the context-aware nature of the IoT means that devices are constantly gathering 
+and distributing personal information – ranging from a person’s location, to their purchase 
+preferences, to the ambient temperature of their living environment or even the serial 
+number of their pacemaker. Thus, any security system must address the issues of 
+“authentication, confidentiality, and access control” to offer a secure and robust privacy 
+paradigm (Sicari et al., 2015, p. 148). The heterogeneous nature of the IoT network also 
+means that different devices with different protocols must be able to talk to each other with a 
+common security protocol that is able to maintain “anonymity, trustworthiness and attack-
+resistance” (Sicari et al., 2015, p. 148). These difficulties mean that “Most existing 
+middlewares’ authentication-based partial security solutions are insufficient for a number of 
+IoT applications” (Razzaque, Milojevic-Jeric, Palade, & Clarke, 2006, p. 90), thereby 
+demonstrating how difficult it is to provide viable and functional security protocols to ensure 
+complete privacy protection throughout the IoT. 
+
+
+--- Page 19 ---
+The Internet of Things: Education and Technology  
+ 
+ 
+ 
+ 
+ 
+ 
+ 19 
+While these concerns are significant, they do not, however, seem to dampen enthusiasm for 
+the IoT. This confidence – or at the very least lack of care – can be due to the complexities 
+with how consumers and citizens view the relationships between information, technology, 
+trust, privacy and power. We are at once increasingly sceptical and more liberal with our 
+expectations of privacy. Indeed, particularly since the 9/11 terror attacks in 2001 there has 
+been a widespread shift in the expectations of citizens in the US, and increasingly Europe, 
+Australia and New Zealand, that personal freedoms must be curtailed to safeguard against 
+terrorism. For example, the implementation of the Patriot Act in the US (with Patriot standing 
+for Providing Appropriate Tools Required to Intercept and Obstruct Terrorism) in the 
+aftermath of these attacks integrated a number of incursions and sweeping changes into 
+personal privacy, including the ability of law enforcement agencies to search an individual’s 
+home without notice and without informing that individual (Rubel, 2007). This ‘status quo’ in 
+privacy went unchecked and unconsidered for a number of years. However, in 2013 Edward 
+Snowdon’s leaks involving the National Security Agency (NSA) and PRISM – the code name 
+for the NSA body which collects internet-based communications and carries out covert 
+surveillance against American citizens – offered a correction in public attitudes towards 
+privacy. Nevertheless, with ongoing violence, particularly in Europe, involving Islamic State, 
+the need to ‘empower’ police and anti-terrorist organisations remains a powerful trope in the 
+public imagination. 
+Furthermore, the role of social media has blurred expectations of privacy – users of 
+Facebook for example utilise the platform to share personal information to both friends and 
+strangers despite its long history of poor privacy protections. In 2005 users’ passwords were 
+being sent across the web without encryption. According to Debatin, Lovejoy, Horn, & 
+Hughes (2009): 
+Even the most lauded privacy feature of Facebook, the ability to restrict one’s 
+profile to be viewed by friends only, failed for the first 3 years of its existence: 
+Information posted on restricted profiles showed up in searches unless a user 
+chose to opt-out his or her profile from searches. This glitch was fixed in late 
+June 2007, but only after a technology blogger made the loophole public and 
+contacted Facebook. 
+However, despite this, Facebook has often only made adjustments or introduced protocols 
+when users have outraged en masse. Therefore, with governments seemingly regularly 
+invading the privacy of citizens, and with corporate capitalism insinuating itself as the 
+dominant means by which we relate to each other and world, people now seem to be more 
+willing to put their faith in corporations to protect their privacy. The attractions of the IoT – the 
+interaction with real-time data and delivery of information, contextually aware systems 
+meeting spoken and unspoken demands, personalisation of environments and control over 
+micro-experiences – offers up privacy as the terrain upon which a struggle over self and 
+security take place. Indeed, the IoT is positioned in the space where the circulation of 
+personal information is required for the system to effectively operate – the desire to have 
+personal information known, tracked, logged and interpreted is the core trope of the IoT. 
+Ensuring that information is not being transmitted to an unsanctioned third party – either 
+human or machine – is therefore a core tension within the IoT architecture. 
+For example, Thingful is a search engine for the IoT (https://www.thingful.net/) which offers 
+an interface to search for and locate any IoT device in the world. It assures users that “Our 
+mission is to enable an interoperable Internet of Things, in which connected objects find and 
+use each other’s data with the active consent of their owners” (Thingful, 2017a, para. 1). 
+However, it is not made clear how this active consent is obtained, except that users/owners 
+are invited to input or register a device. Further, in a video presentation at the ODI (Open 
+Data Institute) Summit in London in 2015, founding partner of Thingful Usman Haque made 
+rather opaque claims about the nature of the search engine and the way data is managed 
+(Open Data Institute, 2015): 
+
+
+--- Page 20 ---
+The Internet of Things: Education and Technology  
+ 
+ 
+ 
+ 
+ 
+ 
+ 20 
+We’ve worked out how to enable the data owners to retain total control of their 
+data but still make it discoverable and for data clients to access that data on-the-
+fly in the easiest way while still getting that data directly from source. 
+It is therefore unclear how Thingful protects the privacy of the owners of the IoT data and 
+how it enables such timely searching and utilisation of data. For example, the framing 
+discourses of open data seem to advance an approach to free access to information, yet a 
+significant push of their project appears to be potentially monetising the IoT. Adding to this, 
+on a blog post from the BIG IoT Project – a scheme that pushes for increasing ecosystem 
+interoperability between devices – Thingful is defined as the future for IoT delivery (Thingful, 
+2017b, para. 2):  
+The cash breakeven on the investment will require sustained subscription and 
+growth of subscriber base and potential monetisation paths outside the 
+traditional customer base. This is where a truly interoperable IoT holds its power 
+and promise. 
+There is no doubt that the BIG IoT project has projects that are innovative and 
+transformative, yet there appears to be little debate about the wider consequences of the 
+outcomes of the IoT except to focus on its benefits. For example, in Germany a BIG IoT 
+project is summarised thus (Big IoT, 2017): 
+[a] Northern Germany Pilot [of] the BIG IoT technology is tested in the cities of 
+Berlin and Wolfsburg and the transregional corridor connecting the two cities. 
+The Northern Germany pilot puts focus on key topics of future-oriented mobility 
+targeting on an optimized usage of Public Transport, E-mobility, Smart Parking 
+solutions and multimodal routing information for the cities and the corridor. In 
+Wolfsburg we are incorporating a city-wide WLAN network, live tracking of public 
+buses, as well as public e-charging stations. Further, we are doing real time 
+crowd management by using existing security cameras and crowd-sourced 
+detection of human crowds through mobile apps. Berlin city-wide real time 
+information on traffic volumes and traffic speed, real time parking data, data on 
+available charging stations and bike sharing data are integrated. Also, Siemens’ 
+novel, streetlight-mounted and radar-based smart parking detectors are 
+integrated. In addition, incident news for public and private transport and traffic 
+news provided via on-street information panels are integrated. 
+Importantly, however, what is not overtly acknowledged by the authors of Thingful nor the 
+BIG IoT Project, is the potential problems associated with this level of surveillance and its 
+potential for abuse, not just by its everyday users but by criminals and by governments and 
+other authorities. That is, the increasing tendency for governments, councils and law 
+enforcement to use CCTV and geolocation in crime fighting opens up an entirely complex 
+terrain for debate that is being masked in the rush to the IoT. In 2011 for example, there 
+were a number of interactive online maps that tracked the evolution of the London riots 
+(Benedetti, 2011). This may be an important resource for ensuring the safety of citizens and 
+the correct enforcement of the law against perpetrators of violence and harm, but it may also 
+open up potential abuse of this system and unjust persecution of particular groups and 
+individuals in a society. Indeed, while security and privacy concerns such as this pepper the 
+literature involving the IoT, there appears to be little right now that is actually operationally 
+sound within the architecture and, as such, organisations continue to push the boundaries of 
+what information they gather in the name of service provision and marketing (Crawford & 
+Schultz, 2014, p. 94): 
+… in 2012, a well-publicized New York Times article revealed that the retail chain 
+Target had used data mining techniques to predict which female customers were 
+pregnant, even if they had not yet announced it publicly. This activity resulted in 
+the unauthorized disclosure of personal information to marketers. 
+
+
+--- Page 21 ---
+The Internet of Things: Education and Technology  
+ 
+ 
+ 
+ 
+ 
+ 
+ 21 
+In this example, big data gathering was used to extrapolate information about individuals 
+based on their online and digital preferences. Even if a person does not reveal any personal 
+information online via social media, their digital behaviour can be used to map a whole range 
+of identity indicators including age, gender, location, interests – this is known predictive 
+analytics. That information can then be sold to marketing companies and corporations 
+without the consent of those being watched. 
+The IoT is, essentially, a massive big data gathering tool. When one considers that popular 
+IoT interfaces like Amazon Echo are ‘on’ all the time and therefore potentially ‘listening’ to all 
+conversations and activity within a particular zone, the consequences for privacy are 
+staggering. While architects and engineers struggle to resolve the inherent security issues, 
+wider debates about the relationship between privacy and access need to be evolving in the 
+public sphere. They particularly need to be engaged in complex spaces like a university 
+campus which contains a gamut of spatial meanings and contradictions that do not always 
+cohere. Further, the obligations that a university as an institution has towards students and 
+staff to protect their wellbeing and their privacy in a space that is both public and semi-
+private also needs careful consideration. This is particularly important for students with 
+disabilities who may or may not want their disability identified by the university, staff or other 
+students via the data gathered in the IoT. 
+ 
+ 
+
+
+--- Page 22 ---
+The Internet of Things: Education and Technology 
+ 22 
+The Internet of Things and Students 
+with Disability 
+Background 
+The World Health Organization states that 15% of people worldwide have a disability. In 
+2014, 5.8% of students enrolled at an Australian university (Cunninghame, Costello, & 
+Trinidad, 2016, p. 6) identified as having a disability. As students also have the right to not 
+identify if they have a disability – any many do not – the number on campus could be 
+significantly higher. Students with disabilities are under-represented in higher education in 
+Australia and have a lower completion rate for their studies than their fellow students. 
+Students avoid identifying mainly due to the public stigma attached to having a disability. In 
+many cases, students can be marginalised and discriminated against not only by other 
+students but also by staff. This may be intentional or unintentional, the latter due to the lack 
+of information and education about disabilities in a university setting. For example, students 
+with disabilities often fear professors singling them out and exposing their disability. Meagan 
+Moses, a studio art undergraduate, says professors have exposed her accommodations to 
+her classmates before. Whether or not the exposure was intentional, she says that students 
+with a disability should follow up with their professors to ensure their accommodations are 
+issued in an appropriate manner. She claims (Moses, cited in Kashar, 2015, para. 6-7): 
+I had a professor who had never dealt with accommodations before… I needed 
+notes from another student and no other student volunteered, and I was behind 
+on the material for the beginning of the class. Usually, a professor will contact a 
+student directly to be a note taker, but she asked the entire class, and gave the 
+note taker my real email, instead of forwarding me the notes. 
+This type of inadvertent exposure can make students with disability reticent to fully engage 
+with university infrastructures and cultures. Adding to this difficulty is the often narrow 
+definitions that are applied to ‘disability’. For example, in Australia, the Department of 
+Education categorises students into just six categories – hearing, learning, mobility, vision, 
+medical and other. This last category is too broad and therefore perhaps the least 
+understood. As Mike Kent has demonstrated in his research with the Open University 
+Australia, some 54% of students marked ‘other’ when asked about their type of disability 
+(Kent 2016, p4). While this study looked at students studying fully online, when it was 
+repeated with students studying at Curtin this number was still a notable 49.2% (Table 2). 
+This category almost universally consists of students with a mental illness, intellectual 
+disabilities and acquired brain injuries, indicating that there may be some ambiguity around 
+the ways in which disability is understood and measured. This is particularly notable in table 
+2 where the students’ survey responses are compared with the statistics from the Curtin 
+Disability Office based on the figures from student’s Curtin action plans (CAP) (Kent, Ellis & 
+Giles 2018). 
+Table 2: Disability categories, Curtin University and Open University Australia 
+(Kent, Ellis & Giles 2018) 
+Type of disability/ 
+Curtin Uni Study 
+Curtin CAP 
+OUA Study 
+impairment 
+Response percent 
+Response count 
+Response percent 
+Response percent 
+Hearing 
+6.1% 
+7 
+1.3% 
+10.2% 
+Vision 
+13.2% 
+15 
+2.8% 
+7.2% 
+Mental illness 
+43.0% 
+49 
+29.2% 
+44.9% 
+Learning 
+26.3% 
+30 
+28.6% 
+8.7% 
+
+
+--- Page 23 ---
+The Internet of Things: Education and Technology  
+ 
+ 
+ 
+ 
+ 
+ 
+ 23 
+Type of disability/ 
+Curtin Uni Study 
+ 
+Curtin CAP 
+OUA Study 
+impairment 
+Response percent 
+Response count 
+Response percent 
+Response percent 
+Medical 
+31.6% 
+36 
+34.6% 
+39.2% 
+Intellectual 
+4.4% 
+5 
+NA 
+1.8% 
+Mobility 
+22.8% 
+26 
+3.2% 
+25.3% 
+Acquired brain 
+impairment 
+1.8% 
+2 
+NA 
+4.5% 
+ 
+Answered question: 114 
+ 
+ 
+ 
+Skipped question: 11 
+ 
+ 
+ 
+The results generated out of this research illustrated the complexity and variance of disability 
+from the students experience. The attraction of the IoT is therefore the potential capacity to 
+deliver service to students in ways that are highly personalised and nuanced to their 
+individual needs and wants. Yet much of the rhetoric surrounding the potential for the IoT is, 
+like the ‘other’ category above, too broad. According to Kiryakova et al. (2017, p. 82), the 
+purpose of the IoT is to “create… a user friendly environment for people with disabilities and 
+help… for their social integration”. That these types of technologically deterministic and 
+condescending narratives still circulate demonstrates that there is much work to be done in 
+configuring the relationship between individualised disability and technology.  
+Indeed, for students with disability their relationship with technology can be highly complex. 
+In some circumstances, for example for those with severe disability, technology is – literally 
+– a life saver. For others, it facilitates their movement through space, for others their ability to 
+‘read’ content and access materials. Too often, the medical model is applied to these 
+relationships and technology is used to either mask or enhance. This model depicts disability 
+as in need of correction and utilises technology to alter the human body in cyborgian ways. 
+The social model instead suggests that disability is created by environmental conditions that 
+are conducive to some body types and not others. That is, people have different bodies and 
+only encounter disability when the built environment creates it. For example, people in 
+wheelchairs can move around just fine, until they meet a set of stairs, so it is the stairs rather 
+than the body that creates disability. This social model argument has been the crux around 
+which disability advocates have been successful at getting accommodations, these include 
+ramps, captions on television and Braille in elevators (Seibers, 2006). 
+The IoT, as a bridge between physical and virtual worlds, can therefore offer a way to blend 
+both medical and social models together to create a transitionary and transgressive 
+approach to disability that is reflexive and nuanced to the needs of the individual. That is, the 
+technological infrastructure of the IoT can create an enhanced environment that utilises 
+digitised interfaces, nodes and devices to impact directly on conditions to create 
+instantaneous and precise accommodations for people with disabilities. To make an 
+interface accessible, disability-specific assistive technology generally needs to be built into 
+the product. Examples of this (Hollier, 2016) include: 
+• 
+Screen reader: A text-to-speech application that reads out computer and internet-
+related information to assist people who are blind or vision impaired. 
+• 
+Screen magnifier: A magnification tool for enlarging screen content. 
+• 
+Themes: High-contrast themes allow people with visual impairments to change the 
+colours to a more comfortable setting (such as white-on-black), and increase the size 
+of mouse pointers and text. 
+• 
+On-screen keyboard: Enables people with mobility impairments to ‘type’ by using a 
+pointing device to select letters and words on the screen. 
+• 
+On-screen alerts: Visual messages can appear in place of audible sounds to help 
+people who are Deaf or hearing impaired. 
+
+
+--- Page 24 ---
+The Internet of Things: Education and Technology  
+ 
+ 
+ 
+ 
+ 
+ 
+ 24 
+Using these existing assistive devices alongside the new technology of the IoT could 
+potentially be able to provide an always ready and always present and operational 
+infrastructure and communications protocol for these accessibility processes to perpetually 
+exist in smart devices. IoT in general is already viewed as an assistive technology of benefit 
+for all – for students with disability this benefit is enhanced as it offers an ‘accommodation 
+rich’ learning environment (Kiryakova et al., 2017, p. 80): 
+The Internet of Things may affect teaching and learning processes, including the 
+approaches of creation of knowledge and its dissemination. The learning process 
+may be directed entirely to the participants’ needs by physically connected 
+devices. The Internet of Things allows achievement of what is often a matter of 
+controversy – the availability of more technical devices and accompanying 
+technologies helps transform learning in more human-oriented process. 
+The IoT therefore presents the opportunity for the rhetoric about personalised learning 
+environments and spaces to come to reality. The “personalization can be done automatically 
+based on the constructed learner’s profile, his [sic] level of knowledge and achievements, 
+the pace of learning and specific needs” (Kiryakova et al., 2017, p. 82), meaning that 
+delivery of timely materials in a way that is accessible becomes easier. It also opens the way 
+for the vision of Thingful and the interoperability of devices where “all available users’ 
+devices are connected and can be identified, interact and communicate with each other and 
+with their surroundings” (Kiryakova et al., 2017, p. 82). However, the current paucity in 
+activation abilities – the gap between the imaginings of the IoT and the ability to make these 
+a reality – means that much of the potential for the IoT in a learning environment is, at 
+present, reduced to cosmetic interactions like “a control of airflow, an optimization of air 
+quality, temperature and humidity” (Kiryakova et al., 2017, p. 81). These are hardly the 
+cutting-edge interventions in accessible accommodations for students with disability that can 
+transform learning. However, they do construct a starting point from which to begin 
+conversations with students about how the IoT might assist their learning at university. This 
+was the approach taken in this research project when we recruited five students with 
+disabilities to map their understanding of the current tertiary terrain and conduct a thought 
+experiment about how the IoT might, in the future, assist them. 
+Student Interviews 
+In order to better evaluate the impact of IoT on the educational outcomes of students with 
+disability, all Curtin University students registered with the University’s Disability Services 
+were invited via email to participate in a short interview to discuss their understandings of the 
+IoT and reflect on the ways it could potentially be used in teaching and learning to them. 
+Questions were grouped into four main categories – technology awareness, using devices, 
+specific IoT uses, and IoT limitations (for a full list of questions see Appendix).  
+The interview was designed to identify the practical needs of students with disabilities in an 
+educational context and to track student engagement with smart IoT systems and devices. A 
+total of five people with disability across a variety of ages, genders, disability, ethnicity and 
+socio-economic status participated in interviews. Interviews lasted on average half an hour 
+and were held in person and over the phone. Interviews were then transcribed and coded for 
+common themes. 
+While these interviews did result in a more detailed understanding of what students 
+understand about the IoT, the smart devices they use, and how their learning is facilitated by 
+those devices, a fully-fledged and formed answer to the educational benefits for students 
+with disabilities could only be speculated. As a result, the following section seeks to map the 
+gaps and absences in the IoT and education and disability debate to consider how Curtin 
+University might move forward in creating intelligent design within a campus setting to 
+ensure that students can access cutting-edge education. Examples of this may involve the 
+
+
+--- Page 25 ---
+The Internet of Things: Education and Technology  
+ 
+ 
+ 
+ 
+ 
+ 
+ 25 
+ability to navigate spaces to get to classrooms or being able to download and read online 
+materials in a timely and effective manner. 
+Several prevalent themes and experiences regarding participants’ views on the present-day 
+educational benefits of current and emerging IoT products became apparent across the 
+interviews – these were regardless of impairment type. From the interviews, it can be seen 
+that students with disability at Curtin University state that:  
+• 
+The IoT is in a very early stage of development. As such, its possible uses and 
+practicalities are unclear at this stage. 
+• 
+They prefer Android devices. 
+• 
+Technology must be adaptable. The students we interviewed regularly modify 
+technology to suit their specific needs. 
+• 
+They share a widespread willingness to try new technology, and equally a willingness 
+to abandon that technology if it doesn’t provide the support they require. 
+• 
+They have different learning styles, for example some are visual, others are aural etc, 
+and therefore require different technologies. 
+• 
+Lecturers continue to be unaware of the access needs of students with disability – for 
+example, lecturers are often of the view that if it is digital it is accessible. This was a 
+widespread concern amongst the interviewees. 
+• 
+Although the IoT offers great opportunities, it is vital that lecturers retain control of the 
+classroom. 
+• 
+They already feel overloaded with information – there is a fear that the IoT could 
+exacerbate this. 
+• 
+They hope that the IoT will be able to offer flexible and timely ways to better manage 
+accessing educational materials. 
+These will be discussed below, grouped under four main categories to reflect the interview 
+questions – technology awareness (understanding the IoT), using devices (as assistive 
+technology such as smartphones), specific IoT uses (mainly the impact of lecture-based 
+technology and lecturers), and IoT limitations (acknowledging concerns with the IoT for this 
+particular cohort). 
+Technology Awareness 
+The students demonstrated different levels of understanding of what the IoT is – these 
+ranged from not having heard of it at all to having a fairly well-formed concept of what it 
+involves: 
+Actually, I can’t say, I haven’t heard it until now. But I know what it is, I’ve just 
+never heard the term for it. It’s a thing where objects have Internet access to it, 
+and that interacts with other objects. That’s all I know about it so far. 
+A term in the IT world that refers to the concept of connecting all electronic 
+devices (or computers as an alternate term for electronic devices) to the Internet 
+for the sake of convenience and data collection. 
+Basically I would say that it’s anything that basically has an on and off button and 
+that’s also connected to the Internet. 
+Just the different kinds of ways in which you use the Internet, user interface type 
+things. So the way I use the Internet is different to someone else. That’s what I 
+would sort of say, I don’t do any social media. 
+Their answers belied the incomplete nature of the emerging IoT framework – they had some 
+grasp of what it might entail but limited concrete examples of how they might deploy or 
+interact with the IoT. When asked about their familiarity with IoT systems, most reported that 
+they had heard of items like an internet-enabled refrigerator but had never used or interfaced 
+
+
+--- Page 26 ---
+The Internet of Things: Education and Technology 
+ 26 
+with one. Two students reported using Google Home. All students reported some familiarity 
+with voice-activated interfaces like Siri and OK Google, but none of them used these 
+facilities. One student identified the potential problems with different voice, pronunciation and 
+accent: 
+I find [digital assistants] a bit useless because in most cases my voice is not that 
+great, it can’t hear my voice and stuff. But I know it’s getting better with 
+everyone. 
+While this student described their voice as being “a bit weird”, issues with accent recognition 
+is a well-recognised and documented downfall of these devices (Dart, 2016). While this is 
+already an issue for Australians (Dudley-Nicholson, 2015), it is exacerbated for people with 
+disabilities who may have speech impairments or different vocal inflections such as people 
+who are D/deaf or hard of hearing. 
+Using Devices 
+All students identified smartphones as their main IoT device. Each reported using Android 
+smartphones instead of Apple iPhones, claiming Android as easier to work with non-
+proprietary systems in order to get the assistance they needed to manage their disability via 
+their phones. This is a significant finding that contradicts our prior research in the area of 
+smartphone use amongst people with disability which found iPhones were the most popular 
+device (Ellis, Kent, Locke, Hollier, & Denney, 2017). 
+The results of the interviews also showed that smartphones played a large role in assisting 
+the students in their study and in their everyday lives. Each stated to be familiar with 
+assistive features like magnification and screen readers, yet while some students employed 
+these features in their study, most said they relied on their own intuitive initiative to retrofit 
+their own assistance with their favourite technologies. Many confirmed that they had 
+experimented extensively with different technologies to find what works best for them: 
+I’ve got some software that [magnifies or changes colour]. And I did find that it 
+worked until I figured out […] that my ears were more powerful than my eyes. I 
+stopped using any of that sort of stuff. 
+Of note was that each student demonstrated that the IoT would only be useful if it could 
+deliver a very specific and structured parameter of service that was assistive to their 
+particular disability. That is, the impact of their particular impairment/s affected the ways 
+individual students approached the learning process, thereby confirming the importance of a 
+personalised approach to learning and a personalised approach to technology: 
+I bought a tablet before anyone knew I was dyslexic, … taking some advice from 
+someone who has a PhD [who said] to use a tablet because no matter where 
+you went you could have your pdf files, you can be scrolling through them while 
+you’re waiting for a train, that sort of thing. I didn’t realise though I couldn’t 
+comprehend what I was reading. So I bought a tablet but it was no good to me 
+[…] whenever someone sends me something, I can glance through it, but really 
+until I go home and open it up on my computer and use the text to speech 
+reader, that’s actually when I consolidate what I’ve read – ohh, you’re talking 
+about that. All the other things that you’re sort of talking about all assume your 
+comprehension through your reading is via the platform. 
+The results of the interviews showed that students demonstrated a nuanced approach to the 
+management of their own specific disabilities by using a variety of devices and interfaces 
+designed to minimise the impact of technological, administrative and accessibility failures 
+within a blanket institutional framework designed to deliver education en masse. The 
+specificity of their disabilities belied the categories used to measure their level of interaction 
+and delivery protocols the university has in place. It is in this capacity that the IoT offers its 
+
+
+--- Page 27 ---
+The Internet of Things: Education and Technology 
+ 27 
+greatest potential. The students we interviewed were self-aware and willing to try new 
+technologies; however, lecturers were identified as having a particularly disabling impact on 
+learning and the availability of materials. 
+Specific IoT Uses 
+Lecture recordings were also often highlighted by the students as a vital technology / 
+accessibility feature that integration with the IoT could improve. In particular, the ability to 
+automate particular elements of information gathering so that other senses could be either 
+engaged or not overwhelmed by too many tasks was spotlighted. In addition, allowing 
+students greater control over how information was received, ranked and managed was an 
+important theme. Ensuring that recorded lectures have appropriate accessibility features 
+enabled that would be of assistance to these students was also noted – these ranged from 
+clear audio through to searchability and multi-level access on different devices: 
+… I take notes during class because I tend do two things or three things. I do 
+verbatim, trying to keep up with that. I have no idea what I’m typing because I 
+can’t hear what I type. I type what I think you’re saying and then hopefully when I 
+re-read it at high speed I’ll go, “it was about that”, look for the key words that you 
+keep emphasising. Right, this is your bit. Or I listen to the meaning of what you’re 
+talking about so what I do is I don’t write down the name or the author of the 
+book and what you’re doing but you’re strongly talking about the ethics of ehhh 
+so I can get the meaning of it and then I hope that it’s in the iLecture so that I can 
+get the specifics. 
+The strength of the IoT in tailoring educational delivery to individuals’ specific needs was 
+also highlighted. For example, while some acknowledged specific alternative formats such 
+as real-time captioning in lectures, others reflected on the potential for sensors to interpret a 
+pedagogical method to their lecturers’ movements which can at times appear random and 
+frustrating to students with particular impairments: 
+I would like to see a device that can describe audio to subtitles in real-time, that 
+kind of thing. That would be most benefit for me as a deaf person. 
+For a colour-blind person, they can use the camera on their phone to do colour 
+correction instead of having to wear those really expensive glasses. Umm…for a 
+deaf person, they can use… they’re called IQ buds…. They’re kind of like 
+wireless headphones but they have a microphone on the back. So the idea is 
+they’re not just for listening to music, it’s also for filtering sound coming in. 
+in my case, I learn much better when [lecturers] move very structurally across 
+the board rather than when they go you know like I’ve written this down here, I’ve 
+written this down here, oh look there’s a bit of free space there, there’s a bit of 
+free space down at the bottom […] you could measure [a logical structure] by 
+having a sensor on the teacher and seeing how they progress. 
+What I think might be useful is having like interactive notes for the lecturers’ 
+benefit [to discover] what things the students spend more time on or what they 
+highlight. 
+Indeed, the impact of lecturers themselves was also a key point raised in the interviews. 
+From forgetting to turn a microphone on while recording a lecture, to providing inaccessible 
+pdfs in the library online reserve, the attitudes of their lecturers towards disability 
+accommodation was seen to have a material effect on the success of disabled students at 
+university: 
+So they all go, oh everything’s available on the library, but because it goes 
+through an external website, that external website blocks for plagiarism, I can’t 
+
+
+--- Page 28 ---
+The Internet of Things: Education and Technology  
+ 
+ 
+ 
+ 
+ 
+ 
+ 28 
+read it. And they go that’s an essential reading, it’s available to everyone, it’s on 
+the Internet. I can’t read it. The lecturers have no idea what I’m talking about, no 
+matter how many times you tell them, I actually can’t read that part because if 
+you cannot copy it and paste it, the text to speech readers can’t read it. 
+… the lecturers who get to know me, who want to know who I am, will know that 
+my most concentrated moment is when I close my eyes and I look like I’m 
+looking out the window. Because I’m engaging, it’s because I’m listening to what 
+are you talking about rather than what are you saying. 
+However, most of the students interviewed were uncertain how the IoT would be able to 
+assist them with these issues. Yet the IoT could offer valuable ‘work-arounds’ for the gaps in 
+educators’ knowledge about disabilities, particularly with regard to the intensely personalised 
+learning environment – and associated technology – needed to facilitate individuals’ 
+education. For example, students often complain about lecturers’ – and, indeed, their own – 
+lack of training on lecture systems, formats and learning management systems which can 
+get in the way of educational interactions. The IoT has the potential to provide a network of 
+accommodations for students with disabilities that can circumvent some of these common 
+accessibility issues, meaning that teachers can focus on content rather than on delivery. 
+Internet of Things Limitations 
+However, the students still voiced some concerns about the IoT, particularly with regard to 
+issues of security and privacy: 
+Maybe some students feeling a bit silly can hack into an Internet device, 
+especially if security, if they know their way around it. I know a few people that 
+can do that, especially my friend used to set all these computers and laptops to 
+shut down within ten seconds of starting. 
+Further, when pressed on what kinds of things they would like to be able to control in a 
+classroom, they remained unsure and ambiguous as to what this might look like, as well as 
+being uncertain about how the IoT might benefit all students and not further marginalise 
+some. As an example, students recognised that the temperature of a classroom could be 
+controlled by individual students; however, most suggested that would be impractical in a 
+classroom context. They also acknowledged students use their devices in classrooms for 
+non-university related purposes such as checking social media and that that impacted on 
+their perceived use as a student with disability using a device for access: 
+A problem right now… in university lectures is that some students browse 
+Facebook on the laptop instead of writing down notes on their laptop. Primarily 
+Facebook and Twitter, like social networks but maybe YouTube and stuff like 
+that. Where say they try to look something up because they don’t understand 
+what the lecturer is saying and then they get like a notification so in general it 
+can be distracting but if you’re not careful with your cyber-security then it can 
+also be a hacking issue. 
+I look at [other students] and I think, you’re checking emails the whole time, 
+you’re doing Facebook, you’re doing this, you’re doing that, you’re working on 
+the assignment that we haven’t even talked about yet… But I’m doing that 
+because if [the lecturer] starts talking about something, I’ll go Google it straight 
+away and I’ll be listening and I’ll be doing that at the same time and I’ll look at 
+images and I’ll look at things and […] I’ll be recording the information [from the 
+lecture] based by looking at images. So I’ll be flipping and flopping around and 
+taking notes and researching and if a YouTube gets thrown up there, then I’ll try 
+to grab that URL and then I’ll then go and grab that, whereas technically that 
+may be wrong… [it’s] very hard because was I being legitimate when I was doing 
+all that when the person next to me is doing Facebook. 
+
+
+--- Page 29 ---
+The Internet of Things: Education and Technology  
+ 
+ 
+ 
+ 
+ 
+ 
+ 29 
+This description illustrates how students with disability may use IoT to take a ‘second screen’ 
+approach to learning by augmenting the information presented by the lecturer with Google 
+and YouTube searches as well as using images as a note taking device. However, whereas 
+this student is using their device in an pedagogically appropriate way, the student next to 
+them using Facebook makes them look questionable. As such, the students highlighted the 
+ways in which technology is differently deployed by students in a classroom and how 
+assumptions about how technology is and is not useful to students with disability can lead to 
+awkward classroom interactions. The students interviewed did not believe devices should be 
+confiscated if caught to be doing the ‘wrong thing’, rather they hoped for a more effective 
+way to incorporate them into both teaching and learning. 
+To conclude, from these interviews it can be seen that the IoT – as a networked system of 
+feedback and accommodation for students with disability – means that the technology is an 
+always present background in the classroom, hopefully helping to remove a variety of 
+stigmas not just about disability but about how technology is deployed in the educational 
+context. Indeed, the students offer a range of radical insights into the relationships between 
+technology, their disability and education. They saw the potential in the IoT, but were less 
+clear on how that might manifest in actual classrooms and teaching and learning 
+experiences that involve other students. Privacy and security were a major concern and 
+each student saw the potential for the IoT to be abused. Finding a balance between the 
+needs of students with disabilities, the needs of running an institution, and the limitations of 
+technology punctuated their answers. Each demonstrated that the IoT offers tremendous 
+potential for assisting students with disability at university but there remains a fair degree of 
+abstraction in terms of what this might look like and how it might actually manifest. 
+ 
+ 
+
+
+--- Page 30 ---
+The Internet of Things: Education and Technology  
+ 
+ 
+ 
+ 
+ 
+ 
+ 30 
+Conclusions and Recommendations 
+Students with disabilities are under-represented in higher education in Australia and have a 
+lower completion rate for their studies than their fellow students. The IoT therefore offers 
+great potential for both the greater inclusion of students with disabilities in higher education 
+and a better and more customised learning experience for all students. However, this 
+research has shown that the technology, while evolving, is not yet at a point where it could 
+be effectively deployed in learning and teaching at the university level. 
+Nevertheless, it does show great potential. The ability to analyse information from a range of 
+different sources and present it, to alter physical and digital environments to best meet 
+learners’ and teachers’ needs, and to present customised information and communications 
+options to best suit the needs of a user through a device that they are familiar with presents 
+the opportunity to champion a social model approach to disability where each environment is 
+customised to meet the needs of an individual, rather than that individual being forced to 
+adapt to an inaccessible environment. 
+For this potential to be realised, consideration of the wider significance of the relationships 
+between technology and society, education and disability, access and literacy, is needed. 
+Concerns about privacy and security and interoperability associated with the technology will 
+need to be overcome, and careful consideration of how the technology can best be adapted 
+to a learning and teaching environment will be needed. However, interviews from this study 
+with students with disability indicate a willingness to overcome these limitations and embrace 
+the potential of these new technologies as they develop over time. 
+This report recommends, in relation to the deployment of the IoT in an educational setting, 
+that: 
+• 
+Curtin University should not immediately deploy IoT technologies, but that careful 
+consideration and planning be undertaken for how this might best be done in the 
+future and what implication this might have. 
+• 
+Priority should to be given to incorporating IoT within specific pedagogical issues 
+regarding learning and teaching, with particular consideration being given to the 
+integration of students with disabilities. This is in addition to Curtin’s current focus on 
+integrating IoT technologies primarily in association with facilities management. 
+• 
+Any IoT equipment associated with learning should have the ability to provide its 
+output to students via a learning management system or app. This would ensure that 
+students with disabilities can process the data with their preferred assistive 
+technology. 
+• 
+Any future implementation of IoT solutions should focus around the use of personal 
+smartphones as the primary IoT interface device for students with disabilities. 
+• 
+All IoT-related implementations must also consider privacy, security and 
+interoperability. 
+• 
+Any IoT solution must be accompanied by training to ensure that all staff and 
+students are able to use it effectively. 
+• 
+The applicability of using a digital assistant as a real-time captioning device warrants 
+further research. 
+• 
+A trial of the use of existing technologies and further consultation with industry and 
+students should be undertaken over 2018. 
+ 
+ 
+
+
+--- Page 31 ---
+The Internet of Things: Education and Technology 
+ 31 
+References 
+Albrecht, K., & McIntyre, L. (2005). Spychips: How major corporations and government plan 
+to track your every move with RFID. Nashville: Nelson Current. 
+Ashton, K. (2009). That ‘Internet of Things’ thing. RFID Journal. Retrieved from 
+http://www.rfidjournal.com/articles/view?4986 
+Atzori, L., Iera, A., & Morabito, G. (2010). The Internet of Things: A survey. Computer 
+Networks, 54, 2787-2805. 
+Bauer, A. M., & Ulrich, M. E. (2002). ‘I’ve got a palm in my pocket’: Using handheld 
+computers in an inclusive classroom. Teaching Exceptional Children, 35(4), 18-22. 
+Baxter, E. (2010, January 25). Failure to Launch. The Sydney Morning Herald. Retrieved 
+from http://www.smh.com.au/digital-life/failure-to-launch-20100120-mk8g.html 
+Benedetti, W. (2011, August 10). Interactive maps reveal satellite’s view of UK riots. Today. 
+Retrieved from https://www.today.com/news/world/interactive-maps-reveal-satellites- 
+view-uk-riots-flna121583 
+BIG IoT Project (2017). BIG IoT ignites an IoT ecosystem of services and applications. 
+Retrieved from http://big-iot.eu/project/ 
+Bindi, T. (2017, May 4). Curtin University deploying sensors and analytics to create ‘smart 
+campus’. ZD Net. Retrieved from http://www.zdnet.com/article/curtin-university- 
+deploying-sensors-and-analytics-to-create-smart-campus/ 
+Borne, K. (2014). 14 benefits and forces that are driving the Internet of Things. Retrieved 
+from https://mapr.com/blog/14-benefits-and-forces-are-driving-internet-things/ 
+Brabazon, T. (2002). Digital hemlock: Internet education and the poisoning of teaching. 
+Sydney: University of New South Wales Press. 
+Burgess, J., Mitchell, P., & Highfield, T. (2017). Automating the digital everyday: An 
+introduction. Media International Australia. 
+http://dx.doi.org/10.1177/1329878X17739020. 
+Crawford, K., & Schultz, J. (2014). Big data and due process: Toward a framework to 
+redress predictive privacy harms. Boston College Law Review, 55(1), 93-128. 
+Cunninghame, I., Costello, D., & Trinidad, S. (2016). Issues and trends for students with 
+disability: Review of NCSEHE – National Centre for Student Equity in Higher  
+Education Funded Research, Curtin University. Retrieved from  
+https://www.ncsehe.edu.au/wp-content/uploads/2016/08/Issues-and-Trends-for- 
+Students-with-Disability-Review-of-NCSEHE-Funded-Research.pdf 
+Curtin University. (2017a). Building 215 Living Laboratory. Retrieved from 
+https://properties.curtin.edu.au/ourprojects/b215.cfm 
+Curtin University. (2017b). Building 501. Retrieved from 
+https://properties.curtin.edu.au/ourprojects/b501.cfm 
+
+
+--- Page 32 ---
+The Internet of Things: Education and Technology  
+ 
+ 
+ 
+ 
+ 
+ 
+ 32 
+Curtin University. (2017c). Curtin University Advances Smart Campus Vision. Retrieved from  
+http://www.technologydecisions.com.au/content/gov-tech-review/case-study/curtin- 
+university-advances-smart-campus-vision-with-hitachi-iot-solution- 
+1484595172#axzz50OY7CFEN 
+ 
+Curtin University. (2017d). Learning and Student Experience. (2017). Retrieved from  
+http://strategicplan.curtin.edu.au/themes/learning-student-experience/ 
+ 
+Darrow, B. (2017). Amazon Echo is the king of home assistants: Here’s more proof.  
+Retrieved from http://fortune.com/2017/09/18/amazon-sells-15m-echos/ 
+ 
+Dart, T. (2016). Y’all have a Texas accent? Siri (and the world) might be slowly killing it.  
+Retrieved from https://www.theguardian.com/technology/2016/feb/10/texas-regional- 
+accent-siri-apple-voice-recognition-technology 
+ 
+Debatin, B. Lovejoy, J. P. Horn, A-K., & Hughes, B. N. (2009). Facebook: Online privacy:  
+Attitudes, behaviours, and unintended consequences. Journal of Computer Mediated  
+Communication, 15(1), 83-108. http://dx.doi.org/10.1111/j.1083-6101.2009.01494 
+ 
+Dudley-Nicholson, J. (2015). Microsoft finds its Australian voice, but virtual assistant Cortana  
+may not always understand you. Retrieved from  
+http://www.news.com.au/technology/home-entertainment/computers/microsoft-finds- 
+its-australian-voice-but-virtual-assistant-cortana-may-not-always-understand- 
+you/news-story/fc1cec287662b0ecdedc45da663569c0 
+ 
+Ellis, K., Kent, M., Locke, K., Hollier, S., & Denney, A.-M. (2017). Using smartphones to  
+navigate urban spaces: People with disabilities and the role of mobile technologies in  
+Western Australia. Retrieved from http://humanities.curtin.edu.au/wp- 
+content/uploads/sites/4/2017/07/FINALFinalSmartphone-report-changes- 
+accepted.pdf 
+ 
+EPC Global TAG classes. (n.d.). Retrieved from https://blog.atlasrfidstore.com/wp- 
+content/uploads/2016/05/EPCGlobal-Tag-Classes.png 
+ 
+GS1. (2016). Regulatory standards for using RFID in the EPC Gen 2 (860 to 960 MHz) band  
+of the UHF spectrum. Retrieved from  
+https://www.gs1.org/sites/default/files/docs/epc/uhf_regulations.pdf 
+ 
+Heng, Z., Yi, C. D., & Zhong, L. J. (2011). Study of classroom teaching aids system based  
+on wearable computing and centralized sensor network technique. Internet of Things  
+(iThings/CPSCom), 2011 International Conference on and 4th International  
+Conference on Cyber, Physical and Social Computing (pp. 624-628). 
+ 
+Hind, J., Matthewson, L., & Peters, M. (2002). Method to address security and privacy issues  
+of the use of RFID systems to track consumer products. U.S. Patent No.  
+20020116274 A1. Retrieved from https://www.google.ch/patents/US20020116274 
+ 
+Hollier, S. (2016). Affordable access. Retrieved from http://www.affordableaccess.com.au 
+ 
+International Telecommunications Union. (2012). Internet of Things Global Standards  
+Initiative. Retrieved from http://www.itu.int/en/ITU-T/gsi/iot/Pages/default.aspx 
+ 
+ 
+ 
+ 
+
+
+--- Page 33 ---
+The Internet of Things: Education and Technology 
+ 33 
+Kashar, L. (2015, October 1). Educator awareness and respect of privacy is vital to 
+protecting rights of students with disabilities. The Daily Texan. Retrieved from  
+http://www.dailytexanonline.com/2015/09/11/educator-awareness-and-respect-of- 
+privacy-is-vital-to-protecting-rights-of-students-with 
+Kastrenakes, J. (2017). Amazon’s Alexa is everywhere at CES 2017. Retrieved from 
+https://www.theverge.com/ces/2017/1/4/14169550/amazon-alexa-so-many-things-at- 
+ces-2017 
+Kent, M. (2016). Access and barriers to online education for people with disabilities. Report 
+submitted to the National Centre for Student Equity in Higher Education (NCSEHE), 
+Curtin University, Perth. Retrieved from https://www.ncsehe.edu.au/wp- 
+content/uploads/2016/05/Access-and-Barriers-to-Online-Education-for-People-with- 
+Disabilities.pdf 
+Kent, M., Ellis, K., & Giles, M. (2018). Students with Disabilities and eLearning in Australia: 
+Experiences of Accessibility and Disclosure at Curtin University. 
+Techtrends.[Forthcomming] 
+Kiryakova, G., Yordanova, L., & Angelova, N. (2017). Can we make schools and universities 
+smarter with the Internet of Things? TEM Journal, 6(1), 80-84. 
+Lenz, L., Meisen, T., Pomp, A., & Jeschke, S. (2016). How will the Internet of Things and big 
+data analytics impact the education of learning-disabled students? A Concept Paper. 
+2016 3rd MEC International Conference on Big Data and Smart City (ICBDSC) (pp.  
+1-7).
+Loke, W. (2017). Healthcare sector needs to evolve. The Business Times (p. 27) Retrieved 
+from https://sis.smu.edu.sg/sites/sis.smu.edu.sg/files/%5Bcurrent- 
+domain%3Amachine_name%5D/news_room/BT_20170217_1.pdf 
+Mitew, T. (2014). Do objects dream of an internet of things? The Fibreculture Journal: Digital 
+Media + Networks + Transdisciplinary Critique, 23. Retrieved from  
+http://fibreculturejournal.org/wp-content/pdfs/FCJ-168Teodor%20Mitew.pdf 
+Open Data Institute. (2015). Thingful: Searching for the Internet of Things: Usman Haque 
+ODI Summit 2015. [Video File]. Retrieved from https://youtu.be/8szgWWXjMTY 
+Palma, D., Agudo, J. E., Sánchez, H., & Macías, M. M. (2014). An internet of things 
+example: classrooms access control over near field communication. Sensors (Basel, 
+Switzerland), 14(4). http://dx.doi.org/10.3390/s140406998 
+Park, S., Kim, M., Lee, Y., Son, C., & Lee, M. (2005). The effects of visual illustrations on 
+learners’ achievement and internet in PDA (Personal Digital Assistant) based 
+learning. Journal of Educational Computing Research, 33(2), 173-187. 
+Razzaque, M. A., Milojevic-Jeric, M., Palade, A., & Clarke, S. (2006). Middleware for the 
+Internet of Things: A survey. IEEE Internet of Things Journal, 3(1), 70-95. 
+Roediger, H. L., & Pyc, M. A. (2012). Inexpensive techniques to improve education: Applying 
+cognitive psychology to enhance educational practice. Journal of Applied Research 
+in Memory and Cognition, 1, 242-248. 
+Rubel, A. (2007). Privacy and the USA Patriot Act: Rights, the value of right, and autonomy. 
+Law and Philosophy, 26(2), 119-156. 
+
+
+--- Page 34 ---
+The Internet of Things: Education and Technology 
+ 34 
+Seibers, T. (2006). Disability in theory: From social constructionism to the new realism of the 
+body. In L. Davis (Ed.), The disability studies reader (2nd edition, pp. 173-184). New 
+York, NY: Routledge. 
+Sethi, P., & Sarangi, R. (2017). Internet of Things: Architectures, protocols, and applications. 
+Journal of Electrical and Computer Engineering. 
+http://dx.doi.org/10.1155/2017/9324035 
+Sicari, S., Rizzardi, A., Grieco, L. A., & Coen-Porisini, A. (2015). Security, privacy and trust 
+in the Internet of Things: The road ahead. Computer Networks, 76, 146-164.  
+Retrieved from http://tarjomefa.com/wp-content/uploads/2016/07/5009-English.pdf 
+p. 146
+Standing, G. (2016). The corruption of capitalism: Why rentiers thrive and work does not 
+pay. London, UK: Biteback Publishing. 
+Thingful. (2017a). About. Retrieved from https://www.thingful.net/site/about 
+Thingful. (2017b). Interoperable Internet of Things – BIG IoT Project. Retrieved from 
+http://blog.thingful.net/ 
+Thomas, A. M., Shah, H., Moore, P., Evans, C., Sharma, M., Mount, S., … While, D. (2013). 
+Challenges and opportunities for the future of iCampuses. Computer Science, 14(1). 
+http://dx.doi.org/10.7494/csci.2013.14.1.5 
+Violino, B. (2003). Benetton to tag 15 million items. RFID Journal. Retrieved from 
+http://www.rfidjournal.com/articles/pdf?344 
+
+
+--- Page 35 ---
+The Internet of Things: Education and Technology 
+ 35 
+Authors 
+Leanne McRae 
+Dr Leanne McRae is a Research Officer in the Internet Studies program at Curtin University. 
+Her current research interests revolve around disability, digitisation and education, with 
+special interest in the Internet of Things. Recent publications have focused on MOOCs, 
+physical cultural studies and social media in education. 
+Katie Ellis 
+Associate Professor Katie Ellis is Senior Research Fellow in the Internet Studies program at 
+Curtin University and the convener of the Curtin University Critical Disability Research 
+Network. She has worked with people with disabilities in government, academia and the 
+community. She has authored and edited ten books and numerous articles on the topic, 
+including an award-winning paper on digital accessibility for students with disability. She 
+began an Australia Research Council (ARC) Discovery Early Career Researcher Award 
+(DECRA) in 2013 to investigate the impacts of the changing television environment on the 
+social inclusion and exclusion of people with disabilities. 
+Mike Kent 
+Associate Professor Mike Kent is Deputy Head of School for Media, Creative Arts and 
+Social Inquiry at Curtin University. His recent publications include Disability and social 
+media: Global perspectives with Katie Ellis, (Routledge, 2017), Massive Open Online 
+Courses and higher education: What went right, what went wrong and where to now with 
+Rebecca Bennett (Routledge, 2017), and Chinese social media: Social, cultural and political 
+implications with Katie Ellis and Jian Xu (Routledge, 2018). His forthcoming books 
+Manifestos for the future of critical disability studies and Interdisciplinary approaches to 
+disability: Looking towards the future are both edited with Rosemarie Garland-Thomson, 
+Katie Ellis and Rachel Robertson and will be available, again through Routledge, in 2019. 
+
+
+--- Page 36 ---
+The Internet of Things: Education and Technology  
+ 
+ 
+ 
+ 
+ 
+ 
+ 36 
+Appendix: Interview questions 
+Category 1 – Technology Awareness 
+1. How would you describe the term ‘Internet of Things’? 
+ 
+2. How familiar are you with the following IoT devices? 
+Scale: not at all familiar; not very familiar; somewhat familiar; familiar; very familiar 
+• 
+Internet-connected refrigerator 
+• 
+Internet-connected TV 
+• 
+Internet-connected lighting 
+• 
+Internet-connected door lock 
+• 
+Internet-connected oven 
+• 
+Internet-connected heating/air conditioning 
+• 
+Other: please explain 
+3. What IoT devices, if any, do you use? 
+ 
+4. What type of smartphone do you use? 
+Selection: none, Android, iPhone, other 
+5. How familiar are you with the following smartphone features? 
+Scale: not at all familiar; not very familiar; somewhat familiar; familiar; very familiar 
+• 
+Apps 
+• 
+Accessibility features 
+• 
+Screen reader (e.g. Talkback on Android, Voiceover on iPhone) 
+• 
+Magnification 
+• 
+Switch Keys 
+• 
+Visual assistance (i.e. large text, colour inversion) 
+• 
+Other accessibility features: please specify 
+• 
+Digital assistants 
+• 
+Siri (IPhone) 
+• 
+OK Google (Google) 
+6. How familiar are you with standalone digital assistants? 
+Scale: not at all familiar; not very familiar; somewhat familiar; familiar; very familiar 
+• 
+Google Home 
+• 
+Amazon Echo (aka ‘Alexa’) 
+Category 2 – Using Devices 
+7. In broad terms, what do you consider are the benefits to you in using IoT 
+products? 
+ 
+8. What do you consider are the main issues of current IoT products? 
+ 
+9. When using IoT products, please discuss the following interfaces in terms of 
+which ones would work best for you: 
+• 
+Built-in interface, e.g. touchscreen 
+
+
+--- Page 37 ---
+The Internet of Things: Education and Technology  
+ 
+ 
+ 
+ 
+ 
+ 
+ 37 
+• 
+Smartphone app 
+• 
+Smartphone digital assistant (e.g. Siri or ‘OK Google’) 
+• 
+Standalone digital assistant (e.g. Alexa, Amazon Echo, Google Home) 
+• 
+Other please explain: 
+10. What types of benefits can IoT provide to people with disabilities more 
+broadly? 
+ 
+11. What are the education-specific benefits that IoT can provide in the 
+classroom? 
+Category 3 – Specific IoT Uses 
+12. Are you currently using IoT devices to support your education? 
+ 
+13. Which IoT devices would be useful to control in a classroom environment? 
+ 
+14. Would the ability to control devices in the classroom provide disability-specific 
+benefits? 
+ 
+15. What types of issues could occur if IoT devices could be controlled in a 
+classroom? 
+ 
+16. What mechanism do you think would be the best way to control IoT devices in 
+a classroom? 
+Category 4 – IoT Limitations 
+17. What type of privacy considerations should be given to the use of IoT by 
+students in the classroom? 
+ 
+18. What type of security considerations should be given to the use of IoT in the 
+classroom? 
+ 
+19. Currently IoT devices tend to favour one particular ecosystem, e.g. 
+compatibility with Apple but not with Google or vice-versa. What do you see as 
+the best solution in terms of how devices interact in IoT in the classroom? 
+ 
+20. What type of support would Curtin need to provide to you in order to maximise 
+the effectiveness of using IoT in the classroom? 
+ 
+21. What other things do you consider would be helpful in guiding universities in 
+their considerations of adding IoT to a classroom environment to assist 
+students with disabilities? 
+
+

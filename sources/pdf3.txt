@@ -1,0 +1,563 @@
+--- Page 1 ---
+www.ijcrt.org                                                                © 2024 IJCRT | Volume 12, Issue 5 May 2024 | ISSN: 2320-2882 
+IJCRT24A5472 
+International Journal of Creative Research Thoughts (IJCRT) www.ijcrt.org 
+m890 
+ 
+SMART TRAFFIC MANAGEMENT USING IOT 
+ 
+ 
+Dr. Sowmya K S, Soumya Ranjan Sahoo, Urmila M, Harshith J Raj 
+Assistant Professor, Student, Student, Student 
+Information Science and Engineering 
+B.M.S College of Engineering, Bangalore ,Karnataka, India 
+ 
+Abstract:  Smart Traffic Management is designed to overcome the limitations of traditional fixed-timing traffic 
+control methods. By employing a dynamic approach based on real-time vehicle density, the system optimizes 
+traffic flow and reduces congestion, particularly during peak hours. Integrating advanced sensors and cameras 
+strategically allows for accurate monitoring and comprehensive data analysis, enabling dynamic adjustment of 
+traffic light timings. This responsive system not only enhances efficiency but also prioritizes emergency vehicle 
+passage by seamlessly altering signal timings. The integration of camera technology provides real-time 
+monitoring for informed decision-making, promising a more seamless commuting experience and improved 
+emergency response in urban areas. 
+ 
+Keywords - Smart Traffic Management, Congestion, Camera-based traffic monitoring. 
+ 
+I. 
+INTRODUCTION 
+Contemporary urban landscapes grapple with the persistent challenge of traffic congestion, a critical concern that 
+significantly impacts the efficiency of transportation systems and the overall quality of urban life. Traditional 
+fixed-timing traffic control systems, although fundamental to traffic management, often fall short of addressing 
+the dynamic and fluctuating nature of real-time traffic conditions. As cities continue to expand and urban 
+populations grow, the need for innovative solutions to mitigate congestion and enhance commuting experiences 
+becomes increasingly imperative. 
+ 
+In response to these challenges, this research proposes an intelligent traffic-controlling system that offers a 
+transformative and dynamic approach based on real-time monitoring of vehicle density. This innovative system 
+aims to revolutionize traffic management by dynamically adjusting traffic light timings in direct response to the 
+actual density of vehicles on the road. Unlike static systems constrained by predetermined schedules, this adaptive 
+approach holds the promise of optimizing traffic flow and alleviating congestion, particularly during peak hours 
+of heavy traffic. 
+ 
+Furthermore, the integration of advanced sensor and camera technologies enhances the accuracy and 
+responsiveness of the system, ensuring a comprehensive understanding of traffic conditions. By leveraging these 
+cutting-edge technologies, our proposed intelligent traffic-controlling system seeks not only to address the 
+inefficiencies of current traffic control methods but also to enhance the overall commuting experience, contributing 
+to the development of more sustainable and resilient urban infrastructures. 
+ 
+ 
+
+
+--- Page 2 ---
+www.ijcrt.org                                                                © 2024 IJCRT | Volume 12, Issue 5 May 2024 | ISSN: 2320-2882 
+IJCRT24A5472 
+International Journal of Creative Research Thoughts (IJCRT) www.ijcrt.org 
+m891 
+ 
+II. 
+OBJECTIVES 
+ 
+The Smart traffic management system aims to tackle persistent traffic congestion challenges at road junctions, 
+prioritizing smooth and safe vehicular flow. Through dynamic control mechanisms, the system recognizes variations 
+in traffic patterns, especially during peak hours, proactively addressing congestion issues. Integrating 
+microcontroller technology and strategically placed IR sensors, the system intelligently adapts signal timings in 
+real-time based on vehicle density, minimizing traffic jams and optimizing road clearance. Additionally, the 
+incorporation of camera technology allows for continuous monitoring of traffic flow, providing a comprehensive 
+understanding of dynamic conditions at road junctions. The system extends support to emergency services by 
+facilitating the passage of emergency vehicles during congestion, ensuring swift response times, and enhancing 
+overall emergency management. Beyond routine traffic control, the system takes a holistic approach to enhance 
+overall traffic management efficiency, contributing to a smarter, safer, and more responsive urban transportation 
+network. By addressing congestion and optimizing traffic flow, the system significantly improves the commuter 
+experience, marking a substantial stride toward creating a more efficient and commuter-friendly urban 
+transportation network. 
+ 
+III. METHODOLOGY 
+Part 1: YOLOv3 Vehicle Detection System 
+Initialization: Load the pre-trained YOLOv3 model with its corresponding weights and configuration files. The 
+model classifies objects detected in the video feed. Vehicle Detection: Every frame captured from the video is 
+processed by the YOLOv3 model to detect vehicles. For every 25 frames (adjustable based on camera FPS), the 
+system counts the number of vehicles detected. 
+Data Handling: The vehicle count is then used for further processing or to adjust traffic signals if integrated 
+with traffic management systems. This count can also be sent via serial communication for external use. 
+Part 2: IR Sensor-Based Traffic Density Measurement 
+Setup: Install IR sensors at various points on each lane to detect the presence and density of vehicles. 
+Density Calculation: The system continuously monitors the output from IR sensors to estimate vehicle density. A 
+higher frequency of interruptions in the IR beam indicates higher traffic density. 
+Signal Timing Adjustment: Based on the traffic density data from IR sensors, the traffic light system adjusts the 
+green light duration for each lane to ensure smooth traffic flow. 
+Part 3: NFC-Based Emergency Vehicle Priority 
+NFC Integration: Equip emergency vehicles with NFC cards/tags that can be detected by readers installed at 
+traffic signals. 
+Priority Access: When an NFC reader detects a tag from an emergency vehicle, the system temporarily overrides 
+normal operation to provide immediate green signal access to that vehicle. 
+System Reset: After the emergency vehicle passes, the system returns to a normal operation based on vehicle 
+counts and IR sensor data. 
+Part 4: System Integration and Testing 
+Integration: Combine the outputs of the YOLOv3 system, IR sensors, and NFC reader data to control traffic lights 
+intelligently. 
+Testing: Test the system under various traffic conditions to ensure it operates reliably and efficiently. 
+Optimization: Fine-tune the system based on test results to handle different scenarios like peak traffic hours, 
+emergencies, and low-traffic conditions. 
+
+
+--- Page 3 ---
+www.ijcrt.org                                                                © 2024 IJCRT | Volume 12, Issue 5 May 2024 | ISSN: 2320-2882 
+IJCRT24A5472 
+International Journal of Creative Research Thoughts (IJCRT) www.ijcrt.org 
+m892 
+ 
+ 
+ 
+Figure 1: System Architecture 
+ 
+Figure 2: Traffic Density 
+ 
+ 
+LITERATURE SURVEY 
+1) 
+Sabeen Javaid, Ali Sufian, Saima Pervaiz, Mehak Tanveer, "Smart Traffic Management System 
+Using Internet of Things," -2018 
+The methodology employed in this research utilizes a hybrid approach that combines centralized and 
+decentralized systems, leveraging traffic density data from cameras and sensors. Advanced AI algorithms are 
+employed for accurate traffic prediction, while RFID technology is utilized for emergency vehicle prioritization. 
+Additionally, the system incorporates smoke sensors for fire detection, enhancing overall safety measures. Through 
+extensive observations, the system has been found to effectively address traffic congestion in metropolitan cities, 
+significantly improving traffic signal management through the utilization of real-time data. Its primary objective 
+is to support authorities in efficient traffic planning and management. The results of this research include the 
+development of a functional prototype showcasing the system's effectiveness in optimizing traffic flow and 
+seamlessly connecting rescue departments during emergencies. Furthermore, the system provides graphical data 
+representation, aiding authorities in informed planning and decision-making processes. 
+2) 
+Md. Imran Uddin, Md. Shahriar Alamgir, Md. Mahabubur Rahman, Muhammed Shahnewaz 
+Bhuiyan and Md Asif Moral, "AI Traffic Control System Based on Deepstream and IoT Using NVIDIA 
+Jetson Nano", 2021. 
+In the study by Md. Imran Uddin et al. titled "AI Traffic Control System Based on Deep Stream and IoT Using 
+NVIDIA Jetson Nano" (2021), the methodology incorporates advanced technologies such as NVIDIA Jetson 
+Nano for AI and machine learning tasks, Pi cameras for real-time traffic monitoring and license plate capture, SSD 
+(Single Shot Multibox Detector) for object detection, and MQTT protocol for efficient communication and alerts. 
+
+
+--- Page 4 ---
+www.ijcrt.org                                                                © 2024 IJCRT | Volume 12, Issue 5 May 2024 | ISSN: 2320-2882 
+IJCRT24A5472 
+International Journal of Creative Research Thoughts (IJCRT) www.ijcrt.org 
+m893 
+ 
+The key observations highlight the system's effectiveness in addressing traffic congestion in megacities, its ability 
+to detect traffic violations and notify law enforcement, and its integration of traffic light management based on 
+real-time vehicle density. The results demonstrate a remarkable 97% success rate in traffic congestion 
+management and a 90% success rate in image processing for detection techniques. Future enhancements include 
+integrating a server and cloud-based database for enhanced data storage and scalability of traffic management 
+solutions. 
+3) 
+Mansoor Akhtar, Ali Ramzan, Muhammad Raffeh, Sohaib Aslam, Fakhar ul Zaman, Faisal Usman, 
+"Development of Congestion Level Based Dynamic Traffic Management System Using IoT," -2020. 
+The methodology employed in this research utilizes ultrasonic sensors for measuring traffic congestion, adopting 
+a phased approach encompassing simulation, IoT system development, and hardware implementation. The system 
+architecture involves the integration of ESP 32 Wi-Fi controller, Raspberry Pi, and Node-Red software for 
+seamless data processing and communication. Through focused observations on urban traffic congestion issues, 
+the research aims to enhance traffic light control by leveraging real-time congestion data and considering various 
+congestion levels for efficient traffic light regulation. 
+The results of this study include the successful development and testing of a real-time traffic management 
+prototype, demonstrating effective traffic regulation based on congestion levels. The research also suggests future 
+enhancements such as integrating emergency vehicle prioritization and AI technologies to further improve traffic 
+management capabilities. 
+4) 
+Motaz Amer, Rana Maher, "PV/IoT based Smart Traffic Management System," -2022. 
+The methodology adopted in this research involves the integration of solar power (PV) with IoT for traffic 
+management, leveraging cameras for traffic detection, Raspberry Pi for data processing, and cloud services for 
+seamless connectivity. System simulations are conducted using MATLAB Simulink and Any Logic software to 
+evaluate system performance and efficiency. 
+Through targeted observations of traffic congestion issues in urban areas, the research focuses on reducing fuel 
+consumption and enhancing traffic flow efficiency. The emphasis lies on real-time adjustment of traffic signals 
+based on congestion data, aiming to optimize traffic management in dynamic environments. 
+The results of the study showcase the system's capability in efficiently managing traffic, with simulations 
+demonstrating potential reductions in fuel consumption and improvements in traffic flow. Furthermore, the 
+research suggests additional benefits such as enhanced safety, reduced emissions, and cost savings, highlighting 
+the holistic advantages of implementing solar-powered IoT solutions for traffic management. 
+5) 
+Shamitha.C, S.Radhika,   Malathy   K,   S.   Ranjith, N.Sasirekha, "An intelligent IoT Enabled 
+Traffic queue handling System Using Machine Learning Algorithm," 2022. 
+The methodology employed in this study revolves around the implementation of IoT and Machine Learning for 
+Intelligent Traffic Management (ITM). The research utilizes a combination of sensors, actuators, and IoT devices 
+to collect and process real-time traffic data. An integral part of the system is the integration of a machine-learning-
+based DBSCAN clustering algorithm for anomaly detection, enabling the identification of irregular traffic 
+patterns. 
+One of the key observations of this research is its focus on reducing traffic congestion and improving route efficiency. 
+The study emphasizes the critical role of real-time data in effectively managing traffic flow, recognizing the 
+challenges faced by current traffic management systems in handling congestion and accidents. 
+The results of the study showcase significant improvements in traffic management compared to traditional 
+methods. The system demonstrates the ability to adjust traffic signals dynamically based on real-time traffic flow, 
+leading to reduced traffic jams, fewer traffic fatalities, and an overall enhanced route experience. The efficiency 
+of the system is validated through rigorous MATLAB simulations and testing across various traffic scenarios, 
+highlighting its potential impact on improving urban traffic management. 
+6) 
+Paul Jasmine Rani. L, Khoushik Kumar. M, Naresh. K. S, Vignesh. S, "Dynamic Traffic Management 
+System using Infrared (IR) and Internet of Things (IoT)," 2017 Third International Conference on Science 
+
+
+--- Page 5 ---
+www.ijcrt.org                                                                © 2024 IJCRT | Volume 12, Issue 5 May 2024 | ISSN: 2320-2882 
+IJCRT24A5472 
+International Journal of Creative Research Thoughts (IJCRT) www.ijcrt.org 
+m894 
+ 
+Technology Engineering & Management (ICONSTEM). 
+This project is centred around the dynamic management of traffic using a combination of IoT, IR sensors, and 
+Image Processing technologies. Its implementation includes key components such as traffic lights, IR sensors for 
+vehicle detection, a Wi-Fi transmitter for data transmission, and a Raspberry Pi microcontroller for processing. 
+The system's core functionality involves the detection of vehicle presence by IR sensors, which then transmit this 
+data via Wi-Fi to the Raspberry Pi. The Raspberry Pi dynamically adjusts traffic signal timings based on real-
+time traffic data, thereby optimizing traffic flow. Additionally, the system provides real- time traffic updates to 
+mobile devices, ensuring commuters stay informed about traffic conditions. Through this approach, the project aims 
+to address the limitations of static traffic management systems that often struggle to adapt to fluctuating traffic 
+densities. By dynamically adjusting traffic signal timings based on actual traffic conditions, the project seeks to 
+reduce congestion and improve overall traffic efficiency, particularly at busy junctions. The integration of cloud-
+based data storage further enhances the system's capabilities, allowing for centralized management of traffic status 
+information accessible via mobile devices, and contributing to a more efficient and responsive traffic management 
+system. 
+7) 
+Arash Farahdel, Seyed Shahim Vedaei, Khan Wahid, "An IoT Based Traffic Management System 
+Using Drone and AI," 2022 14th International Conference on Computational Intelligence and 
+Communication Networks (CICN). 
+ 
+This project presents an innovative approach to traffic management through the integration of IoT, drones 
+(UAVs), and AI technology. Drones equipped with high-definition cameras capture real-time traffic videos over 
+highways, while a frame selection algorithm optimizes data transmission efficiency, reducing bandwidth and 
+power consumption. An AI-based object detection algorithm on a cloud server accurately detects vehicles, 
+enabling real-time traffic flow analysis. The system's decision-making algorithm further enhances traffic control 
+actions. This methodology aims to address traffic congestion issues and improve traffic management in smart 
+cities by leveraging UAVs, IoT, and AI for dynamic and efficient traffic monitoring. The project's focus on 
+reducing video frame size for efficient transmission while maintaining image quality underscores its commitment 
+to effective traffic data analysis. Results indicate successful bandwidth reduction with acceptable video quality, 
+high accuracy in vehicle detection using AI, and promising capabilities in managing traffic flow and identifying 
+congestion in real time. These outcomes suggest the potential of this system to significantly enhance overall traffic 
+management, potentially reducing congestion and improving city traffic dynamics. 
+ 
+8) 
+Abdullahi Chowdhury, "Priority Based and Secured Traffic Management System for Emergency 
+Vehicle using IoT," Federation University Australia. 
+The study introduces an Intelligent Traffic System (ITS) with a focus on prioritizing emergency vehicles based on 
+incident types, integrating IoT technology for enhanced efficiency. A key feature is the Emergency Priority Code 
+System (EPCS) that dynamically manages traffic signals, taking into account the type of emergency to facilitate 
+smoother passage for emergency vehicles. Moreover, the system includes a robust mechanism to detect and respond 
+to traffic signal hacking, bolstering overall security. Simulation of Urban Mobility (SUMO) software was utilized 
+for comprehensive testing and evaluation. 
+The research underscores the critical need for efficient traffic management, especially in urban areas, to ensure 
+clear pathways for emergency vehicles. It highlights the limitations of current traffic systems in effectively 
+handling emergency vehicle prioritization and vulnerabilities to hacking attempts. The proposed system addresses 
+these challenges by considering various emergency scenarios and assigning priority levels to emergency vehicles 
+accordingly. 
+Simulation results reveal a significant improvement in travel time for emergency vehicles, meeting the standards 
+set by the Department of Treasury and Finances Budget and Financial Management Guidance (BFMG). 
+Additionally, the system demonstrates its capability to effectively handle traffic signal hacking incidents, 
+ensuring reliable and swift clearance for emergency vehicles. Compared to existing traffic management systems, 
+the proposed ITS exhibits superior performance in reducing congestion and ensuring timely responses for 
+emergency vehicles, marking a significant advancement in urban traffic management. 
+ 
+
+
+--- Page 6 ---
+www.ijcrt.org                                                                © 2024 IJCRT | Volume 12, Issue 5 May 2024 | ISSN: 2320-2882 
+IJCRT24A5472 
+International Journal of Creative Research Thoughts (IJCRT) www.ijcrt.org 
+m895 
+ 
+9) 
+Wania Tahir, Dr. Raja Asif Wagan, Dr. Bushra Naeem, "Intelligent Traffic Handling System Using 
+Point Tracker Algorithm," Balochistan University of Information Technology, Engineering, and 
+Management Sciences, Quetta, Balochistan, 2021. 
+The study introduces an intelligent traffic handling system leveraging the Point Tracker Algorithm, which 
+encompasses vehicle detection, tracking, and prioritization based on size, type, and emergency situations. The 
+methodology enhances the Point Tracker Algorithm to include emergency detection and route planning for 
+vehicles in case of accidents or road blockages. The system categorizes vehicles and non-vehicles, employing 
+Gaussian smoothing for image pre-processing and the Kanade-Lucas-Tomasi (KLT) feature tracker for vehicle 
+detection. 
+The research highlights the escalating issue of traffic congestion in urban areas and emphasizes the necessity for 
+efficient traffic management systems. The proposed system targets intelligent detection and prioritization of 
+vehicles to streamline traffic flow and effectively address emergencies. It aims to enhance traffic management by 
+categorizing vehicles based on size, type, and emergency situations, providing priority accordingly. 
+Results indicate that the Point Tracker Algorithm achieves good accuracy in vehicle detection and classification. The 
+system successfully detects and categorizes vehicles across various scenarios, showcasing its potential in real-
+time traffic management. The algorithm's effective prioritization of vehicles suggests its applicability in intelligent 
+traffic handling, contributing towards the development of smart city infrastructures. 
+10) 
+Anamika Larhgotra, Rakesh Kumar, Meenu Gupta, "Traffic Monitoring and Management System 
+for Congestion Control using IoT and AI," Chandigarh University, Gharuan, Punjab, India, 2022. 
+The study introduces a sophisticated traffic monitoring and management system that integrates Semantic Web 
+Techniques (SWT), the Internet of Things (IoT), and Artificial Intelligence (AI) to tackle traffic congestion 
+effectively. This system incorporates intelligent road traffic planning and routing strategies aimed at optimizing 
+traffic flow in urban areas. To evaluate its efficacy, a sample dataset of 9,792 vehicles from the Kaggle repository 
+was analysed, providing insights into the system's performance. 
+The research underscores the pressing challenges posed by increasing vehicle density in urban environments 
+and emphasizes the urgent need for smart mobility solutions within the framework of the smart city vision. It 
+recognizes the multifaceted impact of traffic congestion, encompassing aspects such as time, cost, social well-
+being, and economic productivity. Furthermore, the study delves into a comprehensive review of existing models 
+and methodologies for traffic management, contributing valuable insights into current practices and future 
+directions. 
+The results of the study reveal an impressive efficiency rate of over 90% in managing and controlling traffic 
+congestion using the proposed system. Leveraging AI and IoT technologies, the system showcases significant 
+potential in reducing traffic jams and enhancing overall traffic management capabilities. Ultimately, the research 
+concludes that a well-implemented traffic monitoring and management system can substantially alleviate urban 
+commuting challenges, paving the way for more sustainable and efficient urban mobility solutions. 
+ 
+11) 
+M P Mohandass, Kaliraj I, Maareeswari R, Vimalraj R, "IoT Based Traffic Management System for 
+Emergency Vehicles," KIT-Kalaignarkarunanidhi Institute of Technology, Coimbatore, India, 2023. 
+The study focused on integrating ambulances and traffic lights using various embedded systems, including RF 
+transmitters and receivers, alongside IoT technologies. This integration resulted in a system designed to prioritize 
+emergency vehicles at traffic intersections, where RF signals are used to identify these vehicles. A Decision 
+Support System complements this setup by aiding in the efficient clearance of traffic in the path of emergency 
+vehicles. 
+The research observed that traffic congestion, especially in urban areas, leads to significant delays and potential 
+hazards during emergency situations. Existing traffic systems often lack coordination, overlooking critical factors 
+such as adjacent traffic lights, diverse traffic flows, and the necessity to prioritize emergency vehicle passage. 
+The proposed system addresses these challenges by dynamically managing traffic lights to reduce congestion and 
+
+
+--- Page 7 ---
+www.ijcrt.org                                                                © 2024 IJCRT | Volume 12, Issue 5 May 2024 | ISSN: 2320-2882 
+IJCRT24A5472 
+International Journal of Creative Research Thoughts (IJCRT) www.ijcrt.org 
+m896 
+ 
+effectively prioritize emergency vehicles. 
+The results of the implementation were promising, showcasing significant improvements in managing traffic flow 
+for emergency vehicles. The system successfully reduced delays for these vehicles by clearing their path 
+efficiently at intersections. The integration of IoT and RF technology proved to be an effective solution for 
+identifying and prioritizing emergency vehicles, particularly in congested traffic scenarios, contributing to 
+enhanced emergency response capabilities in urban environments. 
+12) 
+Satbir Singh, Baldev Singh, Ramandeep Baljit Singh, Amitava Das, "Automatic Vehicle Counting 
+for IoT-based Smart Traffic Management System for Indian Urban Settings," CSIR-CSIO, Chandigarh, 
+India, 2019. 
+The study proposed an IoT-based framework for efficient road traffic management in urban Indian settings, 
+particularly focusing on Chandigarh. It utilized image processing techniques and IoT to continuously relay vehicle 
+counts to a central control station. The system, comprising a camera, Raspberry Pi, and OpenCV software, 
+accurately counted vehicles in real-time and transmitted this data for better traffic management. Results showed 
+that the system effectively managed traffic, offering a cost-effective solution suitable for urban Indian 
+environments. 
+13) 
+Bandi Narasimha Rao, Kondepudi Prudhvi Raj, Modela Balakrishna, Gunisetti Ranganadh, Reddy 
+Sudheer, Sayyad Naeem Ahmed, Rajala Govardhan Reddy, "Smart Traffic Management System using 
+IoT," National Institute of Technology Warangal, India, Rajiv Gandhi University of Knowledge 
+Technologies Nuzvid, India, 2022.) 
+The study developed a smart traffic management system using IoT to address traffic congestion issues. It 
+employed infrared sensors to count vehicle density and control traffic signals through an ESP8266-based Node 
+MCU, with data processing and control conducted in a central cloud system. The system integrated seamlessly 
+with existing traffic models and required minimal installation time. The study introduced ARTEMIS 
+(Autonomous and Real-Time signal control based on Estimation of traffic demand for Minimization of Signal 
+waiting time), a novel signal control system that optimizes signalling by predicting traffic flow. 
+The observations highlighted the factors contributing to traffic congestion, including the increase in vehicle 
+numbers, poor infrastructure, and inefficiencies in existing traffic systems like image processing and laser tracking. 
+The study recognized the pivotal role of IoT in enhancing effective traffic monitoring and control. 
+Results from the proposed system showed a notable 35% reduction in traffic congestion, offering a more dynamic 
+and responsive approach to traffic management compared to traditional methods. ARTEMIS proved effective in 
+optimizing traffic signal timings based on real-time traffic flow estimations, showcasing the system's potential for 
+improving urban traffic management. 
+14) 
+Dr. Vikram Bali, Ms. Sonali Mathur, Dr. Vishnu Sharma, Dev Gaur, "Smart Traffic Management 
+System using IoT Enabled Technology," JSS Academy of Technical Education, Noida, UP, Galgotia College 
+of Engineering & Technology, Noida, UP, 2020. 
+The study proposed an IoT-enabled Smart Traffic Management System (STMS) aimed at establishing "Green 
+Corridors" for emergency vehicles in urban areas. It employed RFID technology, with RFID tags on emergency 
+vehicles and RFID scanners at traffic signals. When an emergency vehicle approached, the RFID scanner read the 
+tag, triggering the traffic light to switch to green. The system also included an LCD display to alert other vehicles 
+to clear the path. Implementation utilized Arduino microcontrollers and cloud computing for processing and data 
+transmission. The observations addressed the issue of traffic congestion causing delays for emergency vehicles 
+in urban cities. It highlighted the limitations of manual and automatic traffic control methods in current urban 
+scenarios and emphasized the uniqueness of the proposed system with its integration of RFID technology. 
+Results from the study showcased a significant improvement in traffic management for emergency vehicles 
+through the creation of efficient "Green Corridors." This resulted in reduced time delays for emergency responses, 
+potentially saving lives. The system's effectiveness surpassed traditional traffic management approaches, offering 
+a scalable solution for urban traffic control challenges. 
+
+
+--- Page 8 ---
+www.ijcrt.org                                                                © 2024 IJCRT | Volume 12, Issue 5 May 2024 | ISSN: 2320-2882 
+IJCRT24A5472 
+International Journal of Creative Research Thoughts (IJCRT) www.ijcrt.org 
+m897 
+ 
+ 
+15) 
+Abdul Kadar Muhammad Masum et al., "An Internet of Things (IoT) based Smart Traffic 
+Management System: A Context of Bangladesh", Year: Not specified. 
+The system employs IoT and data analytics, utilizing ultrasonic sensors to measure traffic density. A management 
+algorithm sets traffic signal times, with data transmitted to a cloud server via Wi-Fi. It integrates RFID for vehicle 
+identification and a mobile app for fine processing. 
+Observations note the system's focus on addressing traffic congestion, time and fuel wastage, and pollution. It 
+prioritizes emergency vehicles and enforces fines for traffic signal violations. The system is cost-effective, and 
+easy to install and maintain, enhancing traditional traffic management approaches. 
+Results show the system effectively measures traffic density and adjusts signal times accordingly. It also detects 
+and penalizes traffic signal violations, improving rule enforcement. Overall, it demonstrates improved traffic 
+management, particularly in challenging weather conditions. 
+VI. IMPLEMENTATION 
+The traffic management project seamlessly integrates hardware and software components for efficient traffic 
+control and management. The hardware setup includes a power supply, Arduino for sensor data processing, 
+NodeMCU for network connectivity, Raspberry Pi for complex algorithms and data processing, IR sensors for 
+traffic density measurement, RFID reader for emergency vehicle prioritization, camera module for vehicle 
+detection, LCD display for system status, and signal lights for traffic control. On the software side, the 
+implementation focuses on vehicle detection using YOLOv3 on Raspberry Pi, traffic density calculation and control 
+logic on Arduino, emergency vehicle prioritization via RFID data processing, and a user interface for real-time 
+system monitoring and alerts. These components work in tandem to ensure effective traffic flow management and 
+decision-making based on real-time data and conditions. 
+ 
+ 
+Figure 3: Raspberry Pi, Node MCU and camera module for traffic detection. 
+ 
+ 
+VI. RESULTS AND DISCUSSION 
+The integrated traffic management system employs YOLOv3 for real-time vehicle detection, IR sensors for traffic 
+density measurement, and NFC for emergency vehicle prioritization. YOLOv3, a deep learning model, accurately 
+identifies vehicles in video feeds, enabling continuous monitoring of traffic. This data is pivotal for vehicle 
+counting, allowing dynamic adjustments of traffic signals based on real-time traffic conditions to optimize traffic 
+flow. IR sensors strategically placed along lanes detect vehicle presence and density by monitoring interruptions 
+in the infrared beam. This information guides the traffic light system in adjusting green light durations, prioritizing 
+lanes with higher traffic density for smoother traffic flow. 
+NFC technology enhances emergency response by equipping emergency vehicles with NFC tags detected by 
+readers at traffic signals. Upon detection, the system grants immediate green signal access, expediting emergency 
+vehicle passage without disrupting regular traffic operations. Integration and testing ensure seamless operation 
+under diverse traffic scenarios, from peak hours to emergencies and low-traffic periods. Rigorous testing validates 
+
+
+--- Page 9 ---
+www.ijcrt.org                                                                © 2024 IJCRT | Volume 12, Issue 5 May 2024 | ISSN: 2320-2882 
+IJCRT24A5472 
+International Journal of Creative Research Thoughts (IJCRT) www.ijcrt.org 
+m898 
+ 
+the system's reliability, accuracy, and efficiency, with ongoing optimizations to fine-tune performance and 
+responsiveness. 
+ 
+The integrated system combines advanced technologies to manage traffic intelligently, offering real-time insights, 
+optimized signal timings, and prioritized emergency vehicle access. Ongoing development aims to enhance 
+system capabilities for efficient traffic management further. 
+ 
+Figure 4: Traffic lights, RFID and Arduino 
+ 
+ 
+Figure 5: BLYNK console 
+ 
+Figure 6: BLYNK app and Traffic module 
+
+
+--- Page 10 ---
+www.ijcrt.org                                                                © 2024 IJCRT | Volume 12, Issue 5 May 2024 | ISSN: 2320-2882 
+IJCRT24A5472 
+International Journal of Creative Research Thoughts (IJCRT) www.ijcrt.org 
+m899 
+ 
+CONCLUSION 
+ 
+The combined use of AI for vehicle detection, IR sensors for traffic density measurement, and NFC technology 
+for emergency vehicle prioritization provides a comprehensive solution to traffic management. This system not 
+only enhances the efficiency of traffic flow but also ensures quick clearance for emergency responses, making it 
+a valuable project for urban traffic management. 
+ 
+ 
+ACKNOWLEDGMENT 
+This version has been developed and implemented. The researchers would like to acknowledge the support of our 
+college, for the partial time of this research. 
+ 
+REFERENCES 
+[1] 
+V. Bali, S. Mathur, V. Sharma, and D. Gaur, "Smart Traffic Management System using IoT Enabled 
+Technology," presented at the 2nd International Conference on Advances in Computing, Communication Control 
+and Networking (ICACCCN), 2020, pp. 565. 
+ 
+[2] 
+S. Javaid, A. Sufian, S. Pervaiz, and M. Tanveer, "Smart Traffic Management System Using Internet of 
+Things," presented at the International Conference on Advanced Communications Technology (ICACT), 2023, 
+pp. 393. 
+ 
+ 
+[3] 
+A. Larhgotra, R. Kumar, and M. Gupta, "Traffic Monitoring and Management System for Congestion Control 
+using IoT and AI," presented at the Seventh International Conference on Parallel, Distributed and Grid Computing 
+(PDGC), 2022. 
+ 
+[4] 
+M.I. Uddin, M.S. Alamgir, M.M. Rahman, M.S. Bhuiyan, and M.A. Moral, "AI Traffic Control System 
+Based on Deepstream and IoT Using NVIDIA Jetson Nano," presented at the 2nd International Conference on 
+Robotics, Electrical and Signal Processing Techniques (ICREST), 2021. 
+ 
+ 
+[5] 
+S. C., S. Radhika, M. K., S. Ranjith, and N. Sasirekha, "An intelligent IoT Enabled Traffic Queue Handling 
+System Using Machine Learning Algorithm," presented at the International Conference on Innovative 
+Computing, 
+Intelligent 
+Communication 
+and 
+Smart 
+Electrical 
+Systems 
+(ICSES), 
+2022, 
+DOI: 
+10.1109/ICSES55317.2022.9914294. 
+ 
+[6] 
+A. K. M. Masum, M. K. A. Chy, I. Rahman, M. N. Uddin, and K. I. Azam, "An Internet of Things (IoT) 
+based Smart Traffic Management System: A Context of Bangladesh," presented at the 2nd International 
+Conference on Innovations in Science, Engineering and Technology (ICISET), 27-28 October 2018, Chittagong, 
+Bangladesh, IEEE, 2018, ISBN: 978-1-5386-8524-2, DOI: 10.1109/ICISET.2018.8662876. 
+ 
+ 
+[7] 
+A. Farahdel, S.S. Vedaei, and K. Wahid, "An IoT Based Traffic Management System Using Drone and AI," 
+presented at the 14th IEEE International Conference on Computational Intelligence and Communication 
+Networks, 2022, DOI: 10.1109/CICN.2022.5. 
+ 
+[8] 
+S.S. Bal, B. Singh, R. Singh, A. Das, "Automatic Vehicle Counting for IoT-based Smart Traffic 
+Management System for Indian Urban Settings," presented at [Conference Name], ISBN: 978-1-7281-1253-4, © 
+2019 IEEE. 
+ 
+ 
+[9] M. Akhtar, M. Raffeh, F.U. Zaman, A. Ramzan, S. Aslam, F. Usman, "Development of congestion level based 
+
+
+--- Page 11 ---
+www.ijcrt.org                                                                © 2024 IJCRT | Volume 12, Issue 5 May 2024 | ISSN: 2320-2882 
+IJCRT24A5472 
+International Journal of Creative Research Thoughts (IJCRT) www.ijcrt.org 
+m900 
+ 
+dynamic traffic management system using IoT," presented at the 2nd International Conference on Electrical, 
+Communication and Computer Engineering (ICECCE), 12-13 June 2020, Istanbul, Turkey. 
+ 
+[10] 
+P.J. Rani, K.K. M, N.K.S., V.S., "Dynamic Traffic Management System Using Infrared (IR) and Internet 
+of Things (IoT)," presented at the Third International Conference on Science Technology Engineering & 
+Management (ICONSTEM), 2017, IEEE, ISBN: 978-1-5090- 4855-7. 
+ 
+[11] 
+W. Tahir, R.A. Wagan, B. Naeem, "Intelligent Traffic Handling System Using Point Tracker Algorithm," 
+presented at the IEEE 18th International Conference on Smart Communities: Improving Quality of Life using ICT, 
+IoT & AI (HONET 2021), IEEE. 
+ 
+ 
+[12] 
+I. Kaliraj, R. Maareeswari, V. Rimalraj, "IoT Based Traffic Management System for Emergency Vehicles," 
+presented at the 9th International Conference on Advanced Computing and Communication Systems (ICACCS), 
+2023, ISBN: 979-8- 3503-9737-6. 
+ 
+[13] 
+A. Chowdhury, "Priority based and secured traffic management system for emergency vehicle using IoT," 
+2016 International Conference on Engineering & MIS (ICEMIS), Agadir, Morocco, 2016, pp. 1-6, doi: 
+10.1109/ICEMIS.2016.7745309. 
+ 
+ 
+[14] 
+M. Amer and R. Maher, "PV/IoT based Smart Traffic Management System," 2022 International 
+Conference on Electrical, Computer, Communications and Mechatronics Engineering (ICECCME), Maldives, 
+Maldives, 2022, pp. 1-6, doi: 10.1109/ICECCME55909.2022.9988110. 
+ 
+[15] 
+A. Larhgotra, R. Kumar and M. Gupta, "Traffic Monitoring and Management System for Congestion 
+Comtrol using IoT and AI," 2022 Seventh International Conference on Parallel, Distributed and Grid Computing 
+(PDGC), Solan, Himachal Pradesh, India, 2022, pp. 641-646, doi: 10.1109/PDGC56933.2022.10053260. 
+
+
