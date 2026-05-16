@@ -134,7 +134,7 @@ const quizData = [
     {
         topic: 2,
         question: "Which of the following is a short-range, low-power wireless technology commonly used for IoT device pairing and data exchange?",
-        correct: "Bluetooth Low Energy (BLE)",
+        correct: "BLE",
         wrong: [
             "Wi-Fi Direct",
             "5G cellular",
@@ -145,7 +145,7 @@ const quizData = [
     {
         topic: 2,
         question: "What is the primary difference between passive and active RFID tags?",
-        correct: "Passive tags have no internal power; active tags have a battery",
+        correct: "Passive tags have no battery; active tags have a battery",
         wrong: [
             "Active tags are smaller and cheaper",
             "Passive tags use WiFi while active tags use Bluetooth",
@@ -178,7 +178,7 @@ const quizData = [
     {
         topic: 2,
         question: "Zigbee is a wireless protocol commonly used in IoT. What is one of its key characteristics?",
-        correct: "Low power consumption and mesh networking",
+        correct: "Low power, mesh networking",
         wrong: [
             "High bandwidth video streaming",
             "Long-range satellite connectivity",
@@ -189,18 +189,18 @@ const quizData = [
     {
         topic: 2,
         question: "In MQTT-based IoT systems, what role does a broker play?",
-        correct: "It acts as an intermediary that receives messages from publishers and forwards them to subscribers",
+        correct: "Connects publishers and subscribers",
         wrong: [
-            "It stores all sensor data permanently",
-            "It compiles source code for microcontrollers",
-            "It provides a graphical user interface",
-            "It physically connects sensors to actuators"
+            "Stores all sensor data permanently",
+            "Compiles source code for microcontrollers",
+            "Provides a graphical user interface",
+            "Physically connects sensors to actuators"
         ]
     },
     {
         topic: 2,
         question: "What is NFC (Near Field Communication) primarily used for in IoT applications?",
-        correct: "Short-range communication, typically within a few centimeters, for tasks like contactless payments and access control",
+        correct: "Short-range communication for payments and access control",
         wrong: [
             "Long-range satellite communication",
             "High-speed internet browsing",
@@ -222,7 +222,7 @@ const quizData = [
     {
         topic: 2,
         question: "What is a key advantage of using MQTT over HTTP in IoT applications?",
-        correct: "MQTT has a much smaller message overhead and is designed for low-bandwidth, unreliable networks",
+        correct: "MQTT has smaller message overhead for low-bandwidth networks",
         wrong: [
             "MQTT provides better encryption than HTTP",
             "MQTT is easier to debug than HTTP",
@@ -351,7 +351,7 @@ const quizData = [
     {
         topic: 4,
         question: "According to Atzori et al., why is the IoT particularly vulnerable to attacks?",
-        correct: "Components are unattended, communications are wireless, and components have limited resources",
+        correct: "Unattended components, wireless communications, limited resources",
         wrong: [
             "All IoT devices run on outdated operating systems",
             "IoT devices are physically indestructible",
@@ -362,7 +362,7 @@ const quizData = [
     {
         topic: 4,
         question: "What is a DDoS (Distributed Denial of Service) attack in the context of IoT?",
-        correct: "Many compromised IoT devices overwhelm a target with traffic",
+        correct: "Compromised devices flood the target with traffic",
         wrong: [
             "A method for encrypting IoT communications",
             "A protocol for connecting sensors to the cloud",
@@ -373,7 +373,7 @@ const quizData = [
     {
         topic: 4,
         question: "What is a major privacy concern associated with widespread IoT deployment?",
-        correct: "Continuous and often invisible collection of personal data",
+        correct: "Invisible collection of personal data",
         wrong: [
             "IoT devices consume too much electricity",
             "IoT devices are too expensive for most consumers",
@@ -384,7 +384,7 @@ const quizData = [
     {
         topic: 4,
         question: "The Patriot Act in the US raised concerns related to:",
-        correct: "Government surveillance and potential intrusion into personal privacy",
+        correct: "Government surveillance and privacy intrusion",
         wrong: [
             "Regulating IoT device manufacturing",
             "Banning all wireless communications",
@@ -406,7 +406,7 @@ const quizData = [
     {
         topic: 4,
         question: "In IoT security, what is the role of encryption?",
-        correct: "Protect data confidentiality and integrity during transmission",
+        correct: "Protect data confidentiality and integrity",
         wrong: [
             "Increase the physical size of devices",
             "Speed up data processing on sensors",
@@ -417,7 +417,7 @@ const quizData = [
     {
         topic: 4,
         question: "What concept describes the tension between IoT data collection and user privacy?",
-        correct: "IoT requires personal information to function, creating tension between utility and privacy",
+        correct: "IoT needs personal data, creating utility-privacy tension",
         wrong: [
             "IoT devices do not collect any personal data",
             "Privacy is not a concern for IoT because all data is anonymized",
@@ -428,7 +428,7 @@ const quizData = [
     {
         topic: 4,
         question: "Which security principle is essential for IoT middleware?",
-        correct: "Provide authentication, confidentiality, and access control across all network layers",
+        correct: "Provide authentication, confidentiality, access control",
         wrong: [
             "Only protect the application layer",
             "Prioritize speed over security",
@@ -439,7 +439,7 @@ const quizData = [
     {
         topic: 4,
         question: "What is meant by 'invisible surveillance' in the context of IoT?",
-        correct: "IoT devices collect and transmit user data without explicit knowledge or consent",
+        correct: "IoT devices collect/transmit user data without consent",
         wrong: [
             "Users can always see when their data is being collected",
             "IoT devices cannot collect personal data",
@@ -450,7 +450,7 @@ const quizData = [
     {
         topic: 4,
         question: "What is a practical security measure to protect IoT systems from unauthorized access?",
-        correct: "Combination of firewalls, reverse proxies, hidden internal networks, and encrypted communications",
+        correct: "Firewalls, reverse proxies, hidden networks, encryption",
         wrong: [
             "Making all devices publicly accessible for convenience",
             "Disabling all authentication mechanisms",
@@ -498,7 +498,7 @@ const quizData = [
     {
         topic: 5,
         question: "DBSCAN is a machine learning algorithm used for:",
-        correct: "Density-based spatial clustering and anomaly detection",
+        correct: "Density-based clustering and anomaly detection",
         wrong: [
             "Encrypting data transmissions",
             "Compressing image files",
@@ -520,7 +520,7 @@ const quizData = [
     {
         topic: 5,
         question: "In IoT applications, what is the purpose of a frame selection algorithm?",
-        correct: "Optimize data transmission by reducing bandwidth and power consumption",
+        correct: "Optimize data transmission, reduce bandwidth/power",
         wrong: [
             "Detect license plates on vehicles",
             "Control traffic lights directly",
@@ -531,7 +531,7 @@ const quizData = [
     {
         topic: 5,
         question: "MATLAB Simulink is commonly used in IoT for:",
-        correct: "System simulation, modeling, and testing before physical deployment",
+        correct: "System simulation, modeling, testing before deployment",
         wrong: [
             "Manufacturing physical hardware components",
             "Providing cloud storage for sensor data",
@@ -542,7 +542,7 @@ const quizData = [
     {
         topic: 5,
         question: "What is the role of machine learning in smart traffic management?",
-        correct: "Analyze traffic patterns and predict congestion for dynamic signal optimization",
+        correct: "Analyze traffic, predict congestion for signal optimization",
         wrong: [
             "Physically control traffic lights with a human operator",
             "Replace all cameras with radar sensors",
@@ -564,7 +564,7 @@ const quizData = [
     {
         topic: 5,
         question: "What is a key benefit of integrating AI with drone-based traffic monitoring?",
-        correct: "Enabling real-time vehicle detection and traffic flow analysis from aerial perspectives",
+        correct: "Enable real-time vehicle detection from aerial views",
         wrong: [
             "Eliminating the need for traffic lights entirely",
             "Reducing the speed limit on all roads",
@@ -579,7 +579,7 @@ const quizData = [
     {
         topic: 6,
         question: "What hardware components are commonly used in smart traffic management IoT systems?",
-        correct: "Arduino, NodeMCU, Raspberry Pi, IR sensors, RFID readers, cameras, and displays",
+        correct: "Arduino, NodeMCU, Raspberry Pi, IR/RFID sensors, cameras",
         wrong: [
             "Only smartphones and Bluetooth modules",
             "Only laptops and WiFi routers",
@@ -623,7 +623,7 @@ const quizData = [
     {
         topic: 6,
         question: "What is the ARTEMIS system in traffic management?",
-        correct: "Autonomous and Real-Time signal control based on Estimation of traffic demand for Minimization of Signal waiting time",
+        correct: "Autonomous real-time signal control based on traffic demand to minimize waiting time",
         wrong: [
             "A weather forecasting system",
             "An autonomous vehicle navigation system",
@@ -634,7 +634,7 @@ const quizData = [
     {
         topic: 6,
         question: "What was the main advantage of the PV (solar-powered) IoT traffic management system?",
-        correct: "Reductions in fuel consumption and enhanced traffic flow efficiency through sustainable solar-powered design",
+        correct: "Reduced fuel consumption and improved traffic flow through solar power",
         wrong: [
             "Higher vehicle speed limits on all roads",
             "Complete elimination of all traffic signals",
@@ -645,7 +645,7 @@ const quizData = [
     {
         topic: 6,
         question: "How does the drone-based traffic system address bandwidth and power limitations?",
-        correct: "Using a frame selection algorithm that reduces data transmission while maintaining image quality",
+        correct: "Frame selection algorithm reduces data transmission while maintaining image quality",
         wrong: [
             "Storing all video locally on the drone indefinitely",
             "Using high-capacity external batteries only",
@@ -656,7 +656,7 @@ const quizData = [
     {
         topic: 6,
         question: "The KLT (Kanade-Lucas-Tomasi) feature tracker is used for:",
-        correct: "Vehicle detection and tracking through image feature matching in video feeds",
+        correct: "Vehicle detection and tracking in video feeds",
         wrong: [
             "Encrypting network traffic",
             "Generating WiFi signals",
@@ -667,7 +667,7 @@ const quizData = [
     {
         topic: 6,
         question: "A hybrid approach combining centralized and decentralized systems with traffic density data from cameras and sensors was used by:",
-        correct: "Javaid et al. in their Smart Traffic Management System",
+        correct: "Javaid et al. for Smart Traffic Management",
         wrong: [
             "NASA for space traffic control",
             "Amazon for warehouse management",
