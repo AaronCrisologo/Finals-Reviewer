@@ -9,40 +9,40 @@ const quizData = [
     {
         topic: 1,
         question: "Who is widely credited with coining the term 'Internet of Things'?",
-        correct: "Kevin Ashton in 1999",
+        correct: "Kevin Ashton",
         wrong: [
-            "Bill Gates in 1995",
-            "Steve Jobs in 2000",
-            "Tim Berners-Lee in 1991",
-            "Vint Cerf in 1988"
+            "Bill Gates",
+            "Steve Jobs",
+            "Tim Berners-Lee",
+            "Vint Cerf"
         ]
     },
     {
         topic: 1,
         question: "According to the three-layer IoT model, which layer consists of RFID tags, sensors, and actuators?",
-        correct: "The physical (perception) layer",
+        correct: "Physical layer",
         wrong: [
-            "The network layer",
-            "The application layer",
-            "The middleware layer",
-            "The cloud layer"
+            "Network layer",
+            "Application layer",
+            "Middleware layer",
+            "Cloud layer"
         ]
     },
     {
         topic: 1,
         question: "Which of the following is NOT one of the four essential characteristics of an IoT 'thing'?",
-        correct: "Must have artificial intelligence capabilities",
+        correct: "Has AI capabilities",
         wrong: [
-            "Ability to collect and transmit data",
-            "Ability to operate with action-based responses",
-            "Ability to receive information from the network",
-            "Ability to support communication with other devices"
+            "Collects and transmits data",
+            "Operates with action-based responses",
+            "Receives information from the network",
+            "Supports communication with other devices"
         ]
     },
     {
         topic: 1,
         question: "What does the IoT application layer primarily deal with?",
-        correct: "Apps and digital communication technology that users interact with (e.g., Alexa, Google Home, Fitbit)",
+        correct: "User-facing apps and interfaces",
         wrong: [
             "Physical sensors and actuators",
             "WiFi and Bluetooth protocols",
@@ -53,7 +53,7 @@ const quizData = [
     {
         topic: 1,
         question: "What was LG's Digital DIOS Refrigerator (2000) an early example of?",
-        correct: "An early IoT device that connected an ordinary household item to the internet",
+        correct: "An ordinary household item connected to the internet",
         wrong: [
             "A successful commercial IoT product",
             "A smart campus management tool",
@@ -64,9 +64,9 @@ const quizData = [
     {
         topic: 1,
         question: "According to Mitew (2014), what does IoT refer to in terms of connecting objects?",
-        correct: "The connection of usually trivial material objects to the internet — ranging from toothbrushes to shoes or umbrellas",
+        correct: "Connecting trivial material objects to the internet",
         wrong: [
-            "The interconnection of only industrial machines",
+            "Interconnecting only industrial machines",
             "A network exclusively for mobile phones",
             "A protocol for satellite communication",
             "A framework for quantum computing"
@@ -75,18 +75,18 @@ const quizData = [
     {
         topic: 1,
         question: "What is the key function of middleware in IoT systems?",
-        correct: "To enable communication and management of data between different devices and protocols",
+        correct: "Enable communication between devices and protocols",
         wrong: [
-            "To physically connect devices with cables",
-            "To power IoT devices wirelessly",
-            "To store all IoT data permanently",
-            "To replace the need for sensors"
+            "Physically connect devices with cables",
+            "Power IoT devices wirelessly",
+            "Store all IoT data permanently",
+            "Replace the need for sensors"
         ]
     },
     {
         topic: 1,
         question: "The IoT is sometimes described as involving a paradigm shift from the 'internet of computers' to what?",
-        correct: "A broadly defined ambient connectivity permeating everyday material objects",
+        correct: "Ambient connectivity in everyday objects",
         wrong: [
             "An internet limited to smartphones only",
             "A closed network for industrial machines",
@@ -97,7 +97,7 @@ const quizData = [
     {
         topic: 1,
         question: "Which technology was a defining perception node element in early IoT systems due to its low cost, ubiquity, simplicity, and long life?",
-        correct: "RFID (Radio Frequency Identification)",
+        correct: "RFID",
         wrong: [
             "Bluetooth",
             "WiFi",
@@ -108,7 +108,7 @@ const quizData = [
     {
         topic: 1,
         question: "What does the network layer of the IoT primarily consist of?",
-        correct: "Small cellular networks, local area networks (LAN), and cloud computing storage networks",
+        correct: "Small cellular networks, LAN, and cloud networks",
         wrong: [
             "Physical sensors and actuators only",
             "User-facing applications and dashboards",
@@ -145,40 +145,40 @@ const quizData = [
     {
         topic: 2,
         question: "What is the primary difference between passive and active RFID tags?",
-        correct: "Passive tags have no internal power supply and are powered by the reader's radio waves; active tags have an onboard battery",
+        correct: "Passive tags have no internal power; active tags have a battery",
         wrong: [
-            "Active tags are smaller and cheaper than passive tags",
+            "Active tags are smaller and cheaper",
             "Passive tags use WiFi while active tags use Bluetooth",
-            "There is no difference — both terms mean the same thing",
+            "There is no difference",
             "Passive tags have batteries; active tags do not"
         ]
     },
     {
         topic: 2,
         question: "Why are RFID tags considered more concerning for privacy than traditional barcodes?",
-        correct: "Because RFID can be scanned without line-of-sight, even through walls and doors, without the owner's knowledge",
+        correct: "They can be scanned without line-of-sight, even through walls",
         wrong: [
-            "Because RFID tags are more expensive than barcodes",
-            "Because RFID tags are larger and more visible",
-            "Because RFID only works in direct sunlight",
-            "Because RFID cannot store any data"
+            "They are more expensive than barcodes",
+            "They are larger and more visible",
+            "They only work in direct sunlight",
+            "They cannot store any data"
         ]
     },
     {
         topic: 2,
         question: "CoAP (Constrained Application Protocol) is designed for which type of devices?",
-        correct: "Resource-constrained IoT devices with limited processing power and memory",
+        correct: "Resource-constrained IoT devices",
         wrong: [
             "High-performance servers",
             "Desktop computers",
-            "Mobile phones with full operating systems",
+            "Mobile phones with full OS",
             "Cloud-based virtual machines"
         ]
     },
     {
         topic: 2,
         question: "Zigbee is a wireless protocol commonly used in IoT. What is one of its key characteristics?",
-        correct: "Low power consumption and mesh networking capability",
+        correct: "Low power consumption and mesh networking",
         wrong: [
             "High bandwidth video streaming",
             "Long-range satellite connectivity",
@@ -237,7 +237,7 @@ const quizData = [
     {
         topic: 3,
         question: "What is the role of edge computing in IoT systems?",
-        correct: "Processing data closer to where it is generated (on or near the device) to reduce latency and bandwidth usage",
+        correct: "Processing data closer to where it is generated",
         wrong: [
             "Storing all data in a centralized cloud database",
             "Replacing all sensors with software simulations",
@@ -248,7 +248,7 @@ const quizData = [
     {
         topic: 3,
         question: "What is fog computing in the context of IoT?",
-        correct: "A computing paradigm that extends cloud computing to the edge of the network, closer to data sources like IoT devices",
+        correct: "Extends cloud computing to the edge of the network",
         wrong: [
             "A method for completely disconnecting IoT devices from the internet",
             "A type of hardware that replaces all sensors",
@@ -259,12 +259,12 @@ const quizData = [
     {
         topic: 3,
         question: "What is the primary purpose of a microcontroller in an IoT device?",
-        correct: "To process sensor data and control the device's operations based on programmed logic",
+        correct: "Process sensor data and control device operations",
         wrong: [
-            "To provide a user-facing web interface",
-            "To act as a long-range satellite transmitter",
-            "To store large multimedia files",
-            "To replace all network protocols"
+            "Provide a user-facing web interface",
+            "Act as a long-range satellite transmitter",
+            "Store large multimedia files",
+            "Replace all network protocols"
         ]
     },
     {
@@ -272,7 +272,7 @@ const quizData = [
         question: "Which of the following is commonly used as a single-board computer in IoT prototyping and education?",
         correct: "Raspberry Pi",
         wrong: [
-            "Arduino Mega (it is a microcontroller board, not a single-board computer)",
+            "Arduino Mega",
             "Intel Xeon processor",
             "NVIDIA GeForce GPU",
             "Samsung Galaxy smartphone"
@@ -281,18 +281,18 @@ const quizData = [
     {
         topic: 3,
         question: "What is the primary function of a sensor in an IoT system?",
-        correct: "To detect and measure physical properties (such as temperature, light, motion) and convert them into electrical signals",
+        correct: "Detect and measure physical properties",
         wrong: [
-            "To store large amounts of data",
-            "To provide internet connectivity",
-            "To display information to users",
-            "To power the entire device"
+            "Store large amounts of data",
+            "Provide internet connectivity",
+            "Display information to users",
+            "Power the entire device"
         ]
     },
     {
         topic: 3,
         question: "An actuator in an IoT system is responsible for:",
-        correct: "Performing a physical action based on received commands or sensor data (e.g., turning on a motor, opening a valve)",
+        correct: "Performing a physical action based on commands or sensor data",
         wrong: [
             "Collecting data from the environment",
             "Encrypting network communications",
@@ -303,45 +303,45 @@ const quizData = [
     {
         topic: 3,
         question: "What is the role of a gateway in an IoT architecture?",
-        correct: "To bridge communication between IoT devices and the cloud or higher-level systems, often performing protocol translation",
+        correct: "Bridge communication between IoT devices and the cloud",
         wrong: [
-            "To physically power all connected devices",
-            "To act as the only sensor in the system",
-            "To store all data locally without any cloud connection",
-            "To replace the need for microcontrollers"
+            "Physically power all connected devices",
+            "Act as the only sensor in the system",
+            "Store all data locally without any cloud connection",
+            "Replace the need for microcontrollers"
         ]
     },
     {
         topic: 3,
         question: "What is a typical advantage of using Docker containers in IoT software deployment?",
-        correct: "They enable scalability, portability, and isolation of software components across different hardware",
+        correct: "Enable scalability, portability, and isolation of software components",
         wrong: [
-            "They allow direct hardware access without any abstraction",
-            "They reduce the need for any network connectivity",
-            "They eliminate the need for programming",
-            "They only work on Windows operating systems"
+            "Allow direct hardware access without any abstraction",
+            "Reduce the need for any network connectivity",
+            "Eliminate the need for programming",
+            "Only work on Windows operating systems"
         ]
     },
     {
         topic: 3,
         question: "What is the purpose of a reverse proxy (such as NGINX) in an IoT web application?",
-        correct: "To hide internal server components from public access and improve security and load balancing",
+        correct: "Hide internal server components from public access",
         wrong: [
-            "To directly control physical IoT devices",
-            "To replace all sensors in the system",
-            "To store sensor data locally",
-            "To provide real-time video streaming only"
+            "Directly control physical IoT devices",
+            "Replace all sensors in the system",
+            "Store sensor data locally",
+            "Provide real-time video streaming only"
         ]
     },
     {
         topic: 3,
         question: "In remote IoT laboratory systems, what role does SSH (Secure Shell) typically play?",
-        correct: "It provides a secure remote command-line connection to control and program devices",
+        correct: "Provide a secure remote command-line connection to control devices",
         wrong: [
-            "It is used to stream high-definition video only",
-            "It replaces the need for any web interface",
+            "Stream high-definition video only",
+            "Replace the need for any web interface",
             "It is a type of sensor protocol",
-            "It provides a graphical desktop environment"
+            "Provide a graphical desktop environment"
         ]
     },
 
@@ -351,18 +351,18 @@ const quizData = [
     {
         topic: 4,
         question: "According to Atzori et al., why is the IoT particularly vulnerable to attacks?",
-        correct: "Because components are often unattended, communications are wireless (eavesdropping is easy), and components have limited energy and computing resources",
+        correct: "Components are unattended, communications are wireless, and components have limited resources",
         wrong: [
-            "Because all IoT devices run on outdated operating systems",
-            "Because IoT devices are physically indestructible",
-            "Because IoT uses only wired connections",
-            "Because IoT has too many security layers"
+            "All IoT devices run on outdated operating systems",
+            "IoT devices are physically indestructible",
+            "IoT uses only wired connections",
+            "IoT has too many security layers"
         ]
     },
     {
         topic: 4,
         question: "What is a DDoS (Distributed Denial of Service) attack in the context of IoT?",
-        correct: "An attack where many compromised IoT devices are used to overwhelm a target system with traffic, making it unavailable",
+        correct: "Many compromised IoT devices overwhelm a target with traffic",
         wrong: [
             "A method for encrypting IoT communications",
             "A protocol for connecting sensors to the cloud",
@@ -373,7 +373,7 @@ const quizData = [
     {
         topic: 4,
         question: "What is a major privacy concern associated with widespread IoT deployment?",
-        correct: "Continuous and often invisible collection of personal data, including location, behavior, and preferences",
+        correct: "Continuous and often invisible collection of personal data",
         wrong: [
             "IoT devices consume too much electricity",
             "IoT devices are too expensive for most consumers",
@@ -384,7 +384,7 @@ const quizData = [
     {
         topic: 4,
         question: "The Patriot Act in the US raised concerns related to:",
-        correct: "Government surveillance and the potential for intrusion into personal privacy without notice",
+        correct: "Government surveillance and potential intrusion into personal privacy",
         wrong: [
             "Regulating IoT device manufacturing",
             "Banning all wireless communications",
@@ -395,7 +395,7 @@ const quizData = [
     {
         topic: 4,
         question: "Why was Edward Snowden's 2013 leak significant for IoT privacy discussions?",
-        correct: "It revealed mass surveillance programs by the NSA, prompting public debate about privacy and data collection",
+        correct: "It revealed mass surveillance programs by the NSA",
         wrong: [
             "It proved that IoT devices could not be hacked",
             "It demonstrated that RFID tags were completely secure",
@@ -406,18 +406,18 @@ const quizData = [
     {
         topic: 4,
         question: "In IoT security, what is the role of encryption?",
-        correct: "To protect data confidentiality and integrity during transmission between devices and systems",
+        correct: "Protect data confidentiality and integrity during transmission",
         wrong: [
-            "To increase the physical size of devices",
-            "To speed up data processing on sensors",
-            "To replace the need for authentication",
-            "To reduce the power consumption of devices"
+            "Increase the physical size of devices",
+            "Speed up data processing on sensors",
+            "Replace the need for authentication",
+            "Reduce the power consumption of devices"
         ]
     },
     {
         topic: 4,
         question: "What concept describes the tension between IoT data collection and user privacy?",
-        correct: "The IoT inherently requires the circulation of personal information for the system to function, creating a core tension between utility and privacy",
+        correct: "IoT requires personal information to function, creating tension between utility and privacy",
         wrong: [
             "IoT devices do not collect any personal data",
             "Privacy is not a concern for IoT because all data is anonymized",
@@ -428,18 +428,18 @@ const quizData = [
     {
         topic: 4,
         question: "Which security principle is essential for IoT middleware?",
-        correct: "It must provide authentication, confidentiality, and access control across all network layers",
+        correct: "Provide authentication, confidentiality, and access control across all network layers",
         wrong: [
-            "It should only protect the application layer",
-            "It must prioritize speed over security",
-            "It should avoid encryption to reduce latency",
-            "It only needs to protect data at rest, not in transit"
+            "Only protect the application layer",
+            "Prioritize speed over security",
+            "Avoid encryption to reduce latency",
+            "Only protect data at rest, not in transit"
         ]
     },
     {
         topic: 4,
         question: "What is meant by 'invisible surveillance' in the context of IoT?",
-        correct: "The ability of IoT devices to collect and transmit user data without the user's explicit knowledge or consent",
+        correct: "IoT devices collect and transmit user data without explicit knowledge or consent",
         wrong: [
             "Users can always see when their data is being collected",
             "IoT devices cannot collect personal data",
@@ -450,7 +450,7 @@ const quizData = [
     {
         topic: 4,
         question: "What is a practical security measure to protect IoT systems from unauthorized access?",
-        correct: "A combination of firewalls, reverse proxies, hidden internal networks, and encrypted communications",
+        correct: "Combination of firewalls, reverse proxies, hidden internal networks, and encrypted communications",
         wrong: [
             "Making all devices publicly accessible for convenience",
             "Disabling all authentication mechanisms",
@@ -465,12 +465,12 @@ const quizData = [
     {
         topic: 5,
         question: "YOLOv3 stands for 'You Only Look Once version 3'. What type of algorithm is it?",
-        correct: "A deep learning object detection model",
+        correct: "Deep learning object detection model",
         wrong: [
-            "A data compression algorithm",
-            "A network routing protocol",
-            "An encryption standard",
-            "A power management technique"
+            "Data compression algorithm",
+            "Network routing protocol",
+            "Encryption standard",
+            "Power management technique"
         ]
     },
     {
@@ -487,7 +487,7 @@ const quizData = [
     {
         topic: 5,
         question: "What is the NVIDIA Jetson Nano primarily used for in IoT applications?",
-        correct: "AI inference and machine learning tasks at the edge",
+        correct: "AI inference and machine learning at the edge",
         wrong: [
             "Long-distance satellite communication",
             "High-voltage power generation",
@@ -520,12 +520,12 @@ const quizData = [
     {
         topic: 5,
         question: "In IoT applications, what is the purpose of a frame selection algorithm?",
-        correct: "To optimize data transmission by reducing bandwidth and power consumption while maintaining image quality",
+        correct: "Optimize data transmission by reducing bandwidth and power consumption",
         wrong: [
-            "To detect license plates on vehicles",
-            "To control traffic lights directly",
-            "To charge drone batteries",
-            "To broadcast traffic updates to mobile phones"
+            "Detect license plates on vehicles",
+            "Control traffic lights directly",
+            "Charge drone batteries",
+            "Broadcast traffic updates to mobile phones"
         ]
     },
     {
@@ -542,12 +542,12 @@ const quizData = [
     {
         topic: 5,
         question: "What is the role of machine learning in smart traffic management?",
-        correct: "To analyze traffic patterns and predict congestion for dynamic signal optimization",
+        correct: "Analyze traffic patterns and predict congestion for dynamic signal optimization",
         wrong: [
-            "To physically control traffic lights with a human operator",
-            "To replace all cameras with radar sensors",
-            "To store historical traffic data indefinitely",
-            "To broadcast radio signals to vehicles"
+            "Physically control traffic lights with a human operator",
+            "Replace all cameras with radar sensors",
+            "Store historical traffic data indefinitely",
+            "Broadcast radio signals to vehicles"
         ]
     },
     {
@@ -590,7 +590,7 @@ const quizData = [
     {
         topic: 6,
         question: "How do IR sensors measure traffic density?",
-        correct: "By detecting interruptions in an infrared beam — more frequent interruptions indicate higher traffic density",
+        correct: "By detecting interruptions in an infrared beam",
         wrong: [
             "By measuring the speed of individual vehicles",
             "By counting license plates optically",
@@ -601,7 +601,7 @@ const quizData = [
     {
         topic: 6,
         question: "NFC technology enables emergency vehicle priority by:",
-        correct: "Using NFC tags on emergency vehicles detected by readers at traffic signals to grant immediate green signal access",
+        correct: "Using NFC tags on emergency vehicles detected by readers at traffic signals",
         wrong: [
             "Sending email alerts to traffic controllers",
             "Broadcasting loud sirens to all nearby vehicles",
@@ -612,12 +612,12 @@ const quizData = [
     {
         topic: 6,
         question: "Which of the following is a real-time operating advantage of using Raspberry Pi in IoT systems?",
-        correct: "Its ability to run lightweight Linux-based operating systems with support for multiple programming languages",
+        correct: "Ability to run lightweight Linux-based OS with support for multiple programming languages",
         wrong: [
-            "Its ability to function without any power supply",
-            "Its ability to directly connect to satellites",
-            "Its ability to replace all network infrastructure",
-            "Its ability to operate only with proprietary software"
+            "Ability to function without any power supply",
+            "Ability to directly connect to satellites",
+            "Ability to replace all network infrastructure",
+            "Ability to operate only with proprietary software"
         ]
     },
     {
@@ -645,12 +645,12 @@ const quizData = [
     {
         topic: 6,
         question: "How does the drone-based traffic system address bandwidth and power limitations?",
-        correct: "By using a frame selection algorithm that reduces data transmission while maintaining image quality",
+        correct: "Using a frame selection algorithm that reduces data transmission while maintaining image quality",
         wrong: [
-            "By storing all video locally on the drone indefinitely",
-            "By using high-capacity external batteries only",
-            "By relying solely on wired connections",
-            "By transmitting only at low resolution with no optimization"
+            "Storing all video locally on the drone indefinitely",
+            "Using high-capacity external batteries only",
+            "Relying solely on wired connections",
+            "Transmitting only at low resolution with no optimization"
         ]
     },
     {
